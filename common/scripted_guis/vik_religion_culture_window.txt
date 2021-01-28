@@ -1,0 +1,50 @@
+scripted_gui = {
+
+	religion_culture_button_topbar = {
+		parent_window_token = top_bar
+		window_name = "button_toopbar_rel_cul"
+		
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			religion_culture_button_click = {
+				set_variable = { rel_cul_var = 2 }
+			}
+
+		}
+		
+		properties = {
+			religion_culture_button = {
+				frame = rel_cul_var
+			}
+		}
+	}
+	
+	religion_culture_window = {
+		parent_window_token = player_context
+		window_name = "religion_culture_window"
+		
+		visible = {
+			check_variable = { rel_cul_var = 2 }
+		}
+		
+		effects = {
+			religion_window_close_button_click = {
+				set_variable = { rel_cul_var = 1 }
+			}
+		}
+		properties = {
+			norse_religion_growth = {
+				frame = norse_growth
+			}
+		}
+
+	}
+	
+
+	
+	
+}
+

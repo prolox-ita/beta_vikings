@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	religion_spread = {
+		parent_window_token = politics_tab
+		window_name = "religion_spread_panel"
+	}
+	culture_spread = {
+		parent_window_token = politics_tab
+		window_name = "culture_spread_panel"
+	}
+	
+}
+

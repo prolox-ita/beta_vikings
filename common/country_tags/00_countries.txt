@@ -1,0 +1,3 @@
+FRA	= "countries/France.txt"
+SAX	= "countries/Saxony.txt"
+WES	= "countries/Wessex.txt"

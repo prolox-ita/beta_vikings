@@ -1,0 +1,55 @@
+guiTypes = {
+	containerWindowType = {
+		name = "governor_info_window"
+		position = { x=3 y=-90}	
+		show_position = { x=3 y =-90 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400	
+		size = { width=435 height=100 }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		
+		buttonType = {
+			name = "window_info_governors_button"
+			position = { x = 10 y = 10 }
+			#shortcut = "ESCAPE"
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "governor_info_panel"
+		position = { x=436 y=5}	
+		show_position = { x=436 y =5 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400	
+		size = { width=550 height=545 }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		
+		buttonType = {
+			name = "window_info_governors_button_close"
+			position = { x = 510 y = 10 }
+			#orientation = RIGHT
+			shortcut = "ESCAPE"
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

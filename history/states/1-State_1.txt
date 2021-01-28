@@ -1,0 +1,17 @@
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		1
+		
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = FRA
+		buildings = {
+			arms_factory = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+}

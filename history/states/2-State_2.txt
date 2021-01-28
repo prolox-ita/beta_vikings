@@ -1,0 +1,17 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		3 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = SAX
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+}

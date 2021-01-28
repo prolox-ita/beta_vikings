@@ -1,0 +1,126 @@
+guiTypes = {
+	containerWindowType = {
+		name = "button_toopbar_rel_cul"
+		position = { x=362 y=40}	
+		show_position = { x=362 y =40 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400	
+		size = { width=60 height=20 }
+		
+		show_sound = menu_open_window
+		
+		buttonType = {
+			name = "religion_culture_button"
+			quadTextureSprite ="GFX_topbar_religion_culture_button"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			
+		}
+	}
+	
+	containerWindowType = {
+		name = "religion_culture_window"
+		position = { x=370 y=100}	
+		show_position = { x=370 y =100 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300	
+		moveable = yes
+		size = { width=700 height=510 }
+		
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg2"
+		}
+		
+		instantTextBoxType = {
+			name = "title_religion_culture"
+			position = { x = 155 y = 5 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0}
+			text = "RELIGION AND CULTURE PANEL"
+			maxWidth = 500
+			maxHeight = 62
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "title_religion"
+			position = { x = 130 y = 95 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0}
+			text = "RELIGIOUS  ACTIONS"
+			maxWidth = 150
+			maxHeight = 62
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "title_culture"
+			position = { x = 430 y = 95 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0}
+			text = "CULTURAL  ACTIONS"
+			maxWidth = 150
+			maxHeight = 62
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType = {
+			name = "religion_window_close_button"
+			quadTextureSprite ="GFX_closebutton"
+			position = { x= 663 y = 5 }
+			Orientation = "UPPER_LEFT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			
+		}
+		iconType = {
+			name ="norse_religion_growth"
+			spriteType = "GFX_arrows_growth_religion"
+			position = { x=85 y=30 }
+		}	
+		
+		containerWindowType = {
+			name = "religion_window"
+			position = { x=75 y=120}	
+			show_position = { x=75 y =120 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 400	
+			size = { width=250 height=380 }
+			
+			show_sound = menu_open_window
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_plain_bg2"
+			}
+		}
+		containerWindowType = {
+			name = "culture_window"
+			position = { x=375 y=120}	
+			show_position = { x=375 y =120 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 400	
+			size = { width=250 height=380 }
+			
+			show_sound = menu_open_window
+			
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_plain_bg2"
+			}
+		}
+	}
+}

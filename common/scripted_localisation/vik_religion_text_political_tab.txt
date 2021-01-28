@@ -1,0 +1,396 @@
+##Accepted
+defined_text = { 
+	name = NorsePaganism_faith
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith
+		}
+		localization_key = norse_paganism_religion
+	}
+}
+defined_text = { 
+	name = WestChristianity_faith
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_faith
+		}
+		localization_key = west_christianity_religion
+	}
+}
+defined_text = { 
+	name = EastChristianity_faith
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_faith
+		}
+		localization_key = east_christianity_religion
+	}
+}
+defined_text = { 
+	name = Buddhism_faith
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_faith
+		}
+		localization_key = buddhism_religion
+	}
+}
+defined_text = { 
+	name = Hinduism_faith
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_faith
+		}
+		localization_key = hinduism_religion
+	}
+}
+defined_text = { 
+	name = Islam_faith
+	text = {
+		trigger = { 
+			has_country_flag = islam_faith
+		}
+		localization_key = islam_religion
+	}
+}
+defined_text = { 
+	name = Confucianism_faith
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_faith
+		}
+		localization_key = confucianism_religion
+	}
+}
+
+
+#Discovered
+defined_text = { 
+	name = NorsePaganism_discovered
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith_discovered
+		}
+		localization_key = norse_paganism_discovered
+	}
+}
+defined_text = { 
+	name = WestChristianity_discovered
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_discovered
+		}
+		localization_key = west_christianity_discovered
+	}
+}
+defined_text = { 
+	name = EastChristianity_discovered
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_discovered
+		}
+		localization_key = east_christianity_discovered
+	}
+}
+defined_text = { 
+	name = Buddhism_discovered
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_discovered
+		}
+		localization_key = buddhism_discovered
+	}
+}
+defined_text = { 
+	name = Hinduism_discovered
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_discovered
+		}
+		localization_key = hinduism_discovered
+	}
+}
+defined_text = { 
+	name = Islam_discovered
+	text = {
+		trigger = { 
+			has_country_flag = islam_discovered
+		}
+		localization_key = islam_discovered
+	}
+}
+defined_text = { 
+	name = Confucianism_discovered
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_discovered
+		}
+		localization_key = confucianism_discovered
+	}
+}
+
+
+#Forbidden
+defined_text = { 
+	name = NorsePaganism_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith_forbidden
+		}
+		localization_key = norse_paganism_forbidden
+	}
+}
+defined_text = { 
+	name = WestChristianity_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_forbidden
+		}
+		localization_key = west_christianity_forbidden
+	}
+}
+defined_text = { 
+	name = EastChristianity_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_forbidden
+		}
+		localization_key = east_christianity_forbidden
+	}
+}
+defined_text = { 
+	name = Buddhism_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_forbidden
+		}
+		localization_key = buddhism_forbidden
+	}
+}
+defined_text = { 
+	name = Hinduism_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_forbidden
+		}
+		localization_key = hinduism_forbidden
+	}
+}
+defined_text = { 
+	name = Islam_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = islam_forbidden
+		}
+		localization_key = islam_forbidden
+	}
+}
+defined_text = { 
+	name = Confucianism_forbidden
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_forbidden
+		}
+		localization_key = confucianism_forbidden
+	}
+}
+
+
+
+###PERCENTAGE###
+#Accepted
+defined_text = { 
+	name = NorsePaganism_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith
+		}
+		localization_key = norse_paganism_religion_percentage
+	}
+}
+defined_text = { 
+	name = WestChristianity_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_faith
+		}
+		localization_key = west_christianity_religion_percentage
+	}
+}
+defined_text = { 
+	name = EastChristianity_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_faith
+		}
+		localization_key = east_christianity_religion_percentage
+	}
+}
+defined_text = { 
+	name = Buddhism_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_faith
+		}
+		localization_key = buddhism_religion_percentage
+	}
+}
+defined_text = { 
+	name = Hinduism_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_faith
+		}
+		localization_key = hinduism_religion_percentage
+	}
+}
+defined_text = { 
+	name = Islam_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = islam_faith
+		}
+		localization_key = islam_religion_percentage
+	}
+}
+defined_text = { 
+	name = Confucianism_faith_percentage
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_faith
+		}
+		localization_key = confucianism_religion_percentage
+	}
+}
+
+
+#Discovered
+defined_text = { 
+	name = NorsePaganism_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith_discovered
+		}
+		localization_key = norse_paganism_discovered_percentage
+	}
+}
+defined_text = { 
+	name = WestChristianity_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_discovered
+		}
+		localization_key = west_christianity_discovered_percentage
+	}
+}
+defined_text = { 
+	name = EastChristianity_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_discovered
+		}
+		localization_key = east_christianity_discovered_percentage
+	}
+}
+defined_text = { 
+	name = Buddhism_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_discovered
+		}
+		localization_key = buddhism_discovered_percentage
+	}
+}
+defined_text = { 
+	name = Hinduism_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_discovered
+		}
+		localization_key = hinduism_discovered_percentage
+	}
+}
+defined_text = { 
+	name = Islam_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = islam_discovered
+		}
+		localization_key = islam_discovered_percentage
+	}
+}
+defined_text = { 
+	name = Confucianism_discovered_percentage
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_discovered
+		}
+		localization_key = confucianism_discovered_percentage
+	}
+}
+
+
+#Forbidden
+defined_text = { 
+	name = NorsePaganism_forbidden_percentage_percentage
+	text = {
+		trigger = { 
+			has_country_flag = norse_paganism_faith_forbidden
+		}
+		localization_key = norse_paganism_forbidden_percentage_percentage
+	}
+}
+defined_text = { 
+	name = WestChristianity_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = west_christianity_forbidden
+		}
+		localization_key = west_christianity_forbidden_percentage
+	}
+}
+defined_text = { 
+	name = EastChristianity_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = east_christianity_forbidden
+		}
+		localization_key = east_christianity_forbidden_percentage
+	}
+}
+defined_text = { 
+	name = Buddhism_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = buddhism_forbidden
+		}
+		localization_key = buddhism_forbidden_percentage
+	}
+}
+defined_text = { 
+	name = Hinduism_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = hinduism_forbidden
+		}
+		localization_key = hinduism_forbidden_percentage
+	}
+}
+defined_text = { 
+	name = Islam_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = islam_forbidden
+		}
+		localization_key = islam_forbidden_percentage
+	}
+}
+defined_text = { 
+	name = Confucianism_forbidden_percentage
+	text = {
+		trigger = { 
+			has_country_flag = confucianism_forbidden
+		}
+		localization_key = confucianism_forbidden_percentage
+	}
+}

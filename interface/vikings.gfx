@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_arrows_growth_religion"
+		texturefile = "gfx//interface//vikings//arrows_growth_religion.dds"
+		noOfFrames = 3		
+	}
+
+}

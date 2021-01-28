@@ -1,0 +1,85 @@
+######POLITICS TAB
+
+
+guiTypes = {
+	containerWindowType = {
+		name = "religion_spread_panel"
+		position = { x=130 y=180}	
+		show_position = { x=130 y =180 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400	
+		size = { width=60 height=20 }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_tiled_plain_bg"
+		#}
+		
+		instantTextboxType = {
+			name = "religion_info"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36"
+			borderSize = {x = 0 y = 0}
+			text = "RELIGIOUS_INFO"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "religion_info_percentage"
+			position = { x = 180 y = 8 }
+			textureFile = ""
+			font = "hoi_36"
+			borderSize = {x = 0 y = 0}
+			text = "RELIGIOUS_INFO_PERCENTAGE"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "test"
+			position = { x = 250 y = 8 }
+			textureFile = ""
+			font = "hoi_36"
+			borderSize = {x = 0 y = 0}
+			text = "[?norse_growth]"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+	}
+	containerWindowType = {
+		name = "culture_spread_panel"
+		position = { x=130 y=210}	
+		show_position = { x=130 y =210 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400	
+		size = { width=60 height=20 }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_tiled_plain_bg"
+		#}
+		
+		instantTextboxType = {
+			name = "culture_info"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "Cultural Info"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+	}
+}

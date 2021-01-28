@@ -1,0 +1,11 @@
+#### COMBAT TACTICS ###########################################################
+#
+# NOTE: tactics must start with "tactic_" in their name to work with techs.
+###############################################################################
+
+phases = { # phase = no is the standard phase
+	close_combat
+	tactical_withdrawal
+	seize_bridge
+	hold_bridge
+}

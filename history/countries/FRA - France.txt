@@ -1,0 +1,22 @@
+﻿capital = 1
+
+set_research_slots = 3
+set_stability = 0.5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Carl li magnes"
+	desc = "POLITICS_KARLAMAGNUS_DESC"
+	picture = "Portrait_Carl_magnes.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}

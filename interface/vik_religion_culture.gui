@@ -23,7 +23,7 @@ guiTypes = {
 			name = "religion_info"
 			position = { x = 45 y = 8 }
 			textureFile = ""
-			font = "hoi_36"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "RELIGIOUS_INFO"
 			maxWidth = 240
@@ -34,7 +34,7 @@ guiTypes = {
 			name = "religion_info_percentage"
 			position = { x = 180 y = 8 }
 			textureFile = ""
-			font = "hoi_36"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "RELIGIOUS_INFO_PERCENTAGE"
 			maxWidth = 240
@@ -45,7 +45,7 @@ guiTypes = {
 			name = "test"
 			position = { x = 250 y = 8 }
 			textureFile = ""
-			font = "hoi_36"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "[?norse_growth]"
 			maxWidth = 240

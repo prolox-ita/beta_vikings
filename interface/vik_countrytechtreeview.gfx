@@ -1,0 +1,24 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_latin_army_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_norse_army_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_latin_navy_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_norse_navy_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+
+}

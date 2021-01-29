@@ -1,0 +1,69 @@
+#####################################
+### Religion calculation ####
+#####################################
+
+religious_percentage = {
+#TOTAL POINTS OF RELIGION
+	set_variable = { total_religion = 0 }
+	add_to_variable = { total_religion = norse_paganism_religion }
+	add_to_variable = { total_religion = west_christianity_religion }
+	add_to_variable = { total_religion = east_christianity_religion }
+	add_to_variable = { total_religion = islam_religion }
+#CALCULATION OF PERCENTAGES
+	#NORSE_PAGANISM
+	set_variable = { norse_paganism_percentage = norse_paganism_religion }
+	divide_variable = { norse_paganism_percentage = total_religion }
+	multiply_variable = { norse_paganism_percentage = 100 }
+	if = {
+		limit = { check_variable = { norse_paganism_percentage > norse_paganism_before } }
+		set_variable = { norse_paganism_growth = 3 }
+	}
+	if = {
+		limit = { check_variable = { norse_paganism_percentage = norse_paganism_before } }
+		set_variable = { norse_paganism_growth = 2 }
+	}
+	if = {
+		limit = { check_variable = { norse_paganism_percentage < norse_paganism_before } }
+		set_variable = { norse_paganism_growth = 1 }
+	}
+	#WEST CHRISTIANITY
+	set_variable = { west_christianity_percentage = west_christianity_religion }
+	divide_variable = { west_christianity_percentage = total_religion }
+	multiply_variable = { west_christianity_percentage = 100 }
+	if = {
+		limit = { check_variable = { west_christianity_percentage > west_christianity_before } }
+		set_variable = { west_christianity_growth = 3 }
+	}
+	if = {
+		limit = { check_variable = { west_christianity_percentage = west_christianity_before } }
+		set_variable = { west_christianity_growth = 2 }
+	}
+	if = {
+		limit = { check_variable = { west_christianity_percentage < west_christianity_before } }
+		set_variable = { west_christianity_growth = 1 }
+	}
+	#EAST CHRISTIANITY
+	set_variable = { east_christianity_percentage = east_christianity_religion }
+	divide_variable = { east_christianity_percentage = total_religion }
+	multiply_variable = { east_christianity_percentage = 100 }
+	if = {
+		limit = { check_variable = { east_christianity_percentage > east_christianity_before } }
+		set_variable = { east_christianity_growth = 3 }
+	}
+	if = {
+		limit = { check_variable = { east_christianity_percentage = east_christianity_before } }
+		set_variable = { east_christianity_growth = 2 }
+	}
+	if = {
+		limit = { check_variable = { east_christianity_percentage < east_christianity_before } }
+		set_variable = { east_christianity_growth = 1 }
+	}
+	#ISLAM
+	set_variable = { islam_percentage = islam_religion }
+	divide_variable = { islam_percentage = total_religion }
+	multiply_variable = { islam_percentage = 100 }
+}
+
+#religious_growth = {
+	
+#}

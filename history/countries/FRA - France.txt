@@ -3,6 +3,30 @@
 set_research_slots = 3
 set_stability = 0.5
 
+#RELIGION
+set_variable = { norse_paganism_religion = 0 }
+set_variable = { west_christianity_religion = 100 }
+set_variable = { east_christianity_religion = 0 }
+set_variable = { islam_religion = 0 }
+
+#CULTURE
+set_variable = { norse_culture = 0 }
+set_variable = { germanic_culture = 43 }
+set_variable = { anglo_saxon_culture = 7 }
+set_variable = { gaelic_culture = 0 }
+set_variable = { latin_culture = 47 }
+set_variable = { arabic_culture = 0 }
+set_variable = { baltic_culture = 0 }
+set_variable = { finnic_culture = 0 }
+set_variable = { brythonic_culture = 3 }
+set_variable = { byzantine_culture = 0 }
+set_variable = { slavic_culture = 0 }
+
+#DOMINANT CULTURE AND RELIGION
+set_country_flag = F_latin_culture
+set_country_flag = F_west_chrstianity_religion
+
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.5.1"

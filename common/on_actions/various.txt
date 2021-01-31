@@ -2,11 +2,11 @@ on_actions = {
 	on_startup ={
 		effect = {
 			ROOT = {
-				set_variable = { norse_paganism_before = 0 }
+				religious_percentage = yes
 			}
 		}
 	}
-	on_daily = {
+	on_monthly = {
 		effect = {
 			ROOT = {
 				religious_percentage = yes

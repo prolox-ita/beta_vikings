@@ -3,13 +3,13 @@
 #####################################
 
 religious_percentage = {
-#TOTAL POINTS OF RELIGION
+	#TOTAL POINTS OF RELIGION
 	set_variable = { total_religion = 0 }
 	add_to_variable = { total_religion = norse_paganism_religion }
 	add_to_variable = { total_religion = west_christianity_religion }
 	add_to_variable = { total_religion = east_christianity_religion }
 	add_to_variable = { total_religion = islam_religion }
-#CALCULATION OF PERCENTAGES
+	#CALCULATION OF PERCENTAGES
 	#NORSE_PAGANISM
 	set_variable = { norse_paganism_percentage = norse_paganism_religion }
 	divide_variable = { norse_paganism_percentage = total_religion }
@@ -62,6 +62,18 @@ religious_percentage = {
 	set_variable = { islam_percentage = islam_religion }
 	divide_variable = { islam_percentage = total_religion }
 	multiply_variable = { islam_percentage = 100 }
+	if = {
+		limit = { check_variable = { islam_percentage > islam_before } }
+		set_variable = { islam_growth = 3 }
+	}
+	if = {
+		limit = { check_variable = { islam_percentage = islam_before } }
+		set_variable = { islam_growth = 2 }
+	}
+	if = {
+		limit = { check_variable = { islam_percentage < islam_before } }
+		set_variable = { islam_growth = 1 }
+	}
 }
 
 #religious_growth = {

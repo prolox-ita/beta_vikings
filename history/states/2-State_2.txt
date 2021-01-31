@@ -9,7 +9,6 @@ state={
 	history = {
 		owner = SAX
 		buildings = {
-			air_base = 1
 			infrastructure = 2
 		}
 	}

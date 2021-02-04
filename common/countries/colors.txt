@@ -2,9 +2,13 @@
 
 FRA = {
 	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color_ui = rgb { 57 113 228 }
 }
 WES = {
 	color = rgb { 246 0 51 }
-	color_ui = rgb { 74 147 255 }
+	color_ui = rgb { 246 0 51 }
+}
+SAX = {
+	color = rgb { 255 100 100 }
+	color_ui = rgb { 255 0 0 }
 }

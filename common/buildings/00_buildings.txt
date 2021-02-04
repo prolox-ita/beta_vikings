@@ -1,12 +1,23 @@
 buildings = {
 	#NEED TO FIX
-	# add buildings to produce resource
+	# add buildings to produce resource, churches
 	# show_on_map:
 	#    if provincial = yes, then show_on_map = X is amount per each province
 	#    if provincial = no, then show_on_map = X is amount per state
 
 
 	infrastructure = {
+		base_cost = 3000
+		icon_frame = 3
+		infrastructure = yes
+		max_level = 10
+		value = 1
+
+		show_modifier = yes
+		max_fuel_building = 0.75 #k
+	}
+	
+	religious_building = {
 		base_cost = 3000
 		icon_frame = 3
 		infrastructure = yes
@@ -170,7 +181,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 0.5 per hour
+		fuel_gain_from_states = 0.5 # per hour
 	}
 	tannery = {
 		show_on_map = 1

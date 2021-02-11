@@ -7,7 +7,7 @@ state={
 	manpower=100
 	state_category = rural
 	history = {
-		owner = SAX
+		#owner = SAX
 		buildings = {
 			infrastructure = 2
 		}

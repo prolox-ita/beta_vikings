@@ -1,0 +1,22 @@
+﻿capital = 5
+
+set_research_slots = 1
+set_stability = 0.4
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "WIP"
+	desc = "POLITICS_KARLAMAGNUS_DESC"
+	picture = "Echberht_of_Wessex.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}

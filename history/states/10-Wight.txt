@@ -1,0 +1,14 @@
+state={
+	id=10 #Old English Wiht, Old Welsh Guith
+	name="STATE_10"
+	provinces={
+		2094
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = WES 
+		#capital Withgarabyrig, 'fortress of the men of Wiht'
+	}
+	buildings_max_level_factor=1.000
+}

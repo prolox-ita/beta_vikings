@@ -1,3 +1,7 @@
 FRA	= "countries/France.txt"
+HWI	= "countries/Hwicce.txt"
+KEN	= "countries/Kent.txt"
+MER	= "countries/Mercia.txt"
+SUR	= "countries/Surrey.txt"
 SAX	= "countries/Saxony.txt"
 WES	= "countries/Wessex.txt"

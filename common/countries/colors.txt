@@ -1,5 +1,13 @@
 #reload countrycolors
 
+EAS = {
+	color = rgb { 0 219 149 }
+	color_ui = rgb { 0 219 149 } 
+}
+ESS = {
+	color = rgb { 118 0 173 }
+	color_ui = rgb { 118 0 173 }
+}
 FRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 57 113 228 }
@@ -11,6 +19,10 @@ HWI = {
 KEN = {
 	color = rgb { 26 173 30 }
 	color_ui = rgb { 26 173 30 }
+}
+LIN = {
+	color = rgb { 193 0 0 }
+	color_ui = rgb { 193 0 0 }
 }
 MER = {
 	color = rgb { 38 67 193 }
@@ -24,11 +36,11 @@ SUR = {
 	color = rgb { 255 226 86 }
 	color_ui = rgb { 255 226 86 }
 }
-#SUS = {
-#	color = rgb { 129 29 78 }
-#	color_ui = rgb { 129 29 78 }
-#}
+SUS = {
+	color = rgb { 247 34 105 }
+	color_ui = rgb { 247 34 105 }
+}
 WES = {
-	color = rgb { 122 14 12 }
-	color_ui = rgb { 122 14 12 }
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
 }

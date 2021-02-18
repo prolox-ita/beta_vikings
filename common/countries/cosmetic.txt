@@ -1,0 +1,4 @@
+puppet_MER = {
+	color = rgb { 38 124 193 }
+	color_ui = rgb { 38 124 193 }
+}

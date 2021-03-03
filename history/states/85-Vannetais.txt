@@ -1,0 +1,14 @@
+state={ 
+	id=85
+	name="STATE_85"
+	provinces={
+		832 1750 1755
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = VAN 
+		
+	}
+	buildings_max_level_factor=1.000
+}

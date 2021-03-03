@@ -1,0 +1,14 @@
+state={ 
+	id=65
+	name="STATE_65"
+	provinces={
+		1737
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = FRA #created in 813, before assigned to Besalù
+		
+	}
+	buildings_max_level_factor=1.000
+}

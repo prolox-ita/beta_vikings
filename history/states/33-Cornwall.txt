@@ -1,0 +1,14 @@
+state={ #SHOULD BE SPLIT IN CORNWALL AND DUMNONIA
+	id=33
+	name="STATE_33"
+	provinces={
+		188 1699 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = COR
+		
+	}
+	buildings_max_level_factor=1.000
+}

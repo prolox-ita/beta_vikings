@@ -1,0 +1,14 @@
+state={ 
+	id=64
+	name="STATE_64"
+	provinces={
+		22 69 96 110 129 315 360 389 415 441 484 511 604 663 709 710 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = ECO
+		
+	}
+	buildings_max_level_factor=1.000
+}

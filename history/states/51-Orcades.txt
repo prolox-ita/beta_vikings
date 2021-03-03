@@ -1,0 +1,16 @@
+#OLD IRISH Insi Orc 
+#OLD NORSE orkn (seal) + eyjar (islands) = orkneyjar
+state={ 
+	id=51
+	name="STATE_51"
+	provinces={
+		783 784 785
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = FOR
+		
+	}
+	buildings_max_level_factor=1.000
+}

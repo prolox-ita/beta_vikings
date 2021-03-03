@@ -1,0 +1,14 @@
+state={ 
+	id=77
+	name="STATE_77"
+	provinces={
+		1733
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = ECO 
+		
+	}
+	buildings_max_level_factor=1.000
+}

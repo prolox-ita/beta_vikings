@@ -1,0 +1,15 @@
+#ISLE OF MAN
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		813
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = MAN 
+		
+	}
+	buildings_max_level_factor=1.000
+}

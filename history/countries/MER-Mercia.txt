@@ -1,4 +1,4 @@
-﻿capital = 2
+﻿capital = 4 
 
 set_research_slots = 3
 set_stability = 0.5
@@ -48,6 +48,11 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = LIN
+	autonomous_state = vassal
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = DUB
 	autonomous_state = vassal
 	freedom_level = 0.4
 }

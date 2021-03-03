@@ -1,6 +1,6 @@
-﻿capital = 1 # 7
+﻿capital = 14 
 
-set_research_slots = 1
+set_research_slots = 3
 set_stability = 0.5
 
 set_politics = {
@@ -13,7 +13,7 @@ set_politics = {
 create_country_leader = {
 	name = "WIP"
 	desc = "POLITICS_KARLAMAGNUS_DESC"
-	picture = "Portrait_Karlamagnus.dds"
+	picture = "WIP.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {

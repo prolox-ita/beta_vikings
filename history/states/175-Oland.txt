@@ -1,0 +1,14 @@
+state={ 
+	id=175
+	name="STATE_175"
+	provinces={
+		799
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = OLA
+		
+	}
+	buildings_max_level_factor=1.000
+}

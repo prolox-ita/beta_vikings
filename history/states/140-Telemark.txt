@@ -1,0 +1,16 @@
+state={ 
+	id=140
+	name="STATE_140"
+	provinces={
+		111
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		800.1.1={
+			owner = TEL
+		}
+		
+	}
+	buildings_max_level_factor=1.000
+}

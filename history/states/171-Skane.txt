@@ -1,0 +1,14 @@
+state={ 
+	id=171
+	name="STATE_171"
+	provinces={
+		445
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = SKA
+		
+	}
+	buildings_max_level_factor=1.000
+}

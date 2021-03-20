@@ -1,0 +1,14 @@
+state={ 
+	id=165
+	name="STATE_165"
+	provinces={
+		436
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		800.1.1 = { owner = GAS }
+		
+	}
+	buildings_max_level_factor=1.000
+}

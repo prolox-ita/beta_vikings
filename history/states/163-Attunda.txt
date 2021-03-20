@@ -1,0 +1,15 @@
+state={ 
+	id=163
+	name="STATE_163"
+	provinces={
+		1789
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = SVJ
+		796.1.1 = { owner = ATT }
+		
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={ 
+	id=88
+	name="STATE_88"
+	provinces={
+		30 434 538 1761
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = ITA 
+		
+	}
+	buildings_max_level_factor=1.000
+}

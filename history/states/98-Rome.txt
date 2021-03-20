@@ -1,0 +1,14 @@
+state={ 
+	id=98
+	name="STATE_98"
+	provinces={
+		37 1760 1762
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = PAP 
+		
+	}
+	buildings_max_level_factor=1.000
+}

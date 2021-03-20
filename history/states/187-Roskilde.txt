@@ -1,0 +1,14 @@
+state={ 
+	id=187
+	name="STATE_187"
+	provinces={
+		16 812 815 816
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = ROS
+		
+	}
+	buildings_max_level_factor=1.000
+}

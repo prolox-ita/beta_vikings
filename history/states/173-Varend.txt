@@ -1,0 +1,14 @@
+state={ 
+	id=173
+	name="STATE_173"
+	provinces={
+		381
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = VRN
+		
+	}
+	buildings_max_level_factor=1.000
+}

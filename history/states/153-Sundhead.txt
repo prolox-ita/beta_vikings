@@ -1,0 +1,17 @@
+state={ 
+	id=153
+	name="STATE_153"
+	provinces={
+		2
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = HAS
+		850.1.1 = {
+			owner = SUN
+		}
+		
+	}
+	buildings_max_level_factor=1.000
+}

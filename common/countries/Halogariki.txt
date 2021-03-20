@@ -1,0 +1,5 @@
+
+graphical_culture = norse_gfx
+graphical_culture_2d = norse_2d
+
+color = { 249 46 39 }

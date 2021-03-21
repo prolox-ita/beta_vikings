@@ -134,17 +134,17 @@ static const float  SHADOW_WEIGHT_TREE   		= 0.7f;
 
 // ------------------    GRADIENT BORDERS   ---------------------
 
-static const float GB_CAM_MIN = 100.0f; 
-static const float GB_CAM_MAX = 350.0f; 
-static const float GB_CAM_MAX_FILLING_CLAMP = 1.0f; // 0 to 1 value for clamping the fill when camera is at max distance
+static const float GB_CAM_MIN = 65.0f; 
+static const float GB_CAM_MAX = 435.0f; 
+static const float GB_CAM_MAX_FILLING_CLAMP = 0.5f; 
 static const float GB_THRESHOLD = 1.0f;
 static const float GB_THRESHOLD2 = 0.02f; 
-static const float GB_OUTLINE_CUTOFF_SEA = 0.1f; 
+static const float GB_OUTLINE_CUTOFF_SEA = 0.985f; 
 static const float GB_OPACITY_NEAR = 1.0f;
-static const float GB_OPACITY_FAR = 0.61;
+static const float GB_OPACITY_FAR = 1.0f;
 static const float BORDER_NIGHT_DESATURATION_MAX = 0.0f; 
-static const float BORDER_FOW_REMOVAL_FACTOR = 0.1f;
-static const float BORDER_LIGHT_REMOVAL_FACTOR = 0.1f;
+static const float BORDER_FOW_REMOVAL_FACTOR = 1.0f;
+static const float BORDER_LIGHT_REMOVAL_FACTOR = 1.0f;
 static const float GB_STRENGTH_CH1 = 0.65;
 static const float GB_STRENGTH_CH2 = 0.5;
 static const float GB_FIRST_LAYER_PRIORITY = 0.4;

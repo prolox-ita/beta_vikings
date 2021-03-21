@@ -311,7 +311,7 @@ PixelShader =
 			float3 vEyeDir = normalize( Input.pos - vCamPos.xyz );
 			float3 reflection = reflect( vEyeDir, normal );
 
-			float vSpecularIntensity = 0.009f;
+			float vSpecularIntensity = 0.010f;
 			float vGlossiness = (spec/9.0f) * (1-vSpecMap); 
 			//float CubeMipmapIndex = GetEnvmapMipLevel(saturate(1.0f-vSpecMap)); 
 			

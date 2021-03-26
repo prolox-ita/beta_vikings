@@ -1000,8 +1000,8 @@
 999;49;50;32;lake;false;lakes;0
 1000;67;20;16;lake;false;lakes;0
 1001;1;13;118;lake;false;lakes;0
-1002;75;9;23;lake;false;lakes;0
-1003;50;30;62;lake;true;lakes;0
+1002;75;9;23;sea;false;lakes;0
+1003;50;30;62;sea;true;lakes;0
 1004;48;3;50;lake;false;lakes;0
 1005;9;63;43;lake;false;lakes;0
 1006;92;9;1;lake;false;lakes;0

@@ -1,0 +1,16 @@
+#condominium between byzantine and arabs 
+state={ 
+	id=206
+	name="STATE_206"
+	provinces={
+		652
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = BYZ #or abbasids?
+		set_demilitarized_zone = yes
+		
+	}
+	buildings_max_level_factor=1.000
+}

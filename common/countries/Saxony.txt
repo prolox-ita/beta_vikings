@@ -1,6 +1,6 @@
 #France
 
-graphical_culture = anglo_saxons_gfx
-graphical_culture_2d = anglo_saxons_2d
+graphical_culture = germanic_gfx
+graphical_culture_2d = germanic_2d
 
 color = { 57  113  228 }

@@ -1,5 +1,0 @@
-
-graphical_culture = latin_gfx
-graphical_culture_2d = latin_2d
-
-color = { 249 46 39 }

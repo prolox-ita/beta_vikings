@@ -1,5 +1,0 @@
-
-graphical_culture = byzantine_gfx
-graphical_culture_2d = byzantine_2d
-
-color = { 249 46 39 }

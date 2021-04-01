@@ -1,5 +1,0 @@
-
-graphical_culture = arabic_european_gfx
-graphical_culture_2d = arabic_european_gfx
-
-color = { 249 46 39 }

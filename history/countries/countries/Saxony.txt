@@ -1,6 +1,0 @@
-#France
-
-graphical_culture = germanic_gfx
-graphical_culture_2d = germanic_2d
-
-color = { 57  113  228 }

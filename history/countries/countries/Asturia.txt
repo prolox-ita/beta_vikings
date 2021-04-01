@@ -1,5 +1,0 @@
-
-graphical_culture = iberian_gfx
-graphical_culture_2d = iberian_2d
-
-color = { 249 46 39 }

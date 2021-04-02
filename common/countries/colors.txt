@@ -341,3 +341,6 @@ AGH = { color = rgb { 0 255 64 } color_ui = rgb { 0 255 64 } }
 TAH = { color = rgb { 255 223 0 } color_ui = rgb { 255 223 0 } }
 ABB = { color = rgb { 0 155 19 } color_ui = rgb { 0 155 19 } }
 OBO = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
+VEL = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
+POM = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
+DRO = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }

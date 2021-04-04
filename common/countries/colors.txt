@@ -341,6 +341,11 @@ AGH = { color = rgb { 0 255 64 } color_ui = rgb { 0 255 64 } }
 TAH = { color = rgb { 255 223 0 } color_ui = rgb { 255 223 0 } }
 ABB = { color = rgb { 0 155 19 } color_ui = rgb { 0 155 19 } }
 OBO = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
-VEL = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
-POM = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
-DRO = { color = rgb { 0 96 8 } color_ui = rgb { 0 96 8 } }
+VEL = { color = rgb { 206 239 107 } color_ui = rgb { 206 239 107 } }
+POM = { color = rgb { 241 73 73 } color_ui = rgb { 241 73 73 } }
+DRO = { color = rgb { 151 159 94 } color_ui = rgb { 151 159 94 } }
+CAR = { color = rgb { 255 255 149 } color_ui = rgb { 255 255 149 } }
+AVA = { color = rgb { 255 198 0 } color_ui = rgb { 255 198 0 } }
+CRO = { color = rgb { 0 45 164 } color_ui = rgb { 0 45 164 } }
+SER = { color = rgb { 159 4 4 } color_ui = rgb { 159 4 4 } }
+TIM = { color = rgb { 88 214 104 } color_ui = rgb { 88 214 104 } }

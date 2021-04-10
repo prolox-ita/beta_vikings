@@ -1,0 +1,5 @@
+
+graphical_culture = slavic_gfx
+graphical_culture_2d = slavic_2d
+
+color = { 249 46 39 }

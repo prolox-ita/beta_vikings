@@ -22,10 +22,7 @@ BRY = {
 	color = rgb { 170 22 26 }
 	color_ui = rgb { 170 22 26 } 
 }
-BYZ = {
-	color = rgb { 255 0 110 }
-	color_ui = rgb { 255 0 110 } 
-}
+BYZ = { color = rgb { 125 0 183 } color_ui = rgb { 125 0 183 } }
 CAT = {
 	color = rgb { 93 22 224 }
 	color_ui = rgb { 93 22 224 } 
@@ -348,4 +345,33 @@ CAR = { color = rgb { 255 255 149 } color_ui = rgb { 255 255 149 } }
 AVA = { color = rgb { 255 198 0 } color_ui = rgb { 255 198 0 } }
 CRO = { color = rgb { 0 45 164 } color_ui = rgb { 0 45 164 } }
 SER = { color = rgb { 159 4 4 } color_ui = rgb { 159 4 4 } }
-TIM = { color = rgb { 88 214 104 } color_ui = rgb { 88 214 104 } }
+TIV = { color = rgb { 88 214 104 } color_ui = rgb { 88 214 104 } }
+BUL = { color = rgb { 21 140 15 } color_ui = rgb { 21 140 15 } }
+BER = { color = rgb { 96 183 230 } color_ui = rgb { 96 183 230 } }
+POL = { color = rgb { 229 0 0 } color_ui = rgb { 229 0 0 } }
+SRY = { color = rgb { 211 173 152 } color_ui = rgb { 211 173 152 } }
+PAG = { color = rgb { 136 227 164 } color_ui = rgb { 136 227 164 } }
+ZAC = { color = rgb { 123 167 240 } color_ui = rgb { 123 167 240 } }
+TRA = { color = rgb { 129 20 20 } color_ui = rgb { 129 20 20 } }
+DOC = { color = rgb { 100 139 10 } color_ui = rgb { 100 139 10 } }
+KON = { color = rgb { 207 125 52 } color_ui = rgb { 207 125 52 } }
+BRA = { color = rgb { 17 242 73 } color_ui = rgb { 17 242 73 } }
+SOR = { color = rgb { 0 234 6 } color_ui = rgb { 0 234 6 } }
+CZE = { color = rgb { 180 172 80 } color_ui = rgb { 180 172 80 } }
+MAS = { color = rgb { 205 120 241 } color_ui = rgb { 205 120 241 } }
+VIT = { color = rgb { 242 205 119 } color_ui = rgb { 242 205 119 } }
+SLE = { color = rgb { 4 255 255 } color_ui = rgb { 4 255 255 } }
+MOV = { color = rgb { 227 32 32 } color_ui = rgb { 227 32 32 } }
+SLO = { color = rgb { 18 18 175 } color_ui = rgb { 18 18 175 } }
+SER = { color = rgb { 88 105 95 } color_ui = rgb { 88 105 95 } }
+TIM = { color = rgb { 49 183 4 } color_ui = rgb { 49 183 4 } }
+ULI = { color = rgb { 176 98 11 } color_ui = rgb { 176 98 11 } }
+HRV = { color = rgb { 234 171 26 } color_ui = rgb { 234 171 26  } }
+VOL = { color = rgb { 186 7 12 } color_ui = rgb { 186 7 12 } }
+DRE = { color = rgb { 38 149 94 } color_ui = rgb { 38 149 94 } }
+VYA = { color = rgb { 128 3 0 } color_ui = rgb { 128 3 0 } }
+KRI = { color = rgb { 0 128 192 } color_ui = rgb { 0 128 192 } }
+RAD = { color = rgb { 188 245 192 } color_ui = rgb { 188 245 192 } }
+ILM = { color = rgb { 242 222 77 } color_ui = rgb { 242 222 77 } }
+GUD = { color = rgb { 122 79 64 } color_ui = rgb { 122 79 64 } }
+PSL = { color = rgb { 165 200 83 } color_ui = rgb { 165 200 83 } }

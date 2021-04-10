@@ -1,0 +1,17 @@
+state={ 
+	id=245
+	name="STATE_245"
+	provinces={
+		26 90 105 167 175 227 273 284 292 318 354 363 391 401 428 430 537 596 606 611
+		48 32 50 51 82 208 216 239 209 230 203 346 317 333 374 343 439 639 580 662 711 664 494 4 712 298 421 487 620 665
+	}
+	
+	#impassable = { 298 421 487 620 665 }
+	manpower=100
+	state_category = rural
+	history = {
+		owner = ABB
+		
+	}
+	buildings_max_level_factor=1.000
+}

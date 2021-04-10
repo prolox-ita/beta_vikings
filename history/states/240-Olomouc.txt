@@ -1,13 +1,13 @@
 state={ 
-	id=204
-	name="STATE_204"
+	id=240
+	name="STATE_240"
 	provinces={
-		513 560 561 584 586 713
+		142 250 764
 	}
 	manpower=100
 	state_category = rural
 	history = {
-		owner = TAH
+		owner = MOV
 		
 	}
 	buildings_max_level_factor=1.000

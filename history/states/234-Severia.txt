@@ -1,13 +1,14 @@
+#Trubetsk
 state={ 
-	id=204
-	name="STATE_204"
+	id=234
+	name="STATE_234"
 	provinces={
-		513 560 561 584 586 713
+		109 443 495 576
 	}
 	manpower=100
 	state_category = rural
 	history = {
-		owner = TAH
+		owner = SEE
 		
 	}
 	buildings_max_level_factor=1.000

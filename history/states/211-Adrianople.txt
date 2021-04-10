@@ -9,7 +9,7 @@ state={
 	history = {
 		owner = BYZ
 		
-		#811.1.1 = { owner = BUL }
+		811.1.1 = { owner = BUL }
 		
 	}
 	buildings_max_level_factor=1.000

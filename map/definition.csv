@@ -1504,7 +1504,7 @@
 1503;10;65;10;sea;false;ocean;0
 1504;10;5;83;sea;false;ocean;0
 1505;2;70;0;sea;true;ocean;0
-1506;10;34;29;sea;false;ocean;0
+1506;10;34;29;land;false;plains;1
 1507;0;72;27;sea;true;ocean;0
 1508;15;29;23;sea;true;ocean;0
 1509;51;8;28;sea;false;ocean;0

@@ -1,0 +1,5 @@
+
+graphical_culture = baltic_finns_gfx
+graphical_culture_2d = baltic_finns_2d
+
+color = { 249 46 39 }

@@ -375,3 +375,16 @@ RAD = { color = rgb { 188 245 192 } color_ui = rgb { 188 245 192 } }
 ILM = { color = rgb { 242 222 77 } color_ui = rgb { 242 222 77 } }
 GUD = { color = rgb { 122 79 64 } color_ui = rgb { 122 79 64 } }
 PSL = { color = rgb { 165 200 83 } color_ui = rgb { 165 200 83 } }
+PRU = { color = rgb { 223 177 83 } color_ui = rgb { 223 177 83 } }
+YOT = { color = rgb { 205 206 166 } color_ui = rgb { 205 206 166 } }
+GAL = { color = rgb { 81 221 113 } color_ui = rgb { 81 221 113 } }
+LIV = { color = rgb { 200 191 231 } color_ui = rgb { 200 191 231 } }
+CUR = { color = rgb { 227 147 81 } color_ui = rgb { 227 147 81 } }
+SEM = { color = rgb { 179 240 222 } color_ui = rgb { 179 240 222 } }
+LIT = { color = rgb { 150 35 29 } color_ui = rgb { 150 35 29 } }
+LAT = { color = rgb { 41 15 164 } color_ui = rgb { 41 15 164 } }
+SEL = { color = rgb { 63 116 66 } color_ui = rgb { 63 116 66 } }
+RUS = { color = rgb { 16 96 20 } color_ui = rgb { 16 96 20 } }
+EST = { color = rgb { 78 53 168 } color_ui = rgb { 78 53 168 } }
+HAU = { color = rgb { 216 111 0 } color_ui = rgb { 216 111 0 } }
+VIR = { color = rgb { 168 128 37 } color_ui = rgb { 168 128 37 } }

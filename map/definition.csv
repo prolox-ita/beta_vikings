@@ -2008,3 +2008,15 @@
 2007;5;31;55;sea;false;ocean;0
 2008;24;26;2;sea;false;ocean;0
 2009;17;0;39;sea;false;ocean;0
+2010;204;46;156;lake;false;lakes;1
+2011;132;106;204;land;false;plains;1
+2012;0;207;25;land;false;plains;1
+2013;252;147;78;land;false;plains;1
+2014;206;167;39;land;false;plains;1
+2015;2;221;192;land;false;plains;1
+2016;130;204;73;lake;false;lakes;1
+2017;81;159;204;lake;false;lakes;1
+2018;234;82;97;land;false;plains;1
+2019;204;71;14;land;false;plains;1
+2020;204;122;55;land;false;plains;1
+2021;252;237;25;land;false;plains;1

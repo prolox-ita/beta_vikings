@@ -1,0 +1,14 @@
+state={ 
+	id=249
+	name="STATE_249"
+	provinces={
+		106 200 607 2011 2012 2014 2015 2018 2019
+	}
+	manpower=23546
+	state_category = rural
+	history = {
+		owner = PRU
+				
+	}
+	buildings_max_level_factor=1.000
+}

@@ -387,4 +387,7 @@ SEL = { color = rgb { 63 116 66 } color_ui = rgb { 63 116 66 } }
 RUS = { color = rgb { 16 96 20 } color_ui = rgb { 16 96 20 } }
 EST = { color = rgb { 78 53 168 } color_ui = rgb { 78 53 168 } }
 HAU = { color = rgb { 216 111 0 } color_ui = rgb { 216 111 0 } }
-VIR = { color = rgb { 168 128 37 } color_ui = rgb { 168 128 37 } }
+VIR = { color = rgb { 168 128 137 } color_ui = rgb { 168 128 137 } }
+KAR = { color = rgb { 94 108 208 } color_ui = rgb { 94 108 208 } }
+VEP = { color = rgb { 244 137 57 } color_ui = rgb { 244 137 57 } }
+FIN = { color = rgb { 168 185 193 } color_ui = rgb { 168 185 193 } }

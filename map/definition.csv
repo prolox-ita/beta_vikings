@@ -1832,7 +1832,7 @@
 1831;139;197;235;land;true;plains;1
 1832;96;191;223;land;true;plains;1
 1833;136;216;203;land;false;plains;1
-1834;254;141;137;land;false;plains;1
+1834;254;141;137;sea;true;ocean;0
 1835;194;141;191;land;false;plains;1
 1836;146;253;145;land;false;plains;1
 1837;233;238;152;land;false;plains;1

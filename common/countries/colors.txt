@@ -398,3 +398,12 @@ VBU = { color = rgb { 81 215 104 } color_ui = rgb { 81 215 104 } }
 MEY = { color = rgb { 60 223 236 } color_ui = rgb { 60 223 236 } }
 PER = { color = rgb { 163 20 102 } color_ui = rgb { 163 20 102 } }
 MAI = { color = rgb { 175 163 7 } color_ui = rgb { 175 163 7 } }
+MAG = { color = rgb { 189 73 23 } color_ui = rgb { 189 73 23 } }
+KHA = { color = rgb { 242 233 55 } color_ui = rgb { 242 233 55 } }
+CHU = { color = rgb { 142 54 55 } color_ui = rgb { 142 54 55 } }
+OGU = { color = rgb { 223 47 78 } color_ui = rgb { 223 47 78 } }
+SAP = { color = rgb { 130 21 5 } color_ui = rgb { 130 21 5 } }###
+SIJ = { color = rgb { 89 130 78 } color_ui = rgb { 89 130 78 } }
+BAR = { color = rgb { 91 123 130 } color_ui = rgb { 91 123 130 } }
+PEG = { color = rgb { 198 186 116 } color_ui = rgb { 198 186 116 } }
+KIM = { color = rgb { 111 137 198 } color_ui = rgb { 111 137 198 } }

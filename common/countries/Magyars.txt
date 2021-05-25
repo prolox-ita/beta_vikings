@@ -1,0 +1,5 @@
+
+graphical_culture = magyars_gfx
+graphical_culture_2d = magyars_2d
+
+color = { 249 46 39 }

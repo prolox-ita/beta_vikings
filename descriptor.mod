@@ -2,7 +2,7 @@ version="1.10.*"
 tags={
 	"Map"
 }
-name="BETA Vikings - Norse Era 0.1"
+name="Development: Vikings - Norse Era 0.1"
 supported_version="1.10.*"
 replace_path="common/abilities" 
 replace_path="common/ai_equipment"

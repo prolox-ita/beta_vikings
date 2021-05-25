@@ -7,6 +7,7 @@ state={
 	manpower=100
 	state_category = rural
 	history = {
+		owner = SAP 
 		900.1.1 = { owner = GJE }
 		
 	}

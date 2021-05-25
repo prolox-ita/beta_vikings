@@ -1,0 +1,14 @@
+state={ 
+	id=276
+	name="STATE_276"
+	provinces={
+		6 27 45 108 156 176 185 252 288 307 350 403 420 474 502 507 526 568 579 597 614 695 697 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = KIM
+				
+	}
+	buildings_max_level_factor=1.000
+}

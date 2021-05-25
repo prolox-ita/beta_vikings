@@ -2,11 +2,12 @@ state={
 	id=169
 	name="STATE_169"
 	provinces={
-		38 338 370 742
+		38 153 338 370 742
 	}
 	manpower=100
 	state_category = rural
 	history = {
+		owner = SAP 
 		840.1.1 = { owner = HAL }
 		
 	}

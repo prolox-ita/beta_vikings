@@ -1,0 +1,14 @@
+state={
+	id=280
+	name="STATE_280"
+	provinces={
+		57 75 107 132 160 163 172 197 202 204 218 251 259 270 274 306 364 371 383 387 390 427 472 478 508 609 638 641 659 674 675 677 718 778 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = SAP
+				
+	}
+	buildings_max_level_factor=1.000
+}

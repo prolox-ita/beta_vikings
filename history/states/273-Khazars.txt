@@ -1,0 +1,14 @@
+state={ 
+	id=273
+	name="STATE_273"
+	provinces={
+		17 68 77 84 133 183 192 199 228 266 294 312 313 347 377 408 451 458 467 498 499 528 557 562 601 613 635 700 707
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = KHA
+				
+	}
+	buildings_max_level_factor=1.000
+}

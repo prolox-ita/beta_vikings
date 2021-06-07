@@ -1,0 +1,15 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		588 894 901 906 909 912 913 915 916 917 925 928 933 937 941 944 945 947 948 
+	}
+	manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+	
+	history = {
+		owner = TUN
+	}
+
+}

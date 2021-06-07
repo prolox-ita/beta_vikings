@@ -1,0 +1,14 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		950 952 954 973 1066 
+	}
+	manpower=100
+	state_category = rural
+	buildings_max_level_factor=1.000
+	
+	history = {
+		owner = INN
+	}
+}

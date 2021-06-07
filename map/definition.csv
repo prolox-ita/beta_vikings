@@ -70,7 +70,7 @@
 69;243;221;139;land;true;plains;1
 70;252;242;167;land;true;plains;1
 71;123;191;244;land;true;plains;1
-72;63;228;250;sea;true;ocean;0
+72;63;22;12;sea;true;ocean;0
 73;144;127;252;land;true;plains;1
 74;218;210;209;land;true;plains;1
 75;200;128;188;land;false;plains;1
@@ -1300,7 +1300,7 @@
 1299;144;151;227;land;true;plains;1
 1300;17;6;69;sea;true;ocean;0
 1301;18;16;37;lake;false;lakes;0
-1302;63;22;12;land;false;plains;1
+1302;63;228;250;land;false;plains;1
 1303;61;238;253;land;true;plains;1
 1304;3;67;5;sea;true;ocean;0
 1305;55;38;6;sea;true;ocean;0
@@ -2003,7 +2003,7 @@
 2002;6;27;27;sea;false;ocean;0
 2003;32;18;27;sea;false;ocean;0
 2004;36;12;16;sea;false;ocean;0
-2005;205;231;182;sea;false;ocean;0
+2005;205;231;182;land;true;plains;1
 2006;3;13;25;sea;false;ocean;0
 2007;5;31;55;sea;true;ocean;0
 2008;24;26;2;sea;false;ocean;0

@@ -402,8 +402,14 @@ MAG = { color = rgb { 189 73 23 } color_ui = rgb { 189 73 23 } }
 KHA = { color = rgb { 242 233 55 } color_ui = rgb { 242 233 55 } }
 CHU = { color = rgb { 142 54 55 } color_ui = rgb { 142 54 55 } }
 OGU = { color = rgb { 223 47 78 } color_ui = rgb { 223 47 78 } }
-SAP = { color = rgb { 130 21 5 } color_ui = rgb { 130 21 5 } }###
+SAP = { color = rgb { 130 21 5 } color_ui = rgb { 130 21 5 } }
 SIJ = { color = rgb { 89 130 78 } color_ui = rgb { 89 130 78 } }
 BAR = { color = rgb { 91 123 130 } color_ui = rgb { 91 123 130 } }
 PEG = { color = rgb { 198 186 116 } color_ui = rgb { 198 186 116 } }
 KIM = { color = rgb { 111 137 198 } color_ui = rgb { 111 137 198 } }
+SRR = { color = rgb { 226 104 128 } color_ui = rgb { 226 104 128 } }
+SAL = { color = rgb { 255 255 0 } color_ui = rgb { 255 255 0 } }
+SMR = { color = rgb { 94 182 228 } color_ui = rgb { 94 182 228 } }
+BEO = { color = rgb { 155 0 23 } color_ui = rgb {  155 0 23 } }
+TUN = { color = rgb { 44 31 31 } color_ui = rgb {  44 31 31 } }
+INN = { color = rgb { 102 115 234 } color_ui = rgb {  102 115 234 } }

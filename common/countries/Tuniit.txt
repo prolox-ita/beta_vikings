@@ -1,0 +1,5 @@
+
+graphical_culture = tuniit_gfx
+graphical_culture_2d = tuniit_2d
+
+color = { 249 46 39 }

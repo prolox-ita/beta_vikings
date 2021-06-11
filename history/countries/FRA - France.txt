@@ -23,7 +23,7 @@ set_variable = { byzantine_culture = 0 }
 set_variable = { slavic_culture = 0 }
 
 #DOMINANT CULTURE AND RELIGION
-set_country_flag = F_latin_culture
+set_country_flag = F_frankish_culture
 set_country_flag = F_west_chrstianity_religion
 
 

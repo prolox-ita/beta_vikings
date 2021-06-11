@@ -1,3 +1,8 @@
 ﻿l_english:
- STATE_1:0 "Paris"
+ STATE_1:0 "Unowned lands"
+ STATE_2:0 "Parision"
+ STATE_3:0 "Wintanceaster"
+ STATE_4:0 "Hwinca"
+ 
+ ##create different ideas = empire, kingdom, duchy, county etc
 

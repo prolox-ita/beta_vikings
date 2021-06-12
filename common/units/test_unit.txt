@@ -1,0 +1,50 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+
+	axemen = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_first_line
+			category_axemen
+			category_axe_shield
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 200
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1.5
+		weight = 0.5
+		
+		supply_consumption = 0.02
+	
+		essential = {
+			axe_equipment = 50
+		}
+		need = {
+			axe_equipment = 200
+		}
+	}
+
+}

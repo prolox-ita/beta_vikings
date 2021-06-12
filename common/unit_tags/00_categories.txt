@@ -1,0 +1,5 @@
+sub_unit_categories = {
+	category_first_line
+	category_axemen
+	category_axe_shield
+}

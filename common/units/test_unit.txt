@@ -10,7 +10,7 @@ sub_units = {
 		
 		priority = 600
 		ai_priority = 200
-		active = no
+		active = yes
 
 		type = {
 			infantry
@@ -40,7 +40,7 @@ sub_units = {
 		supply_consumption = 0.02
 	
 		essential = {
-			axe_equipment = 50
+			#axe_equipment
 		}
 		need = {
 			axe_equipment = 200

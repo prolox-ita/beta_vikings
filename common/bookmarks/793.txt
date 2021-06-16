@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_A_NEW_ERA_DESC"
-			ideology = democratic
+			ideology = monarchy
 			ideas = {
 			}
 			focuses = {

@@ -1,0 +1,34 @@
+################
+### CULTURES ###
+################
+
+# HOW THEY WORKS #
+
+#The culture will affect different aspects of the country (like the tech tree) and the relations of the country with the others. To make possible the different combination of cultures (we cannot create cultures for each combination), the cultural system will
+#be based on a single level, like for example Italian (and not all the sub categories like North italian, South Italian or other combination with other cultures). OHowever, sometimes you can adopt a new culture that is the result of a mix of two/more cultures
+#like for example Norman culture (Viking + French/Frankish) or Sicilian (Italian + mix of Byzantine, Arabic and Iberic). To adopt new cultures, YOU HAVE TO BE INDEPENDENT OR HAVE A MINIMU LEVEL OF INDEPENDENCE.
+#So for example, a country has two most relevant cultures, if a decision is available, you can adopt a new culture, otherwise you have to refer to both the culture (for example, Angles and Saxons became Anglo-Saxons).
+#This is only an idea, the implementation must be analyzed yet.
+#We think also to make this system based on a reginal system.
+
+
+############
+### LIST ###
+############
+
+#LEGEND - One "#": principal, two "#" (##): cultures after be influenced and available through decisions
+
+#ITALIAN
+##Sicilian (+ Arabic/Iberic)
+#SARDINIAN
+#FRANKISH
+##FRENCH
+##NORMAN (Norse + French/Frankish)
+#NORSE
+#ANGLO-SAXON
+##ENGLISH
+#PICTISH
+#WELSH
+#IRISH
+#FRISIAN
+#SAXON

@@ -1,25 +1,23 @@
 ideologies = { #culture to edit
 	
-	italian = {
+	monarchy = {
 	
 		types = {
 			
-			north_italian = {}
-			south_italian = {}
-			middle_italian = {}
+			a = {}
 		
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ITALIAN_1"
-			"FACTION_NAME_ITALIAN_2"
-			"FACTION_NAME_ITALIAN_3"
-			"FACTION_NAME_ITALIAN_4"
-			"FACTION_NAME_ITALIAN_5"
-			"FACTION_NAME_ITALIAN_6"
+			"FACTION_NAME_MONARCHY_1"
+			"FACTION_NAME_MONARCHY_2"
+			"FACTION_NAME_MONARCHY_3"
+			"FACTION_NAME_MONARCHY_4"
+			"FACTION_NAME_MONARCHY_5"
+			"FACTION_NAME_MONARCHY_6"
 		}
 		
-		color = { 0 0 225 }
+		color = { 0 225 0 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -57,117 +55,7 @@ ideologies = { #culture to edit
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-	sicilian = {
 	
-		types = {
-			
-			sicilian = {} #make the possible combination with hiberic and arab cultures
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_ITALIAN_1"
-			"FACTION_NAME_ITALIAN_2"
-			"FACTION_NAME_ITALIAN_3"
-			"FACTION_NAME_ITALIAN_4"
-			"FACTION_NAME_ITALIAN_5"
-			"FACTION_NAME_ITALIAN_6"
-		}
-		
-		color = { 0 0 225 }
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			annex_cost_factor = 0.5
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-		}
-		
-		can_be_boosted = no
-		can_collaborate = no
-		
-		faction_modifiers = {
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-	sardinian = {
-	
-		types = {
-			
-			
-			sardinian = {} #add 4 giudicati
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_ITALIAN_1"
-			"FACTION_NAME_ITALIAN_2"
-			"FACTION_NAME_ITALIAN_3"
-			"FACTION_NAME_ITALIAN_4"
-			"FACTION_NAME_ITALIAN_5"
-			"FACTION_NAME_ITALIAN_6"
-		}
-		
-		color = { 0 0 225 }
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			annex_cost_factor = 0.5
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-		}
-		
-		can_be_boosted = no
-		can_collaborate = no
-		
-		faction_modifiers = {
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
 
 
 }

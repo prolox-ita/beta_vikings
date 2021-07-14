@@ -1,6 +1,6 @@
 ideologies = { #culture to edit
 	
-	monarchy = {
+	vmonarchy = {
 	
 		types = {
 			

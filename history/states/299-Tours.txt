@@ -1,0 +1,15 @@
+state={
+	id=299
+	name="STATE_299"
+	provinces={
+		2068 2070 2072 2094 2095 2097 2099 2102 
+	}
+	manpower=20
+	state_category = rural
+	buildings_max_level_factor=1.000
+	
+	history = {
+		owner = FRA
+		add_core_of = FRA
+	}
+}

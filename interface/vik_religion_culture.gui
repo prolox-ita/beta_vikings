@@ -52,6 +52,18 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}
+		
+		instantTextboxType = { #############
+			name = "culture_test"
+			position = { x = 400 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ROOT_national_population ]"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
 	}
 	containerWindowType = {
 		name = "culture_spread_panel"

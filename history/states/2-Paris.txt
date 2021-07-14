@@ -2,15 +2,21 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		831
+		608 831 2133 2134 2135
 	}
-	manpower=100
+	manpower = 40210
 	state_category = rural
 	history = {
 		owner = FRA
 		buildings = {
 
 		}
+		
+		add_to_array = { culture_array = 1 } # Frankish
+		add_to_array = { culture_array_num = 1.00 }
 	}
 	buildings_max_level_factor=1.000
-}
+	
+	#add_to_array = { global_states_array = 0 } 
+	add_to_array = { culture_array = 1 } # Frankish
+	add_to_array = { culture_array_num = 1.00 }

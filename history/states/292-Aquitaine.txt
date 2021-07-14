@@ -1,0 +1,15 @@
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		351 2046 2052 2056 2059 2062 2066 
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		victory_points = { 2066 5 } #Bordèu(?)
+	}
+	state_category = rural
+	manpower=14325
+	buildings_max_level_factor=1.000
+}

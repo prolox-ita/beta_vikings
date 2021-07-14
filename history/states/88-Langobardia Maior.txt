@@ -7,8 +7,15 @@ state={
 	manpower=100
 	state_category = rural
 	history = {
-		owner = ITA 
+		793.1.1 = {
+			owner = ITA 
+			
+			add_to_array = { state_culture_array = 2 } # Italian
+			add_to_array = { state_culture_array_num = 1.00 }
+		}
 		
 	}
 	buildings_max_level_factor=1.000
+	
+
 }

@@ -1,4 +1,4 @@
-version="1.10.*"
+version="0.0.1"
 tags={
 	"Map"
 }
@@ -49,6 +49,7 @@ replace_path="common/units/names_ships"
 replace_path="common/units/equipment"
 replace_path="common/unit_leader"
 replace_path="events"
+replace_path="gfx/flags"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"

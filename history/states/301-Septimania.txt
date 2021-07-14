@@ -1,0 +1,14 @@
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		242 2024 2034 2036 2037 2039 2044 2047 
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+	}
+	state_category = rural
+	manpower=7546
+	buildings_max_level_factor=1.000
+}

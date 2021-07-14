@@ -1,0 +1,6 @@
+### CULTURES
+
+all_cultures = {
+	set_variable = { global.frankish = 1 }
+	set_variable = { global.italian = 2 }
+}

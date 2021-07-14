@@ -4,5 +4,20 @@
  STATE_3:0 "Wintanceaster"
  STATE_4:0 "Hwinca"
  
+ STATE_86:0 "Nantais"
+ STATE_87:0 "Rennais"
+ 
+ STATE_291:0 "Wasconia"
+ STATE_292:0 "Aquitaine"
+ STATE_293:0 "Tolouse"
+ STATE_294:0 "Provença"
+ STATE_295:0 "Peitiers"
+ STATE_296:0 "Auvergne"
+ STATE_297:0 "WIP" #Change savoy
+ STATE_298:0 "Bayeux"
+ STATE_299:0 "Tours"
+ STATE_300:0 "Andecavis"
+ STATE_301:0 "Septimania"
+ 
  ##create different ideas = empire, kingdom, duchy, county etc
 

@@ -2,12 +2,13 @@ state={
 	id=81
 	name="STATE_81"
 	provinces={
-		9 46 92 136 256 328 399 550 574 701 
+		46 136 328 399 550 574 701  
 	}
 	manpower=100
 	state_category = rural
 	history = {
 		owner = FRA 
+		add_core_of = FRA
 		
 	}
 	buildings_max_level_factor=1.000

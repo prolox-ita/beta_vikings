@@ -4,8 +4,8 @@ state={
 	provinces={
 		2068 2070 2072 2094 2095 2097 2099 2102 
 	}
-	manpower=20
-	state_category = rural
+	manpower=5210 #test
+	state_category = hamlet
 	buildings_max_level_factor=1.000
 	
 	history = {

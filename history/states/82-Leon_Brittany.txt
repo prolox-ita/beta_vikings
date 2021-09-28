@@ -2,10 +2,10 @@ state={
 	id=82
 	name="STATE_82"
 	provinces={
-		1747
+		1747 2147 2148 2149 2150 
 	}
-	manpower=100
-	state_category = rural
+	manpower=5748
+	state_category = hamlet
 	history = {
 		owner = LEN 
 		

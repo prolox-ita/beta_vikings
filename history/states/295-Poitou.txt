@@ -2,10 +2,10 @@ state={
 	id=295
 	name="STATE_295"
 	provinces={
-		212 541 834 2065 2067 
+		212 541 834 2065 2067 2136
 	}
 	manpower=12547
-	state_category = rural
+	state_category = town
 	buildings_max_level_factor=1.000
 	
 	history = {

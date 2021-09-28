@@ -2,7 +2,7 @@ strategic_region={
 	id=25
 	name="STRATEGICREGION_25"
 	provinces={
-		212 541 834 2067 
+		9 212 541 834 2065 2067 2071 2136 2153 2156 
 	}
 	weather={
 	}

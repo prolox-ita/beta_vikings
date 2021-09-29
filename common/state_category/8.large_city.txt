@@ -1,0 +1,8 @@
+state_categories={
+	large_city = {
+		local_building_slots = 15
+	
+		color = { 237 255 17 }
+
+	}
+}

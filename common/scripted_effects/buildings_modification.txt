@@ -1,0 +1,25 @@
+
+eliminating_forts = {
+	every_state = {
+		set_building_level = {
+			type = fort
+			level = 0
+			province = {
+				all_provinces = yes
+				limit_to_victory_point = yes
+			}
+		}
+	}
+}	
+eliminating_forts = {
+	every_state = {
+		set_building_level = {
+			type = walls
+			level = 0
+			province = {
+				all_provinces = yes
+				limit_to_victory_point < 1
+			}
+		}
+	}
+}	

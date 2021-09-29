@@ -1,0 +1,8 @@
+state_categories={
+	uninhabited = {
+		local_building_slots = 0
+	
+		color = { 187 187 187 }
+
+	}
+}

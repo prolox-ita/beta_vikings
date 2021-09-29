@@ -1,0 +1,15 @@
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		9 2071 2151 2153 2156 2155 2214 2215 2216 2217 2218 2219 2220 2221 2222 2223 2224 2225 2226 2227 2228 2229 2230 
+	}
+	manpower=13245
+	state_category= town
+	buildings_max_level_factor=1.000
+	
+	history = {
+		owner = FRA
+		add_core_of = FRA
+	}
+}

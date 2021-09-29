@@ -1,0 +1,7 @@
+state_categories={
+	hamlet = {
+		local_building_slots = 5
+	
+		color = { 209 207 126 }
+	}
+}

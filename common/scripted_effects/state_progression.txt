@@ -1,0 +1,88 @@
+progression_state_category = {
+	every_state = {
+		#UNHINABITED
+		if = {
+			limit = {
+				NOT = { is_owned_by = ROOT }
+			}
+			set_state_category = uninhabited
+		}
+		#VILLAGE - from 4 to 4.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 0.004
+					state_population_k < 5
+				}
+			}
+			set_state_category = village
+		}
+		#HAMLET - from 5k to 9.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 4.999
+					state_population_k < 10
+				}
+			}
+			set_state_category = hamlet
+		}
+		#TOWN - from 10k to 19.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 9.999
+					state_population_k < 20
+				}
+			}
+			set_state_category = town
+		}
+		#LARGE TOWN - from 20k to 34.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 19.999
+					state_population_k < 35
+				}
+			}
+			set_state_category = large_town
+		}
+		#SMALL CITY - from 35k to 79.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 34.999
+					state_population_k < 80
+					
+				}
+			}
+			set_state_category = small_city
+		}
+		#CITY - from 80k to 199.999k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 79.999
+					state_population_k < 200
+				}
+			}
+			set_state_category = city
+		}
+		#LARGE CITY > 200k
+		if = {
+			limit = {
+				AND = {
+					is_owned_by = ROOT
+					state_population_k > 199.999
+				}
+			}
+			set_state_category = large_city
+		}
+	}
+}

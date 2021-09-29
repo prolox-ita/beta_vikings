@@ -1,9 +1,9 @@
 on_actions = {
 	on_startup ={
 		effect = {
-			ROOT = {
-				religious_percentage = yes
-			}
+			#ROOT = {
+			#	religious_percentage = yes
+			#}
 		}
 	}
 	###temporary###
@@ -17,9 +17,10 @@ on_actions = {
 	}
 	on_monthly = {
 		effect = {
-			ROOT = {
-				religious_percentage = yes
-			}
+			#ROOT = {
+			#	religious_percentage = yes
+			#}
+			progression_state_category = yes
 		}
 	}
 }

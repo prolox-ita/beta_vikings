@@ -1,23 +1,25 @@
 ﻿l_english:
  STATE_1:0 "Unowned lands"
- STATE_2:0 "Parision"
- STATE_3:0 "Wintanceaster"
+ STATE_2:0 "Parision" #Paris
+ STATE_3:0 "Wintanceaster" #Winchester
  STATE_4:0 "Hwinca"
  
  STATE_86:0 "Nantais"
  STATE_87:0 "Rennais"
  
  STATE_291:0 "Wasconia"
- STATE_292:0 "Aquitaine"
- STATE_293:0 "Tolouse"
- STATE_294:0 "Provença"
- STATE_295:0 "Peitiers"
- STATE_296:0 "Auvergne"
- STATE_297:0 "WIP" #Change savoy
- STATE_298:0 "Bayeux"
- STATE_299:0 "Tours"
+ STATE_292:0 "Aquitaine" #Aquitaine
+ STATE_293:0 "Tolouse" #Toulouse
+ STATE_294:0 "Provença" #Provence
+ STATE_295:0 "Peitiers" #Poitiers
+ STATE_296:0 "Orlians" #Orleans
+ STATE_297:0 "Besancon" #Besancon, North Burgundy
+ STATE_298:0 "Bayeux" #Bourdeaux
+ STATE_299:0 "Tours" #Tours
  STATE_300:0 "Andecavis"
  STATE_301:0 "Septimania"
+ STATE_302:0 "Rodom" #Rouen
+ STATE_303:0 "Luyon" #Lyon, South Burgundy -- probalby incorrect
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

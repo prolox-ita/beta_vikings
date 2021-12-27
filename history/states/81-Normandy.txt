@@ -2,7 +2,7 @@ state={
 	id=81
 	name="STATE_81"
 	provinces={
-		136 399 550 574 701 
+		574 
 	}
 	manpower=100
 	state_category = rural
@@ -11,5 +11,4 @@ state={
 		add_core_of = FRA
 		
 	}
-	buildings_max_level_factor=1.000
 }

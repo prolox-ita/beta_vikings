@@ -10,5 +10,4 @@ state={
 		owner = FRA 
 		
 	}
-	buildings_max_level_factor=1.000
 }

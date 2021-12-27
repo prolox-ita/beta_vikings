@@ -1,0 +1,14 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		1760 1762 2213 2216 2217 2230 2245 2252 2253 2257 2259 2262 
+	}
+	manpower=100
+	state_category = rural
+	history = {
+		owner = PAP 
+		
+	}
+	
+}

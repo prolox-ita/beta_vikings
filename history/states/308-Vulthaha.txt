@@ -1,0 +1,15 @@
+state={
+	id=308
+	name="STATE_308"
+	provinces={
+		549 
+	}
+	
+	history = {
+		owner = FRA
+		add_core_of = FRA
+	}
+	manpower=100
+	state_category=rural
+	
+}

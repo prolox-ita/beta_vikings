@@ -2,7 +2,7 @@ state={
 	id=291
 	name="STATE_291"
 	provinces={
-		112 2025 2026 2027 2029 2030 2032 2038 2040 2041 2049 
+		112 2025 2026 2027 2029 2030 2032 2041 
 	}
 	history = {
 		owner = FRA
@@ -11,5 +11,4 @@ state={
 	}
 	state_category = rural
 	manpower=8543
-	buildings_max_level_factor=1.000
 }

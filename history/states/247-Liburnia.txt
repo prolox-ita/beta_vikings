@@ -12,5 +12,5 @@ state={
 		821.1.1 = { owner = GUU }
 		
 	}
-	buildings_max_level_factor=1.000
+	local_supplies=1.0 #1.000
 }

@@ -1,216 +1,216 @@
-###count###ry_d###e###mog###r###aph###i###c_upd###at###e = {
-	# R###e###s###et###s Popu###l###at###ion
-	###s###et_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_popu###l###at###ion_k = 0 ###}
+country_demographic_update = {
+	# Resets Population
+	set_variable = { national_population_k = 0 }
 
-	# R###e###s###et###s Cu###ltu###r###e & R###e###l###ig###ion
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_p###e###r###c###ent###ag###e_###a###r###r###ay
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_###a###r###r###ay
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_p###e###r###c###ent###ag###e_###a###r###r###ay
-	###c###l###e###a###r_###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_p###e###r###c###ent###ag###e_###a###r###r###ay
+	# Resets Culture & Religion
+	clear_array = national_culture_array
+	clear_array = national_culture_population_array
+	clear_array = national_culture_percentage_array
+	clear_array = national_religion_array
+	clear_array = national_religion_percentage_array
+	clear_array = national_religion_percentage_array
 
-	###e###v###e###ry_own###ed_###st###at###e = {
-		# Add###s th###i###s ###st###at###e'###s popu###l###at###ion to n###at###ion'###s popu###l###at###ion
-		###add_to_###v###a###r###i###a###b###l###e = { OWNER.n###at###ion###a###l_popu###l###at###ion_k = ###st###at###e_popu###l###at###ion_k ###}
-		# C###l###e###a###r###s Popu###l###at###ion A###r###r###ay###s
-		###c###l###e###a###r_###a###r###r###ay = ###st###at###e_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay
-		###c###l###e###a###r_###a###r###r###ay = ###st###at###e_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay
+	every_owned_state = {
+		# Adds this state's population to nation's population
+		add_to_variable = { OWNER.national_population_k = state_population_k }
+		# Clears Population Arrays
+		clear_array = state_culture_population_array
+		clear_array = state_religion_population_array
 
-		# R###e###c###a###l###cu###l###at###e###s Cu###ltu###r###e Popu###l###at###ion
-		###fo###r_###e###a###ch_###loop = {
-			###a###r###r###ay = ###st###at###e_###cu###ltu###r###e_p###e###r###c###ent###ag###e_###a###r###r###ay
+		# Recalculates Culture Population
+		for_each_loop = {
+			array = state_culture_percentage_array
 
-			###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { ###st###at###e_###cu###ltu###r###e_t###e###mp = ###st###at###e_popu###l###at###ion_k ###}
-			###mu###lt###ip###ly_t###e###mp_###v###a###r###i###a###b###l###e = { ###st###at###e_###cu###ltu###r###e_t###e###mp = ###v ###}
+			set_temp_variable = { state_culture_temp = state_population_k }
+			multiply_temp_variable = { state_culture_temp = v }
 
-			###add_to_###a###r###r###ay = {
-				###a###r###r###ay = ###st###at###e_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay
-				###v###a###lu###e = ###st###at###e_###cu###ltu###r###e_t###e###mp
-			###}
-		###}
-		# R###e###c###a###l###cu###l###at###e###s R###e###l###ig###ion Popu###l###at###ion
-		###fo###r_###e###a###ch_###loop = {
-			###a###r###r###ay = ###st###at###e_###r###e###l###ig###ion_p###e###r###c###ent###ag###e_###a###r###r###ay
+			add_to_array = {
+				array = state_culture_population_array
+				value = state_culture_temp
+			}
+		}
+		# Recalculates Religion Population
+		for_each_loop = {
+			array = state_religion_percentage_array
 
-			###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { ###st###at###e_###r###e###l###ig###ion_t###e###mp = ###st###at###e_popu###l###at###ion_k ###}
-			###mu###lt###ip###ly_t###e###mp_###v###a###r###i###a###b###l###e = { ###st###at###e_###r###e###l###ig###ion_t###e###mp = ###v ###}
+			set_temp_variable = { state_religion_temp = state_population_k }
+			multiply_temp_variable = { state_religion_temp = v }
 
-			###add_to_###a###r###r###ay = {
-				###a###r###r###ay = ###st###at###e_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay
-				###v###a###lu###e = ###st###at###e_###r###e###l###ig###ion_t###e###mp
-			###}
-		###}
-		# Add###s to N###at###ion###a###l Cu###ltu###r###e###s
-		###fo###r_###e###a###ch_###loop = {
-			###a###r###r###ay = ###st###at###e_###cu###ltu###r###e_###a###r###r###ay
+			add_to_array = {
+				array = state_religion_population_array
+				value = state_religion_temp
+			}
+		}
+		# Adds to National Cultures
+		for_each_loop = {
+			array = state_culture_array
 
-			# I###f Cu###ltu###r###e ###i###s ###a###l###r###e###ady ###in N###at###ion###a###l Cu###ltu###r###e A###r###r###ay
-			###i###f = {
-				###l###i###m###it = {
-					###i###s_###in_###a###r###r###ay = {
-						###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay
-						###v###a###lu###e = ###v
-					###}
-				###}
-				###fo###r_###e###a###ch_###loop = {
-					###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay
+			# If Culture is already in National Culture Array
+			if = {
+				limit = {
+					is_in_array = {
+						array = national_culture_array
+						value = v
+					}
+				}
+				for_each_loop = {
+					array = national_culture_array
 
-					###i###f = {
-						###l###i###m###it = { ###ch###e###ck_###v###a###r###i###a###b###l###e = { ###v = PREV.###v ###} ###}
+					if = {
+						limit = { check_variable = { v = PREV.v } }
 
-						###add_to_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay^###i = ###st###at###e_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay^PREV.###i ###}
-					###}
-				###}
-			###} # O###r not
-			###e###l###s###e = {
-				###add_to_###a###r###r###ay = {
-					###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay
-					###v###a###lu###e = ###v
-				###}
-				###add_to_###a###r###r###ay = {
-					###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay
-					###v###a###lu###e = ###st###at###e_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay^###i
-				###}
-			###}
-		###}
-		# Add###s to N###at###ion###a###l R###e###l###ig###ion###s
-		###fo###r_###e###a###ch_###loop = {
-			###a###r###r###ay = ###st###at###e_###r###e###l###ig###ion_###a###r###r###ay
+						add_to_variable = { national_culture_population_array^i = state_culture_population_array^PREV.i }
+					}
+				}
+			} # Or not
+			else = {
+				add_to_array = {
+					array = national_culture_array
+					value = v
+				}
+				add_to_array = {
+					array = national_culture_population_array
+					value = state_culture_population_array^i
+				}
+			}
+		}
+		# Adds to National Religions
+		for_each_loop = {
+			array = state_religion_array
 
-			# I###f ###r###e###l###ig###ion ###i###s ###a###l###r###e###ady ###in N###at###ion###a###l R###e###l###ig###ion A###r###r###ay
-			###i###f = {
-				###l###i###m###it = {
-					###i###s_###in_###a###r###r###ay = {
-						###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_###a###r###r###ay
-						###v###a###lu###e = ###v
-					###}
-				###}
-				###fo###r_###e###a###ch_###loop = {
-					###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_###a###r###r###ay
+			# If religion is already in National Religion Array
+			if = {
+				limit = {
+					is_in_array = {
+						array = national_religion_array
+						value = v
+					}
+				}
+				for_each_loop = {
+					array = national_religion_array
 
-					###i###f = {
-						###l###i###m###it = { ###ch###e###ck_###v###a###r###i###a###b###l###e = { ###v = PREV.###v ###} ###}
+					if = {
+						limit = { check_variable = { v = PREV.v } }
 
-						###add_to_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay^###i = ###st###at###e_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay^PREV.###i ###}
-					###}
-				###}
-			###} # O###r not
-			###e###l###s###e = {
-				###add_to_###a###r###r###ay = {
-					###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_###a###r###r###ay
-					###v###a###lu###e = ###v
-				###}
-				###add_to_###a###r###r###ay = {
-					###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay
-					###v###a###lu###e = ###st###at###e_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay^###i
-				###}
-			###}
-		###}
-	###}
+						add_to_variable = { national_religion_population_array^i = state_religion_population_array^PREV.i }
+					}
+				}
+			} # Or not
+			else = {
+				add_to_array = {
+					array = national_religion_array
+					value = v
+				}
+				add_to_array = {
+					array = national_religion_population_array
+					value = state_religion_population_array^i
+				}
+			}
+		}
+	}
 
-	###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { ###l###ength_t###e###mp = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e^nu###m ###}
-    ###fo###r_###loop_###e###f###f###e###ct = {
-        ###st###a###rt = 0
-        ###end = ###l###ength_t###e###mp
-        ###add = 1
-        ###v###a###lu###e = ###v
-        ###b###r###e###ak = ###b
+	set_temp_variable = { length_temp = national_culture_array_2_percentage^num }
+    for_loop_effect = {
+        start = 0
+        end = length_temp
+        add = 1
+        value = v
+        break = b
 		
 		
-        ###f###ind_h###igh###e###st_###in_###a###r###r###ay = {
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e
-            ###v###a###lu###e = ###v
-            ###ind###ex = ###i###i
-        ###}
-        ###r###e###mo###v###e_###f###ro###m_###a###r###r###ay = {
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e
-            ###ind###ex = ###i###i
-        ###}
-        ###add_to_t###e###mp_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e_t###e###mp  
-            ###v###a###lu###e = ###v
-        ###}
-        ###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_t###e###mp_###v###a###r = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion^###i###i ###}
-		###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_t###e###mp_###v###a###r = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2^###i###i ###}
-        ###r###e###mo###v###e_###f###ro###m_###a###r###r###ay = {
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion
-            ###ind###ex = ###i###i
-        ###}
-        ###r###e###mo###v###e_###f###ro###m_###a###r###r###ay = {
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2
-            ###ind###ex = ###i###i
-        ###}
-        ###add_to_t###e###mp_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_t###e###mp  
-            ###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_t###e###mp_###v###a###r
-        ###}
-        ###add_to_t###e###mp_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_t###e###mp  
-            ###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_t###e###mp_###v###a###r
-        ###}
-    ###}
-    ###fo###r_###loop_###e###f###f###e###ct = {
-        ###st###a###rt = 0
-        ###end = ###l###ength_t###e###mp
-        ###add = 1
-        ###v###a###lu###e = ###v
-        ###b###r###e###ak = ###b
+        find_highest_in_array = {
+            array = national_culture_array_2_percentage
+            value = v
+            index = ii
+        }
+        remove_from_array = {
+            array = national_culture_array_2_percentage
+            index = ii
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_percentage_temp  
+            value = v
+        }
+        set_temp_variable = { national_culture_array_2_population_temp_var = national_culture_array_2_population^ii }
+		set_temp_variable = { national_culture_array_2_temp_var = national_culture_array_2^ii }
+        remove_from_array = {
+            array = national_culture_array_2_population
+            index = ii
+        }
+        remove_from_array = {
+            array = national_culture_array_2
+            index = ii
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_population_temp  
+            value = national_culture_array_2_population_temp_var
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_temp  
+            value = national_culture_array_2_temp_var
+        }
+    }
+    for_loop_effect = {
+        start = 0
+        end = length_temp
+        add = 1
+        value = v
+        break = b
 		
-        ###add_to_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e
-            ###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_p###e###r###c###ent###ag###e_t###e###mp^###v
-        ###}
-        ###add_to_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion
-            ###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_t###e###mp^###v 
-        ###}
-        ###add_to_###a###r###r###ay = { 
-            ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2
-            ###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_t###e###mp^###v 
-        ###}
-    ###}
-    ###fo###r_###e###a###ch_###loop = {
-        ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion 
-        ###ind###ex = ###i
-        ###v###a###lu###e = ###v
-		###b###r###e###ak = ###b
+        add_to_array = { 
+            array = national_culture_array_2_percentage
+            value = national_culture_array_2_percentage_temp^v
+        }
+        add_to_array = { 
+            array = national_culture_array_2_population
+            value = national_culture_array_2_population_temp^v 
+        }
+        add_to_array = { 
+            array = national_culture_array_2
+            value = national_culture_array_2_temp^v 
+        }
+    }
+    for_each_loop = {
+        array = national_culture_array_2_population 
+        index = i
+        value = v
+		break = b
 
-		###i###f = {
-		    ###l###i###m###it = {
-			    ###ch###e###ck_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion^###i > 1000 ###}
-			###}
-			###add_to_###a###r###r###ay = {
-			    ###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_2
-				###ind###ex = ###i 
-				###v###a###lu###e = ###v
-			###}
-			###mu###lt###ip###ly_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_###a###r###r###ay_2_popu###l###at###ion_2^###i = 0.001 ###}
-		###}
-		####s###et_t###e###mp_###v###a###r###i###a###b###l###e = { ###b = 1 ###}
-    ###}
+		if = {
+		    limit = {
+			    check_variable = { national_culture_array_2_population^i > 1000 }
+			}
+			add_to_array = {
+			    array = national_culture_array_2_population_2
+				index = i 
+				value = v
+			}
+			multiply_variable = { national_culture_array_2_population_2^i = 0.001 }
+		}
+		#set_temp_variable = { b = 1 }
+    }
 
-	# C###a###l###cu###l###at###e###s N###at###ion###a###l P###e###r###c###ent###ag###e###s
-	###fo###r_###e###a###ch_###loop = {
-		###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_popu###l###at###ion_###a###r###r###ay
+	# Calculates National Percentages
+	for_each_loop = {
+		array = national_culture_population_array
 
-		###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_t###e###mp = ###v ###}
-		d###i###v###id###e_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###cu###ltu###r###e_t###e###mp = n###at###ion###a###l_popu###l###at###ion_k ###}
+		set_temp_variable = { national_culture_temp = v }
+		divide_temp_variable = { national_culture_temp = national_population_k }
 
-		###add_to_###a###r###r###ay = {
-			###a###r###r###ay = n###at###ion###a###l_###cu###ltu###r###e_p###e###r###c###ent###ag###e_###a###r###r###ay
-			###v###a###lu###e = n###at###ion###a###l_###cu###ltu###r###e_t###e###mp
-		###}
-	###}
-	###fo###r_###e###a###ch_###loop = {
-		###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_popu###l###at###ion_###a###r###r###ay
+		add_to_array = {
+			array = national_culture_percentage_array
+			value = national_culture_temp
+		}
+	}
+	for_each_loop = {
+		array = national_religion_population_array
 
-		###s###et_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###r###e###l###ig###ion_t###e###mp = ###v ###}
-		d###i###v###id###e_t###e###mp_###v###a###r###i###a###b###l###e = { n###at###ion###a###l_###r###e###l###ig###ion_t###e###mp = n###at###ion###a###l_popu###l###at###ion_k ###}
+		set_temp_variable = { national_religion_temp = v }
+		divide_temp_variable = { national_religion_temp = national_population_k }
 
-		###add_to_###a###r###r###ay = {
-			###a###r###r###ay = n###at###ion###a###l_###r###e###l###ig###ion_p###e###r###c###ent###ag###e_###a###r###r###ay
-			###v###a###lu###e = n###at###ion###a###l_###r###e###l###ig###ion_t###e###mp
-		###}
-	###}	
-###}
+		add_to_array = {
+			array = national_religion_percentage_array
+			value = national_religion_temp
+		}
+	}	
+}

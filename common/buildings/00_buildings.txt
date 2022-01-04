@@ -15,6 +15,7 @@ buildings = {
 
 		show_modifier = yes
 		max_fuel_building = 0.75 #k
+		allied_build = yes
 	}
 	
 	religious_building = {
@@ -28,7 +29,7 @@ buildings = {
 		max_fuel_building = 0.75 #k
 	}
 
-	forge = {
+	arms_factory = {
 		show_on_map = 6
 		base_cost = 7200
 		base_cost_conversion = 4000
@@ -40,7 +41,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 
-	craftmen = {
+	industrial_complex = {
 		show_on_map = 6
 		base_cost = 10800
 		base_cost_conversion = 9000
@@ -51,8 +52,40 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 	}
-
-	trade_point = {
+	
+	supply_node = {
+		show_on_map = 1
+		base_cost = 20000
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 15
+		max_level = 1
+		centered = yes
+		supply_node = yes
+		damage_factor = 0.1
+		allied_build = yes
+		always_shown = yes
+	}	
+	
+	rail_way = {
+		base_cost = 170
+		per_level_extra_cost = 130
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 16
+		max_level = 1
+	}
+	air_base = {
+		show_on_map = 1
+		base_cost = 1250
+		icon_frame = 5
+		air_base = yes
+		max_level = 10
+		value = 1
+		damage_factor = 0.5
+		allied_build = yes
+	}
+	trade_points = { #trade_points
 		show_on_map = 1
 		base_cost = 1250
 		icon_frame = 5
@@ -62,7 +95,7 @@ buildings = {
 		damage_factor = 0.5
 	}
 
-	harbour = {
+	naval_base = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		always_shown = yes
@@ -172,8 +205,18 @@ buildings = {
 		damage_factor = 0.5
 		value = 4
 	}
-	
-	field = {
+	rocket_site = {
+		show_on_map = 1
+		base_cost = 6400
+		icon_frame = 12
+		rocket_production = 5
+		rocket_launch_capacity = 1
+		max_level = 5
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+	field = { #field
 		show_on_map = 1
 		base_cost = 14500
 		icon_frame = 10
@@ -209,15 +252,6 @@ buildings = {
 		value = 5
 	}
 	academy = {
-		show_on_map = 1
-		base_cost = 14500
-		icon_frame = 10
-		local_resources_fabrics = 1 # May use local_resources_ + any resource name
-		max_level = 5  
-		shares_slots = yes
-		value = 5
-	}
-	tailoring = {
 		show_on_map = 1
 		base_cost = 14500
 		icon_frame = 10

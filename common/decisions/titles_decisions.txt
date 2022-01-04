@@ -1,0 +1,74 @@
+form_france_category = {
+	
+	form_francia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_france_required_states_tt
+				count_triggers = {
+					amount = 8
+					controls_state = 1
+					controls_state = 291
+					controls_state = 292
+					controls_state = 293
+					controls_state = 294
+					controls_state = 295
+					controls_state = 296
+					controls_state = 297
+					controls_state = 298
+					controls_state = 299
+					controls_state = 300
+					controls_state = 301
+					controls_state = 302
+					controls_state = 303
+				}
+				NOT = { has_country_flag = k_francia_formed_flag } #can be possessed by others, but if you control some states you can have the ambition to become king
+			}
+		}
+
+		visible = {
+			count_triggers = {
+				amount = 4
+				controls_state = 1
+				controls_state = 291
+				controls_state = 292
+				controls_state = 293
+				controls_state = 294
+				controls_state = 295
+				controls_state = 296
+				controls_state = 297
+				controls_state = 298
+				controls_state = 299
+				controls_state = 300
+				controls_state = 301
+				controls_state = 302
+				controls_state = 303
+			}
+			NOT = { has_country_flag = k_francia_formed_flag } #can be possessed by others, but if you control some states you can have the ambition to become king
+		}
+		
+		#########
+
+		complete_effect = {
+			custom_effect_tooltip = coring_owned_states_france_tt 
+			add_ideas = france_k_formed
+			add_ideas = italy_k_formed
+			#add_prestige
+			#diplo reput
+			#boost alla nazionalità associata
+			add_stability = -0.1
+		}
+		
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	
+}

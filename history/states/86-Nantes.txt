@@ -2,7 +2,7 @@ state={
 	id=86
 	name="STATE_86"
 	provinces={
-		1751 2096 2098 2100 2101 2103 2127 2341 
+		1751 2096 2098 2100 2101 2103 2341 
 	}
 	manpower=100
 	state_category = rural
@@ -10,4 +10,5 @@ state={
 		owner = FRA 
 		
 	}
+	local_supplies=1.0 #1.000
 }

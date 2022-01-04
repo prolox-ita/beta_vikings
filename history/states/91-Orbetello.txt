@@ -10,5 +10,6 @@ state={
 		owner = PAP 
 		
 	}
-	buildings_max_level_factor=1.000
+	#960 to hre
+	local_supplies=1.0 #1.000
 }

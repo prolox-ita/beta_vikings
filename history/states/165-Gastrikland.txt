@@ -10,5 +10,5 @@ state={
 		800.1.1 = { owner = GAS }
 		
 	}
-	buildings_max_level_factor=1.000
+	local_supplies=1.0 #1.000
 }

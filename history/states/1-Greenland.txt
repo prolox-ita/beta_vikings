@@ -4,9 +4,7 @@ state={
 	name="STATE_1"
 
 	history={
-		buildings = {
-
-		}
+		owner = FRA
 
 	}
 
@@ -15,6 +13,6 @@ state={
 	}
 	impassable = yes
 	manpower=100
-	buildings_max_level_factor=1.000
+	local_supplies=1.0
 	state_category=rural
 }

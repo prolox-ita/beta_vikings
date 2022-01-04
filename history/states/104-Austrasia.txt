@@ -10,4 +10,5 @@ state={
 		owner = FRA 
 		
 	}
+	local_supplies=1.0 #1.000
 }

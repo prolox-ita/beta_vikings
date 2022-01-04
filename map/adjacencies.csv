@@ -1,3 +1,3 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-831;608;river;1255;-1;-1;-1;-1;;Paris1
-831;2135;river;1255;-1;-1;-1;-1;;Paris1
+831;608;river;-1;-1;-1;-1;-1;;Paris1
+831;2135;river;-1;-1;-1;-1;-1;;Paris1

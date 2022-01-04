@@ -162,21 +162,23 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 34 }
+				position = { x = 9 y = 29 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
-				maxHeight = 20
+				maxHeight = 32
+				vertical_alignment = center
 			}
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 103 y = -45 }
+				position = { x = 105 y = -45 }
 				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 193
+				maxWidth = 195
 				maxHeight = 20
-				format = centre				
+				multiline = no
+				format = left
 			}
 			
 			buttonType = {

@@ -1,8 +1,12 @@
 ﻿l_english:
  STRATEGICREGION_1:0 ""
  #---
+ STRATEGICREGION_6:0 "Northern Italy"
+ #---
  STRATEGICREGION_23:0 "South East France"
  STRATEGICREGION_24:0 "South West France"
  STRATEGICREGION_25:0 "East France"
  STRATEGICREGION_26:0 "Neustria"
+ STRATEGICREGION_27:0 "Central France"
+ STRATEGICREGION_28:0 "Central Italy"
 

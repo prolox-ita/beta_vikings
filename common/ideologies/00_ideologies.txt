@@ -1,10 +1,10 @@
 ideologies = { #culture to edit
 	
-	vmonarchy = {
+	wip = {
 	
 		types = {
 			
-			a = {}
+			wip_1 = {}
 		
 		}
 		

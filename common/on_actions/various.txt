@@ -4,7 +4,19 @@ on_actions = {
 			#ROOT = {
 			#	religious_percentage = yes
 			#}
+			#subject_list = yes
 		}
+		effect = {
+			every_country = {
+				limit = { is_puppet = yes }
+				add_to_variable = {
+					array = OVERLORD.subject_list 
+					value = TAG.id
+					index = i
+				}
+			}
+		}
+		
 	}
 	###temporary###
 	on_startup = {
@@ -21,6 +33,11 @@ on_actions = {
 			#	religious_percentage = yes
 			#}
 			progression_state_category = yes
+			#monthly_subject_list = yes
+
 		}
 	}
+	
 }
+
+

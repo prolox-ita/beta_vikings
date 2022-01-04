@@ -1,0 +1,70 @@
+﻿focus_tree = {
+	id = frankish_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = FRA_stabilize_saxony
+		icon = GFX_stabilize_saxony
+		x = 0
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		bypass = {
+			OR = { 
+				AND =  {
+					SAX = { is_subject_of = FRA }
+					NOT = { SAX = { has_war_with = FRA } }
+				}
+				105 = { is_owned_by = FRA }
+			}
+		}
+
+		completion_reward = {
+			if = { 
+				limit = { 105 = { is_owned_by = FRA } }
+				105 = {
+					add_resistance = -0.15
+					add_resistance_target = {
+							id = 105
+							amount = -5
+							occupied = FRA
+							days = 365
+							tooltip = my_localisation_key					
+					}
+					add_compliance = 0.15
+				}
+			}
+			if = {
+				limit = { SAX = { exist = yes } }
+				SAX = { 
+					add_relation_modifier = {
+					target = FRA
+					modifier = saxon_act_submission
+					}
+				}
+			}
+			#TAXATION
+			#CULTURE
+			#RELIGION
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+#Category only allowed for GER
+debug_decisions = {
+
+	test_1 = {
+
+		#allowed = { always = yes }
+
+		icon = ger_mefo_bills
+
+		available = {
+			always = yes
+		}
+
+		#cost = GER_mefo_bill_counter?10
+
+		#days_mission_timeout = 180
+		is_good = yes
+		fire_only_once = no
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+			every_country = {
+				limit = { 
+					AND = {
+							is_puppet_of = ROOT
+						#	tag = { is_in_array = { array = subject_list value = TAG.id } }
+						}
+					}
+				add_manpower = 100
+				}
+			}
+
+	}
+}

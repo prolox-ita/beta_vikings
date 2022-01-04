@@ -1,0 +1,3 @@
+#graphics
+#COUNTRY_FLAG_TEX_WIDTH = 104, -- Expected texture size
+#COUNTRY_FLAG_TEX_HEIGHT = 100,

@@ -1,0 +1,12 @@
+subject_list = {
+	#effect = {
+		every_country = {
+			limit = { is_puppet = yes }
+			add_to_array = {
+				array = OVERLORD.subject_list
+				value = ROOT.id
+				index = i
+			}
+		}
+	#}
+}

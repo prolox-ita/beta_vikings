@@ -1,0 +1,10 @@
+# All global modifiers are here. They are applied from certain game-features.
+# Effects are fully scriptable here.
+# These names can NOT be removed or changes, as the code uses them....
+
+saxon_act_submission = { # on Region 
+	opinion_gain_monthly = 0.5
+	autonomy_manpower_share = 0.05
+	extra_trade_to_overlord_factor = 0.03
+}
+

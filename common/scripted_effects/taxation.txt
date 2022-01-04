@@ -1,0 +1,35 @@
+### tributes ###
+#NO TRIBUTES
+no_tributes = {
+	set_variable = { i = 0 }
+}
+#SMALL TRIBUTES (10%)
+small_tributes = {
+	ROOT = {
+		set_variable = { i = 0.1 }
+		set_variable = { subj_monthly_income = 100 } #monthly income
+		multiply_variable = { subj_monthly_income = i }
+		#round_variable = { subj_monthly_income }
+		add_to_variable = { OVERLORD.tributes = subj_monthly_income }
+	}
+}
+#MEDIUM TRIBUTES (20%)
+medium_tributes = {
+	ROOT = {
+		set_variable = { i = 0.2 }
+		set_variable = { subj_monthly_income = 100 } #monthly income
+		multiply_variable = { subj_monthly_income = i }
+		#round_variable = { subj_monthly_income }
+		add_to_variable = { OVERLORD.tributes = subj_monthly_income }
+	}
+}
+#HIGH TRIBUTES (30%)
+high_tributes = {
+	ROOT = {
+		set_variable = { i = 0.3 }
+		set_variable = { subj_monthly_income = 100 } #monthly income
+		multiply_variable = { subj_monthly_income = i }
+		#round_variable = { subj_monthly_income }
+		add_to_variable = { OVERLORD.tributes = subj_monthly_income }
+	}
+}

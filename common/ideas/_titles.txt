@@ -1,0 +1,79 @@
+ideas = {
+
+	titles_list = { 
+		
+		france_k_formed = {
+						
+			allowed = {
+				always = no
+			}
+			cost = 500
+			removal_cost = -100
+			level = 1
+			
+			available = {
+
+			}
+		
+			on_add = {
+				1 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				292 = { add_core_of = ROOT }
+				293 = { add_core_of = ROOT }
+				294 = { add_core_of = ROOT }
+				295 = { add_core_of = ROOT }
+				296 = { add_core_of = ROOT }
+				297 = { add_core_of = ROOT }
+				298 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+			}
+			
+			allowed_to_remove = {
+				#if others take the title (flag)
+			}
+			
+			cancel_if_invalid = no
+		}
+		italy_k_formed = {
+			
+			
+			allowed = {
+				always = no
+			}
+			cost = 500
+			removal_cost = -100
+			level = 1
+			
+			available = {
+
+			}
+		
+			on_add = {
+				1 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				292 = { add_core_of = ROOT }
+				293 = { add_core_of = ROOT }
+				294 = { add_core_of = ROOT }
+				295 = { add_core_of = ROOT }
+				296 = { add_core_of = ROOT }
+				297 = { add_core_of = ROOT }
+				298 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+			}
+			
+			allowed_to_remove = {
+				#if others take the title (flag)
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

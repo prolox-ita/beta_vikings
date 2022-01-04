@@ -10,5 +10,5 @@ state={
 		owner = FRA #created in 813, before assigned to Besalù
 		
 	}
-	buildings_max_level_factor=1.000
+	local_supplies=1.0 #1.000
 }

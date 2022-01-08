@@ -10,6 +10,8 @@
  STATE_91:0 "Tuscia"
  STATE_98:0 "Latium"
  
+ STATE_105: "Westfalen"
+ 
  STATE_283:0 "Terra Sancti Marini"
  
  STATE_291:0 "Wasconia"
@@ -30,6 +32,9 @@
  STATE_306:0 "Frysland" #Lyon, South Burgundy -- probalby incorrect
  STATE_307:0 "Lotharingia" #Lyon, South Burgundy -- probalby incorrect
  STATE_308:0 "Vulthaha" #Fulda, Thuringia
+ STATE_309:0 "Angria" #Fulda, Thuringia
+ STATE_310:0 "Ostfalen" #Eastphalia
+ STATE_311:0 "Nordalbingia" #???
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

@@ -1,0 +1,17 @@
+state={
+	id=310
+	name="STATE_310"
+	provinces={
+		644 2488 2491 2496 2497 2498 2499 2504 2505 2506 2508 2509 2510 2513 2515 2518 2520 2521 2522 2523 
+	}
+	
+	history={
+		owner = SAX
+		add_core_of = SAX
+	}
+	
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

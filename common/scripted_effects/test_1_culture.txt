@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 state_calculation = {	#STATE 
 	every_owned_state = {
 		for_each_loop = {
@@ -139,3 +140,221 @@ nation_calculation = {
 }
 
 
+=======
+country_demographic_update = {
+	# Resets Population
+	set_variable = { national_population_k = 0 }
+
+	# Resets Culture & Religion
+	clear_array = national_culture_array
+	clear_array = national_culture_population_array
+	clear_array = national_culture_percentage_array
+	clear_array = national_religion_array
+	clear_array = national_religion_percentage_array
+	clear_array = national_religion_percentage_array
+
+	every_owned_state = {
+		# Adds this state's population to nation's population
+		add_to_variable = { OWNER.national_population_k = state_population_k }
+		# Clears Population Arrays
+		clear_array = state_culture_population_array
+		clear_array = state_religion_population_array
+
+		# Recalculates Culture Population
+		for_each_loop = {
+			array = state_culture_percentage_array
+
+			set_temp_variable = { state_culture_temp = state_population_k }
+			multiply_temp_variable = { state_culture_temp = v }
+
+			add_to_array = {
+				array = state_culture_population_array
+				value = state_culture_temp
+			}
+		}
+		# Recalculates Religion Population
+		for_each_loop = {
+			array = state_religion_percentage_array
+
+			set_temp_variable = { state_religion_temp = state_population_k }
+			multiply_temp_variable = { state_religion_temp = v }
+
+			add_to_array = {
+				array = state_religion_population_array
+				value = state_religion_temp
+			}
+		}
+		# Adds to National Cultures
+		for_each_loop = {
+			array = state_culture_array
+
+			# If Culture is already in National Culture Array
+			if = {
+				limit = {
+					is_in_array = {
+						array = national_culture_array
+						value = v
+					}
+				}
+				for_each_loop = {
+					array = national_culture_array
+
+					if = {
+						limit = { check_variable = { v = PREV.v } }
+
+						add_to_variable = { national_culture_population_array^i = state_culture_population_array^PREV.i }
+					}
+				}
+			} # Or not
+			else = {
+				add_to_array = {
+					array = national_culture_array
+					value = v
+				}
+				add_to_array = {
+					array = national_culture_population_array
+					value = state_culture_population_array^i
+				}
+			}
+		}
+		# Adds to National Religions
+		for_each_loop = {
+			array = state_religion_array
+
+			# If religion is already in National Religion Array
+			if = {
+				limit = {
+					is_in_array = {
+						array = national_religion_array
+						value = v
+					}
+				}
+				for_each_loop = {
+					array = national_religion_array
+
+					if = {
+						limit = { check_variable = { v = PREV.v } }
+
+						add_to_variable = { national_religion_population_array^i = state_religion_population_array^PREV.i }
+					}
+				}
+			} # Or not
+			else = {
+				add_to_array = {
+					array = national_religion_array
+					value = v
+				}
+				add_to_array = {
+					array = national_religion_population_array
+					value = state_religion_population_array^i
+				}
+			}
+		}
+	}
+
+	set_temp_variable = { length_temp = national_culture_array_2_percentage^num }
+    for_loop_effect = {
+        start = 0
+        end = length_temp
+        add = 1
+        value = v
+        break = b
+		
+		
+        find_highest_in_array = {
+            array = national_culture_array_2_percentage
+            value = v
+            index = ii
+        }
+        remove_from_array = {
+            array = national_culture_array_2_percentage
+            index = ii
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_percentage_temp  
+            value = v
+        }
+        set_temp_variable = { national_culture_array_2_population_temp_var = national_culture_array_2_population^ii }
+		set_temp_variable = { national_culture_array_2_temp_var = national_culture_array_2^ii }
+        remove_from_array = {
+            array = national_culture_array_2_population
+            index = ii
+        }
+        remove_from_array = {
+            array = national_culture_array_2
+            index = ii
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_population_temp  
+            value = national_culture_array_2_population_temp_var
+        }
+        add_to_temp_array = { 
+            array = national_culture_array_2_temp  
+            value = national_culture_array_2_temp_var
+        }
+    }
+    for_loop_effect = {
+        start = 0
+        end = length_temp
+        add = 1
+        value = v
+        break = b
+		
+        add_to_array = { 
+            array = national_culture_array_2_percentage
+            value = national_culture_array_2_percentage_temp^v
+        }
+        add_to_array = { 
+            array = national_culture_array_2_population
+            value = national_culture_array_2_population_temp^v 
+        }
+        add_to_array = { 
+            array = national_culture_array_2
+            value = national_culture_array_2_temp^v 
+        }
+    }
+    for_each_loop = {
+        array = national_culture_array_2_population 
+        index = i
+        value = v
+		break = b
+
+		if = {
+		    limit = {
+			    check_variable = { national_culture_array_2_population^i > 1000 }
+			}
+			add_to_array = {
+			    array = national_culture_array_2_population_2
+				index = i 
+				value = v
+			}
+			multiply_variable = { national_culture_array_2_population_2^i = 0.001 }
+		}
+		#set_temp_variable = { b = 1 }
+    }
+
+	# Calculates National Percentages
+	for_each_loop = {
+		array = national_culture_population_array
+
+		set_temp_variable = { national_culture_temp = v }
+		divide_temp_variable = { national_culture_temp = national_population_k }
+
+		add_to_array = {
+			array = national_culture_percentage_array
+			value = national_culture_temp
+		}
+	}
+	for_each_loop = {
+		array = national_religion_population_array
+
+		set_temp_variable = { national_religion_temp = v }
+		divide_temp_variable = { national_religion_temp = national_population_k }
+
+		add_to_array = {
+			array = national_religion_percentage_array
+			value = national_religion_temp
+		}
+	}	
+}
+>>>>>>> main

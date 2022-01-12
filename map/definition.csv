@@ -2610,6 +2610,7 @@
 2609;224;0;44;land;false;plains;1
 2610;183;96;224;land;false;plains;1
 2611;255;198;107;land;false;plains;1
+<<<<<<< HEAD
 2612;239;9;90;land;false;plains;1
 2613;173;232;136;land;false;plains;1
 2614;7;0;239;land;false;plains;1
@@ -2643,3 +2644,5 @@
 2642;106;48;255;land;false;plains;1
 2643;255;96;218;land;false;plains;1
 2644;255;147;89;land;false;plains;1
+=======
+>>>>>>> main

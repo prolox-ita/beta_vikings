@@ -1,4 +1,5 @@
 ### CULTURES
+<<<<<<< HEAD
 french_culture_category = {
 	set_variable = { global.frankish = 1 }
 	set_variable = { global.norman = 2 }
@@ -14,4 +15,10 @@ italian_culture_category = {
 #RELIGIONS
 religion_category = {
 	set_variable = { global.catholicism = 1 }
+=======
+
+all_cultures = {
+	set_variable = { global.frankish = 1 }
+	set_variable = { global.italian = 2 }
+>>>>>>> main
 }

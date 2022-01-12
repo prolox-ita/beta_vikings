@@ -1,0 +1,17 @@
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		2612 2623 2624 
+	}
+	
+	history={
+		owner = ECO
+		add_core_of = ECO
+	}
+	
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

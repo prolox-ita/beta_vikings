@@ -74,6 +74,18 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 		}
+		instantTextBoxType = {
+			name = "title_culture_test"
+			position = { x = 430 y = 50 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0}
+			text = "[?country_demography]"
+			maxWidth = 150
+			maxHeight = 62
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
 		
 		buttonType = {
 			name = "religion_window_close_button"

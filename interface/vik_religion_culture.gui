@@ -93,5 +93,18 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}
+		
+		instantTextboxType = {
+			name = "culture_info_test"
+			position = { x = 45 y = 50 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "[?country_population]"
+			maxWidth = 240
+			maxHeight = 20
+			format = left
+		}
+		
 	}
 }

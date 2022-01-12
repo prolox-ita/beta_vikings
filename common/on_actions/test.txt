@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				state_calculation = yes
+				nation_calculation = yes
+			}
+		}
+	}
+
+}

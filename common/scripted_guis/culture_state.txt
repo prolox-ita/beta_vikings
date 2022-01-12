@@ -1,0 +1,38 @@
+scripted_gui = {
+	state_culture_majority = {
+			window_name = "state_culture_majority"
+			parent_window_token = selected_state_view 
+		   
+			context_type = selected_state_context
+			
+			
+			effects = {
+				open_culture_list_click = {
+					set_variable = { cultural_v = 1 }
+				}
+
+			}
+	}
+	state_culture_list = {
+			window_name = "state_culture_list"
+			#parent_window_token = selected_state_view 
+			   
+			context_type = selected_state_context
+				visible = {
+				check_variable = { cultural_v = 1 }
+			}
+
+			effects = {
+				close_culture_list_click = {
+					set_variable = { cultural_v = 0 }
+				}
+			}
+			
+			dynamic_lists = {
+				show_gridculturelist = {
+					array = state_culture_array
+					entry_container = entry_culture_list_state
+				} 
+			}
+	}
+}

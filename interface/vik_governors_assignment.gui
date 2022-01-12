@@ -16,6 +16,17 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 		
+		instantTextboxType = {
+			name = "test_culture"
+			position = { x = 60 y = 5 }
+			textureFile = ""
+			font = "hoi_36header"
+			text = "[?GetCultureName]" 
+			maxWidth = 320
+			maxHeight = 30
+			format = center
+		}
+		
 		
 		buttonType = {
 			name = "window_info_governors_button"

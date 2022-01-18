@@ -8,7 +8,9 @@ state={
 	state_category = rural
 	history = {
 		owner = BEN 
-		
+		add_to_array = { state_culture_array = 5 } #Roman should be Lombard
+		add_to_array = { state_culture_array_num = 1 }
+
 	}
 	local_supplies=1.0 #1.000
 }

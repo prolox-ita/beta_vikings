@@ -4,16 +4,16 @@ state={
 	provinces={
 		1760 1762 2216 2217 2230 2245 2252 2253 2257 2259 2262 
 	}
-	manpower=100
+	manpower=25000
 	state_category = rural
 	history = {
 		owner = PAP 
 		add_core_of = PAP
 		
-		add_to_array = { state_culture_array = 4 } #Roman
-		add_to_array = { state_culture_array_num = 0.9 }
-		add_to_array = { state_culture_array = 1 } #Roman
-		add_to_array = { state_culture_array_num = 0.1 }
+		add_to_array = { state_culture_array = 5 } #Roman
+		add_to_array = { state_culture_array_num = 0.7 }
+		add_to_array = { state_culture_array = 1 }
+		add_to_array = { state_culture_array_num = 0.3 }
 		
 		add_to_array = { state_religion_array = 4 } #Catholicism
 		add_to_array = { state_religion_array_num = 1.00 }

@@ -9,6 +9,9 @@ state={
 	history = {
 		owner = NAP 
 		
+		add_to_array = { state_culture_array = 5 } #Roman
+		add_to_array = { state_culture_array_num = 1 }
+
 	}
 	local_supplies=1.0 #1.000
 }

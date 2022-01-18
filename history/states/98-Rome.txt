@@ -10,12 +10,12 @@ state={
 		owner = PAP 
 		add_core_of = PAP
 		
-		add_to_array = { state_culture_array = 4 } #Roman
-		add_to_array = { state_culture_array_num = 0.9 }
-		add_to_array = { state_culture_array = 1 } #Roman
-		add_to_array = { state_culture_array_num = 0.1 }
+		add_to_array = { state_culture_array = 1 } #Frankish
+		add_to_array = { state_culture_array_num = 0.01 }
+		add_to_array = { state_culture_array = 5 } #Roman
+		add_to_array = { state_culture_array_num = 0.99 }
 		
-		add_to_array = { state_religion_array = 4 } #Catholicism
+		add_to_array = { state_religion_array = 1 } #Catholicism
 		add_to_array = { state_religion_array_num = 1.00 }
 	}
 	local_supplies=1.0 #1.000

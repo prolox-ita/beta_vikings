@@ -8,7 +8,11 @@ state={
 	state_category = rural
 	history = {
 		owner = SPO 
-		
+		add_to_array = { state_culture_array = 5 } #Roman
+		add_to_array = { state_culture_array_num = 0.6 }
+		add_to_array = { state_culture_array = 2 } #Roman
+		add_to_array = { state_culture_array_num = 0.4 }
+
 	}
 	local_supplies=1.0 #1.000
 }

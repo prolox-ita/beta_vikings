@@ -10,7 +10,7 @@ state={
 		#793.1.1 = {
 			owner = ITA 
 			
-			add_to_array = { state_culture_array = 2 } # Italian
+			add_to_array = { state_culture_array = 1 } # Italian
 			add_to_array = { state_culture_array_num = 1.00 }
 		#}
 		

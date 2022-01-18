@@ -1,0 +1,60 @@
+scripted_gui = {
+	state_religion_majority = {
+			window_name = "state_religion_majority"
+			parent_window_token = selected_state_view 
+		   
+			context_type = selected_state_context
+			
+			properties = {
+				open_religion_list2 = {
+					image = "[?state_religion_array^0.GetreligionLogo]"
+				} 
+			}
+			effects = {
+				open_religion_list2_click = {
+					set_variable = { religious_v = 1 }
+				}
+
+			}
+			
+			dynamic_lists = {
+				show_gridreligionlist_maj = {
+					array = state_religion_array
+					entry_container = open_religion_list_state
+				} 
+			}
+			
+	}
+
+	
+#########
+
+	state_religion_list = {
+			window_name = "state_religion_list"
+			#parent_window_token = selected_state_view 
+			   
+			context_type = selected_state_context
+			visible = {
+				check_variable = { religious_v = 1 }
+			}
+			
+			properties = {
+				religion_logo = { 
+					image = "[?state_religion_array^i.GetreligionLogo]"
+				} 
+			}
+
+			effects = {
+				close_religion_list_click = {
+					set_variable = { religious_v = 0 }
+				}
+			}
+			
+			dynamic_lists = {
+				show_gridreligionlist = {
+					array = state_religion_array
+					entry_container = entry_religion_list_state
+				} 
+			}
+	}
+}

@@ -1,0 +1,23 @@
+##Text
+defined_text = { 
+	name = GetReligionName
+	set_variable = { v = state_religion_array^i }
+	text = {
+		trigger = { 
+			check_variable = { v = 1 }
+		}
+		localization_key = "Catholicism"
+	}
+}
+#Images
+defined_text = {
+	name = GetReligionLogo
+	set_variable = { v = state_religion_array^i }
+	text = {
+		set_variable = { v = state_religion_array^i }
+		trigger = { 
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_religion_catholicism"
+	}
+}

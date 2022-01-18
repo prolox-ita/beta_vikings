@@ -5,14 +5,33 @@ scripted_gui = {
 		   
 			context_type = selected_state_context
 			
-			
+			properties = {
+				open_culture_list2 = {
+					image = "[?state_culture_array^0.GetCultureLogo]"
+				} 
+			}
 			effects = {
-				open_culture_list_click = {
+				open_culture_list2_click = {
 					set_variable = { cultural_v = 1 }
+				}
+				open_culture_list2_right_click = {
+					set_variable = { cultural_v = 0 }
 				}
 
 			}
+			
+			dynamic_lists = {
+				show_gridculturelist_maj = {
+					array = state_culture_ordered_array
+					entry_container = open_culture_list_state
+				} 
+			}
+			
 	}
+
+	
+#########
+
 	state_culture_list = {
 			window_name = "state_culture_list"
 			#parent_window_token = selected_state_view 
@@ -21,17 +40,49 @@ scripted_gui = {
 				visible = {
 				check_variable = { cultural_v = 1 }
 			}
+			
+			properties = {
+				culture_logo = { 
+					image = "[?state_culture_array^i.GetCultureLogo]"
+				} 
+			}
 
 			effects = {
 				close_culture_list_click = {
 					set_variable = { cultural_v = 0 }
 				}
+				open_culture_mig_list_click = {
+					set_variable = {culture_mig = 1 }
+				}
 			}
 			
 			dynamic_lists = {
 				show_gridculturelist = {
-					array = state_culture_array
+					array = state_culture_ordered_array
 					entry_container = entry_culture_list_state
+				} 
+			}
+	}
+	state_culture_migration_list = {
+			window_name = "state_culture_migration_list"
+			#parent_window_token = selected_state_view 
+			   
+			context_type = selected_state_context
+				visible = {
+				check_variable = { culture_mig = 1 }
+			}
+			
+
+			effects = {
+				close_mig_list_click = {
+					set_variable = { culture_mig = 0 }
+				}
+			}
+			
+			dynamic_lists = {
+				show_gridculturelist_mig = {
+					array = local_culture_array
+					entry_container = entry_culture_mig_state
 				} 
 			}
 	}

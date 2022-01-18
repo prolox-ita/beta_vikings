@@ -1,0 +1,146 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_religion_majority"
+		position = { x = 500 y = 90 }	
+		size = { width = 300 height=200 }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_tiled_plain_bg"
+		#}
+		
+		
+		gridboxtype = {
+				name = "show_gridreligionlist_maj"
+				position = { x = 20 y = -20 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 70 }
+				add_horizontal = no
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+				max_slots_vertical = 1 
+			}
+	}
+	
+	containerWindowType = { 
+		name = "open_religion_list_state"
+		#moveable =  yes  
+		
+		buttonType = {  
+			name = "open_religion_list2"
+			position = { x = 0 y = 0 }    
+			spriteType = "GFX_add_pol_idea_button"
+			#format = "UPPER_LEFT" 
+			#scale = 0.75       
+			pdx_tooltip = "STATE_religion_0_TOOLTIP"
+		}
+		
+
+	}
+	
+###########
+
+	containerWindowType = {
+		name = "state_religion_list"
+		moveable = yes
+		position = { x = 550 y = 300 }	
+		size = { width = 600 height=200 }
+			
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+			
+		buttonType = { 
+			name = "close_religion_list" 
+			position = { x = 550 y = 20 }
+			spriteType = "GFX_closebutton_small"
+		}
+		
+		instantTextboxType = {
+			name = "religion_name"
+			position = { x = 105 y = 13 }
+			font = "hoi_20b"
+			text = "Religion"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "religion_percentage"
+			position = { x = 200 y = 13 }
+			font = "hoi_20b"
+			text = "%"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "state_pop_religion"
+			position = { x = 255 y = 13 }
+			font = "hoi_20b"
+			text = "Population"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		gridboxtype = {
+				name = "show_gridreligionlist"
+				position = { x = 20 y = -20 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 45 }
+				add_horizontal = no
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+			}
+	}
+	
+
+	containerWindowType = { 
+		name = "entry_religion_list_state"
+		#moveable =  yes  
+		
+
+		instantTextBoxType = {  	
+			name = "religion_names"
+			font = "hoi_16mbs"     
+			position = { x = 10 y = 70 }   
+			text = "[?state_religion_array^i.GetReligionName]"
+			format = left  
+			maxWidth = 82
+			maxHeight = 18 
+			fixedsize = yes 
+		}
+  
+		iconType = { 
+			name = "religion_logo"  
+			position = { x = 100 y = 55 }
+			spriteType = "GFX_add_pol_idea_button"     
+			#format = left 
+			scale = 0.75
+		} 		  
+
+		instantTextBoxType = {  	
+			name = "religion_percentage2"
+			font = "hoi_16mbs"
+			position = { x = 172 y = 70 }
+			text = "[?state_religion_array_num^i|%G2]"
+			format = left  
+			maxWidth = 82
+			maxHeight = 18 
+			fixedsize = yes 
+		}		
+		
+		instantTextBoxType = {  	
+			name = "state_pop_religion2"
+			font = "hoi_16mbs"
+			position = { x = 252 y = 70 }
+			text = "[?state_religion_pop_array^i|2] k"
+			format = left  
+			maxWidth = 82
+			maxHeight = 18 
+			fixedsize = yes 
+		}
+
+	}
+}

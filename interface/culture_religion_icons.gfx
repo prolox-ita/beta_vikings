@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_culture_latin_roman"
+		texturefile = "gfx//interface//culture_religion//culture//culture_italic_roman.dds"
+	}
+
+	
+}

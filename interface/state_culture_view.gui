@@ -12,12 +12,37 @@ guiTypes = {
 		#	quadTextureSprite ="GFX_tiled_plain_bg"
 		#}
 		
-		buttonType = { 
-			name = "open_culture_list"
-			position = { x = 10 y = 55 }
-			spriteType = "GFX_closebutton_small"
-		}
+		
+		gridboxtype = {
+				name = "show_gridculturelist_maj"
+				position = { x = 20 y = -20 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 70 }
+				add_horizontal = no
+				format = "UPPER_LEFT"
+				max_slots_horizontal = 1
+				max_slots_vertical = 1 
+			}
 	}
+	
+	containerWindowType = { 
+		name = "open_culture_list_state"
+		#moveable =  yes  
+		
+		buttonType = {  
+			name = "open_culture_list2"
+			position = { x = 0 y = 0 }    
+			spriteType = "GFX_add_pol_idea_button"
+			#format = "UPPER_LEFT" 
+			#scale = 0.75       
+			pdx_tooltip = "STATE_CULTURE_0_TOOLTIP"
+		}
+		
+
+	}
+	
+###########
+
 	containerWindowType = {
 		name = "state_culture_list"
 		moveable = yes
@@ -32,6 +57,11 @@ guiTypes = {
 		buttonType = { 
 			name = "close_culture_list" 
 			position = { x = 550 y = 20 }
+			spriteType = "GFX_closebutton_small"
+		}
+		buttonType = { 
+			name = "open_culture_mig_list" 
+			position = { x = 520 y = 20 }
 			spriteType = "GFX_closebutton_small"
 		}
 		
@@ -70,6 +100,7 @@ guiTypes = {
 			}
 	}
 	
+
 	containerWindowType = { 
 		name = "entry_culture_list_state"
 		#moveable =  yes  
@@ -79,7 +110,7 @@ guiTypes = {
 			name = "culture_names"
 			font = "hoi_16mbs"     
 			position = { x = 10 y = 70 }   
-			text = "[?state_culture_array^i.GetCultureName]"
+			text = "[?state_culture_ordered_array^j.GetCultureName]"
 			format = left  
 			maxWidth = 82
 			maxHeight = 18 
@@ -87,7 +118,7 @@ guiTypes = {
 		}
   
 		iconType = { 
-			name = "culture_icons"  
+			name = "culture_logo"  
 			position = { x = 100 y = 55 }
 			spriteType = "GFX_add_pol_idea_button"     
 			#format = left 
@@ -98,7 +129,7 @@ guiTypes = {
 			name = "culture_percentage2"
 			font = "hoi_16mbs"
 			position = { x = 172 y = 70 }
-			text = "[?state_culture_array_num^i|%Y1]"
+			text = "[?state_culture_ordered_array_num^i|0%Y1]"
 			format = left  
 			maxWidth = 82
 			maxHeight = 18 
@@ -109,12 +140,116 @@ guiTypes = {
 			name = "state_pop_culture2"
 			font = "hoi_16mbs"
 			position = { x = 252 y = 70 }
-			text = "[?state_culture_pop_array^i|0] k"
+			text = "[?state_culture_ordered_pop_array^i]"
 			format = left  
 			maxWidth = 82
 			maxHeight = 18 
 			fixedsize = yes 
 		}
 
+	}
+	
+######
+
+	containerWindowType = {
+		name = "state_culture_migration_list"
+		verticalScrollbar = "right_vertical_slider"
+		moveable = yes
+		position = { x = 550 y = 400 }	
+		size = { width = 600 height=700 }
+			
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+			
+		buttonType = { 
+			name = "close_mig_list" 
+			position = { x = 550 y = 20 }
+			spriteType = "GFX_closebutton_small"
+		}
+		
+		instantTextboxType = {
+			name = "culture_mig_name"
+			position = { x = 105 y = 13 }
+			font = "hoi_20b"
+			text = "Culture"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "culture_mig_percentage"
+			position = { x = 200 y = 13 }
+			font = "hoi_20b"
+			text = "%"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "state_pop_mig_culture"
+			position = { x = 255 y = 13 }
+			font = "hoi_20b"
+			text = "Population"
+			maxWidth = 300
+			maxHeight = 20
+		}
+			gridboxtype = {
+					name = "show_gridculturelist_mig"
+					position = { x = 20 y = -20 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 100%% height = 45 }
+					add_horizontal = no
+					format = "UPPER_LEFT"
+					max_slots_horizontal = 1
+		}
+	}
+	containerWindowType = { 
+		name = "entry_culture_mig_state"
+		#moveable =  yes  
+		
+		containerWindowType = {
+			name = "scroll_bar"
+			#verticalScrollbar = "right_vertical_slider"
+			instantTextBoxType = {  	
+				name = "culture_mig_names"
+				font = "hoi_16mbs"     
+				position = { x = 10 y = 70 }   
+				text = "[?local_culture_array^i.GetCultureName]"
+				format = left  
+				maxWidth = 82
+				maxHeight = 18 
+				fixedsize = yes 
+			}
+	  
+			iconType = { 
+				name = "culture_mig_logo"  
+				position = { x = 100 y = 55 }
+				spriteType = "GFX_add_pol_idea_button"     
+				#format = left 
+				scale = 0.75
+			} 		  
+
+			instantTextBoxType = {  	
+				name = "culture_mig_percentage2"
+				font = "hoi_16mbs"
+				position = { x = 172 y = 70 }
+				text = "[?local_culture_perc_array^i|%Y1]"
+				format = left  
+				maxWidth = 82
+				maxHeight = 18 
+				fixedsize = yes 
+			}		
+			
+			instantTextBoxType = {  	
+				name = "state_pop_mig_culture2"
+				font = "hoi_16mbs"
+				position = { x = 252 y = 70 }
+				text = "[?local_culture_pop_array^i|00] k"
+				format = left  
+				maxWidth = 82
+				maxHeight = 18 
+				fixedsize = yes 
+			}
+		}
 	}
 }

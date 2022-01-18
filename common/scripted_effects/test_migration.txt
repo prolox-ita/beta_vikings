@@ -1,0 +1,57 @@
+state_migration = {
+	every_state = {
+		clear_array = local_culture_array
+		clear_array = local_culture_perc_array
+		clear_array = local_culture_pop_array
+		every_neighbor_state = {
+			
+			for_each_loop = {
+				array = state_culture_ordered_array
+				index = i
+				value = v 
+				
+				if = {
+					limit = {
+						is_in_array = {
+							array = PREV.local_culture_array
+							value = v
+						}
+					}
+
+					for_each_loop = {
+						array = PREV.local_culture_array
+						index = ii
+						value = vv
+						break = bb
+						if = {
+							limit = {
+								check_variable = {
+									v = vv
+								}
+							}
+						
+							add_to_variable = {
+								array = PREV.local_culture_pop_array^ii
+								value = state_culture_ordered_pop_array^i
+							}
+							set_temp_variable = { bb = 1 }
+						}
+					}
+				}
+				else = {
+						set_temp_variable = { state_culture_ordered_array_num_temp = state_culture_ordered_array_num^i } 
+						set_temp_variable = { state_culture_ordered_pop_array_temp = state_culture_ordered_pop_array^i } 
+						set_temp_variable = { state_culture_ordered_array_temp = state_culture_ordered_array^i }
+						add_to_array = { 
+							array = PREV.local_culture_array
+							value = state_culture_ordered_array^i
+						}
+						add_to_array = {
+							array = PREV.local_culture_pop_array
+							value = state_culture_ordered_pop_array^i
+						}
+				}
+			}
+		}
+	}
+}

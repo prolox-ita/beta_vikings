@@ -1,18 +1,85 @@
-##Accepted
+##Text
 defined_text = { 
 	name = GetCultureName
+	set_variable = { v = state_culture_ordered_array^i }
+	set_variable = { vv = state_culture_ordered_array^i }
 	text = {
-		set_variable = { v = state_culture_array^i }
 		trigger = { 
-			check_variable = { v = 1 }
+			OR = {
+				check_variable = { v = 1 }
+				check_variable = { vv = 1 }
+			}
 		}
 		localization_key = "Frankish"
 	}
 	text = {
-		set_variable = { v = state_culture_array^i }
+		trigger = { 
+			OR = {
+				check_variable = { v = 2 }
+				check_variable = { vv = 2 }
+			}
+		}
+		localization_key = "Norman"
+	}
+	text = {
+		trigger = { 
+			OR = {
+				check_variable = { v = 3 }
+				check_variable = { vv = 3 }
+			}
+		}
+		localization_key = "French"
+	}
+	text = {
+		trigger = { 
+			OR = {
+				check_variable = { v = 4 }
+				check_variable = { vv = 4 }
+			}
+		}
+		localization_key = "Occitan"
+	}
+	text = {
+		trigger = { 
+			OR = {
+				check_variable = { v = 5 }
+				check_variable = { vv = 5 }
+			}
+		}
+		localization_key = "Roman"
+	}
+}
+#Images
+defined_text = {
+	name = GetCultureLogo
+	text = {
+		trigger = { 
+			check_variable = { v = 1 }
+		}
+		localization_key = "GFX_culture_frankish_frankish"
+	}
+	text = {
+		trigger = { 
+			check_variable = { v = 2 }
+		}
+		localization_key = "GFX_culture_norman_frankish"
+	}
+	text = {
+		trigger = { 
+			check_variable = { v = 3 }
+		}
+		localization_key = "GFX_culture_french_frankish"
+	}
+	text = {
 		trigger = { 
 			check_variable = { v = 4 }
 		}
-		localization_key = "Roman"
+		localization_key = "GFX_culture_occitan_frankish"
+	}
+	text = {
+		trigger = { 
+			check_variable = { v = 5 }
+		}
+		localization_key = "GFX_culture_latin_roman"
 	}
 }

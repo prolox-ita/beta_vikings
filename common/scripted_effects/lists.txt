@@ -1,24 +1,23 @@
 ### CULTURES
-<<<<<<< HEAD
 french_culture_category = {
 	set_variable = { global.frankish = 1 }
 	set_variable = { global.norman = 2 }
 	set_variable = { global.french = 3 }
+	set_variable = { global.occitan = 4 }
+	
+	add_to_array = { global.frankish_array = global.frankish }
+	add_to_array = { global.frankish_array = global.norman }
+	add_to_array = { global.frankish_array = global.french }
+	add_to_array = { global.frankish_array = global.occitan }
 }
 
 italian_culture_category = {
-	set_variable = { global.roman = 4 }
-	set_variable = { global.lombard = 5 }
-	set_variable = { global.sicilian = 6 }
+	set_variable = { global.roman = 5 }
+	set_variable = { global.lombard = 6 }
+	set_variable = { global.sicilian = 7 }
 }
 
 #RELIGIONS
 religion_category = {
 	set_variable = { global.catholicism = 1 }
-=======
-
-all_cultures = {
-	set_variable = { global.frankish = 1 }
-	set_variable = { global.italian = 2 }
->>>>>>> main
 }

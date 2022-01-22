@@ -1,0 +1,44 @@
+spriteTypes = {
+	
+	#### MOD
+	
+	spriteType = {
+		name = "GFX_topbar_religion_culture_button"
+		texturefile = "gfx//interface//topbar//toolbar//topbar_religion_culture_button.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_speed_step1"
+		texturefile = "gfx//interface//topbar//speed_step1.dds"
+		noOfFrames = 2
+		#effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step2"
+		texturefile = "gfx//interface//topbar//speed_step2.dds"
+		noOfFrames = 2
+		#effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step3"
+		texturefile = "gfx//interface//topbar//speed_step3.dds"
+		noOfFrames = 2
+		#effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step4"
+		texturefile = "gfx//interface//topbar//speed_step4.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step5"
+		texturefile = "gfx//interface//topbar//speed_step5.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_norse_topbar"
+		texturefile = "gfx//interface//topbar//topbar.dds"
+	}
+}

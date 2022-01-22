@@ -4,7 +4,7 @@ state={
 	provinces={
 		1759 2202 
 	}
-	manpower=2000
+	manpower=30867
 	state_category = rural
 	history = {
 		owner = PAP 

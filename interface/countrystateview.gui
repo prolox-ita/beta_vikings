@@ -33,13 +33,14 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "state_info_window"
-			position = { x = 0 y = 0 }
+			position = { x = -10 y = 0 } 
+			position = { x = -10 y = 0 } 
 			size = { width=780 height=496 }
 			
 			
 			background = {
 				name = "Background"
-				quadTextureSprite = "GFX_stateview_bg"
+				quadTextureSprite = "GFX_book_background_left"
 				position = { x = 5 y = 5 }
 			}
 						
@@ -56,10 +57,10 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_building_entries"
-				position = { x = 155 y = 45 }
+				position = { x = 270 y = 45 }
 				size = { width = 480 height = 105 }
 				format = "UPPER_LEFT"
-				slotsize = { width = 60 height = 52 }
+				slotsize = { width = 30 height = 26 }
 				max_slots_horizontal = 5
 			}
 			
@@ -76,10 +77,10 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 153 y = 170 }
+				position = { x = 270 y = 170 } 
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 58 height = 46 }
+				slotsize = { width = 29 height = 23 }
 				max_slots_horizontal = 5
 			}
 
@@ -278,14 +279,14 @@ guiTypes = {
 			
 			iconType = {
 				name = "terrain_picture"
-				position = { x = 10 y= -27 }
+				position = { x = 50 y= -27 }
 				spriteType = "GFX_terrain_default"
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name = "province_header"
-				position = { x = 6 y= -34 }
+				position = { x = 46 y= -34 }
 				spriteType = "GFX_province_header"
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
@@ -293,7 +294,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "province"
-				position = { x = 23 y= -29 }
+				position = { x = 73 y= -29 }
 				font = "hoi_18mbs"
 				maxWidth = 80
 				maxHeight = 30
@@ -387,7 +388,7 @@ guiTypes = {
 			buttonType = {
 				name = "nuke_province"
 				quadTextureSprite ="GFX_nuke_button"
-				position = { x= 13 y = -11 }
+				position = { x= 53 y = -11 }
 			}
 			
 			iconType = {
@@ -527,8 +528,8 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "province_building_entry"
-		position = { x=0 y=0 }
+		name = "province_building_entry"  
+		position = { x=50 y=0 } 
 		size = { width=96 height= 50 }
 		clipping = no
 

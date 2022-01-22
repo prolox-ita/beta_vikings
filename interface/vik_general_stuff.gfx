@@ -1,0 +1,8 @@
+spriteTypes = {	
+	###
+	spriteType = {
+		name = "GFX_round_shield"
+		texturefile = "gfx/interface/topbar/round_shield.dds"
+	}
+	
+}

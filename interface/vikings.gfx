@@ -5,5 +5,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//vikings//arrows_growth_religion.dds"
 		noOfFrames = 3		
 	}
+	
+	SpriteType = {
+		name = "GFX_book_background_left"
+		texturefile = "gfx//interface//vikings//book_background_left.dds"
+	}  
 
 }

@@ -4,11 +4,13 @@ state={
 	provinces={
 		37 2200 2204 2207 2208 2209 2213 
 	}
-	manpower=1000000 #1mln
+	manpower=337654 
 	state_category = rural
 	history = {
 		owner = PAP 
 		add_core_of = PAP
+		
+		victory_points { 2200 30 }
 		
 		add_to_array = { state_culture_array = 1 } #Frankish
 		add_to_array = { state_culture_array_num = 0.01 }

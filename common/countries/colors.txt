@@ -64,8 +64,8 @@ EAS = {
 	color_ui = rgb { 0 219 149 } 
 }
 ECO = {
-	color = rgb { 58 140 28 }
-	color_ui = rgb { 58 140 28 }
+	color = rgb { 73 123 34 }
+	color_ui = rgb { 73 123 34 }
 }
 ESS = {
 	color = rgb { 118 0 173 }

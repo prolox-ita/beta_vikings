@@ -3,8 +3,19 @@ on_actions = {
 		effect = {
 			every_country = {
 				state_calculation = yes
+				order_cultures = yes
 				#nation_calculation = yes
-				state_migration = yes
+				#change_perc_calculation = yes
+			}
+			every_state = {
+				set_variable = { old_pop_var = state_population_k }
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			every_country = {
+				state_calculation = yes
 			}
 		}
 	}

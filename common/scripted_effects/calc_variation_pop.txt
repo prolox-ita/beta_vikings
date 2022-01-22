@@ -1,5 +1,6 @@
-state_migration = {
+change_perc_calculation = {
 	every_state = {
+	
 		clear_array = local_culture_array
 		clear_array = local_culture_perc_array
 		clear_array = local_culture_pop_array
@@ -20,7 +21,7 @@ state_migration = {
 								value = v
 							}
 							check_variable = {
-								state_culture_ordered_array_num^i > 0.1
+								state_culture_ordered_array_num^i > 0.4
 							}
 						}
 					}
@@ -61,13 +62,11 @@ state_migration = {
 								}
 							}
 							check_variable = {
-								state_culture_ordered_array_num^i > 0.1
+								state_culture_ordered_array_num^i > 0.4
 							}
 						}
 					}
-						set_temp_variable = { state_culture_ordered_array_num_temp = state_culture_ordered_array_num^i } 
 						set_temp_variable = { state_culture_ordered_pop_array_temp = state_culture_ordered_pop_array^i } 
-						set_temp_variable = { state_culture_ordered_array_temp = state_culture_ordered_array^i }
 						add_to_array = { 
 							array = PREV.local_culture_array
 							value = state_culture_ordered_array^i
@@ -92,6 +91,26 @@ state_migration = {
 				array = local_culture_perc_array
 				#index = ii
 				value = culture_pop^i
+			}
+		}
+	
+		set_temp_variable = { delta_pop_var = state_population_k }
+		
+		subtract_from_temp_variable = { delta_pop_var = old_pop_var } #I get the difference between (month) - (month-1)
+		set_temp_variable = { of_neigh_pop = 0.25 }
+		multiply_temp_variable = { of_neigh_pop = delta_pop_var }
+		
+		for_each_loop = {
+			array = local_culture_perc_array
+			index = ii
+			value = vv
+			
+			set_temp_variable = { local_culture_perc_var^i = local_culture_perc_array^ii }
+			multiply_variable = { local_culture_perc_var^i = of_neigh_pop }
+			
+			add_to_array = {
+				array = state_growth_due_migration
+				value = local_culture_perc_var^i
 			}
 		}
 	}

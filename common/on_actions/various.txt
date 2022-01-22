@@ -37,8 +37,79 @@ on_actions = {
 
 		}
 	}
+	on_startup = {
+		effect = {
+			every_state = {
+				if = {
+					limit = { 
+						state_population < 4
+					}
+					set_state_category = uninhabited
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 3
+							state_population < 5000
+						}
+					}
+					set_state_category = village
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 4999
+							state_population < 10000
+						}
+					}
+					set_state_category = hamlet
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 9999
+							state_population < 20000
+						}
+					}
+					set_state_category = town
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 19999
+							state_population < 40000
+						}
+					}
+					set_state_category = large_town
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 39999
+							state_population < 80000
+						}
+					}
+					set_state_category = small_city
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 79999
+							state_population < 200000
+						}
+					}
+					set_state_category = city
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 199999
+						}
+					}
+					set_state_category = large_city
+				}
+			}
+		}
+	}
 	
 }
-
-
-

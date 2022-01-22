@@ -32,4 +32,8 @@ idea_categories = {
 		ledger = civilian
 	}
 	
+	government = {
+		slot = mobilization_laws
+	}
+	
 

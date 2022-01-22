@@ -4,6 +4,7 @@ french_culture_category = {
 	set_variable = { global.norman = 2 }
 	set_variable = { global.french = 3 }
 	set_variable = { global.occitan = 4 }
+	set_variable = { global.aquitanian = 4 }
 	
 	add_to_array = { global.frankish_array = global.frankish }
 	add_to_array = { global.frankish_array = global.norman }
@@ -11,13 +12,37 @@ french_culture_category = {
 	add_to_array = { global.frankish_array = global.occitan }
 }
 
-italian_culture_category = {
+latin_culture_category = {
 	set_variable = { global.roman = 5 }
 	set_variable = { global.lombard = 6 }
 	set_variable = { global.sicilian = 7 }
+	set_variable = { global.italian = 8 }
+	set_variable = { global.sardinian = 9 }
+}
+
+iberian_culture_category = {
+	set_variable = { global.aragonese = 10 }
+	set_variable = { global.basque = 11 }
+	set_variable = { global.castilian = 12 }
+	set_variable = { global.catalan = 13 }
+	set_variable = { global.galician = 14 }
+	set_variable = { global.portuguese = 15 }
+	set_variable = { global.visigothic = 16 }
+	set_variable = { global.asturian = 17 }
+	set_variable = { global.leonense = 18 }
+}
+
+arabic_culture_category = {
+	set_variable = { global.andalusian = 19 }
+	set_variable = { global.bedouin = 20 }
+	set_variable = { global.egyptian = 21 }
+	set_variable = { global.maghrebi = 22 }
+	set_variable = { global.mashriqi = 23 }
 }
 
 #RELIGIONS
 religion_category = {
 	set_variable = { global.catholicism = 1 }
+	set_variable = { global.islamism = 2 }
+	set_variable = { global.judaism = 3 }
 }

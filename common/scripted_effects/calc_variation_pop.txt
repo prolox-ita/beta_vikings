@@ -12,6 +12,7 @@ change_perc_calculation = {
 				array = state_culture_ordered_array
 				index = i
 				value = v
+				break = 1
 				
 				if = {
 					limit = {
@@ -19,9 +20,6 @@ change_perc_calculation = {
 							is_in_array = {
 								array = PREV.local_culture_array
 								value = v
-							}
-							check_variable = {
-								state_culture_ordered_array_num^i > 0.4
 							}
 						}
 					}
@@ -43,7 +41,6 @@ change_perc_calculation = {
 								var = PREV.local_culture_pop_array^ii
 								value = state_culture_ordered_pop_array^i
 							}
-							set_temp_variable = { bb = 1 }
 							set_temp_variable = { state_culture_ordered_pop_array_temp = state_culture_ordered_pop_array^i } 
 							add_to_variable = { PREV.tot_neigh_pop = state_culture_ordered_pop_array_temp }
 							
@@ -60,9 +57,6 @@ change_perc_calculation = {
 									array = PREV.local_culture_array
 									value = v
 								}
-							}
-							check_variable = {
-								state_culture_ordered_array_num^i > 0.4
 							}
 						}
 					}

@@ -1,13 +1,15 @@
-state={ 
+state={ #Carhampton
 	id=34
 	name="STATE_34"
 	provinces={
-		1700
+		1700 2757 2760 2764 
 	}
-	manpower=100
+	manpower=13432
 	state_category = rural
 	history = {
 		owner = WES
+		
+		victory_points = { 2760 5 }
 		
 	}
 	local_supplies=1.0 #1.000

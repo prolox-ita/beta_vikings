@@ -2,9 +2,9 @@ state={
 	id=3
 	name="STATE_3"
 	provinces={
-		1689
+		1689 2756 2758 2759 2761 2762 2763 2765 2766 2767 2768 2769 
 	}
-	manpower=100
+	manpower=73596
 	state_category = rural
 	history = {
 		owner = WES 
@@ -12,7 +12,8 @@ state={
 		buildings = {
 
 		}
-		victory_points = { 1689 10 }
+		victory_points = { 2759 30 }
+		victory_points = { 2765 3 } #Glæstyngabyrig monastery
 	}
 	local_supplies=1.0 #1.000
 }

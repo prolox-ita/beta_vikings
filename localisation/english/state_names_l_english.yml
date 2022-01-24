@@ -1,9 +1,12 @@
 ﻿l_english:
  STATE_1:0 "Unowned lands"
  STATE_2:0 "Parision" #Paris
- STATE_3:0 "Wintanceaster" #Winchester
+ STATE_3:0 "Uintancæstir" #Winchester
  STATE_4:0 "Hwinca"
  
+ STATE_33:0 "Cornwealas"
+ STATE_34:0 "Carrum" # (Carhampton)
+
  STATE_64:0 "Al-Sharrat" #Toledo
  
  STATE_75:0 "Al Burtughaal"
@@ -68,6 +71,7 @@
  STATE_335:0 "Arth"
  STATE_336:0 "Marmaria"
  STATE_337:0 "Amor"
+ STATE_338:0 "Dyfneint" (Old Welsh)
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

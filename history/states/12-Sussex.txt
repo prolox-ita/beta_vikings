@@ -2,12 +2,15 @@ state={
 	id=12
 	name="STATE_12"
 	provinces={
-		466
+		466 2776 2777 
 	}
-	manpower=100
+	manpower = 19821
 	state_category = rural
 	history = {
 		owner = SUS 
+		add_core_of = SUS 
+		
+		victory_points = { 2777 10 } #Chichester
 		
 	}
 	local_supplies=1.0 #1.000

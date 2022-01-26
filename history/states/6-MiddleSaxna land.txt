@@ -2,12 +2,15 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		1693
+		1693 2782 2783 
 	}
-	manpower=100
+	manpower=17210
 	state_category = rural
 	history = {
 		owner = MER 
+		add_core_of = MER
+		
+		victory_points = { 2782 10 } #London was a trade point
 		
 	}
 	local_supplies=1.0 #1.000

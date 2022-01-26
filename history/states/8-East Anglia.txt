@@ -2,12 +2,17 @@ state={
 	id=8
 	name="STATE_8"
 	provinces={
-		1694
+		1694 2786 2787 2788 2789 2790 2791 2792 2793 2794
 	}
-	manpower=100
+	manpower=38332
 	state_category = rural
 	history = {
 		owner = EAS 
+		add_core_of = EAS 
+		
+		victory_points = { 1694 15 } #Northwic
+		victory_points = { 2793 5 } #Westwic
+		victory_points = { 2786 5 } #Torp
 		
 	}
 	local_supplies=1.0 #1.000

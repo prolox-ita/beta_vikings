@@ -13,7 +13,7 @@ state={
 
 		}
 		victory_points = { 2759 30 }
-		victory_points = { 2765 3 } #Glæstyngabyrig monastery
+		victory_points = { 2765 1 } #Glæstyngabyrig monastery
 	}
 	local_supplies=1.0 #1.000
 }

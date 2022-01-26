@@ -2,12 +2,16 @@ state={
 	id=14
 	name="STATE_14"
 	provinces={
-		281
+		281 2839 2840 2842 2846 2847 2849 2850 2852 2853 2854 2857 2858 2859 2862 2863 2864 2867 
 	}
-	manpower=100
+	manpower=65967 
+
 	state_category = rural
 	history = {
 		owner = NOR 
+		add_core_of = NOR 
+		
+		victory_points = { 281 30 }
 		
 	}
 	local_supplies=1.0 #1.000

@@ -2,12 +2,15 @@ state={
 	id=9
 	name="STATE_9"
 	provinces={
-		431
+		431 2781 2784 2785 
 	}
-	manpower=100
+	manpower=23124
 	state_category = rural
 	history = {
 		owner = ESS 
+		add_core_of = ESS 
+		
+		victory_points = { 431 15 } #Colchester
 		
 	}
 	local_supplies=1.0 #1.000

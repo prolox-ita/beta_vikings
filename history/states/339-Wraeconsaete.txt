@@ -1,0 +1,17 @@
+state={
+	id=339
+	name="STATE_339"
+	provinces={
+		368 2807 2809 2812 2816 2820 
+	}
+	manpower=11877
+	history = {
+		owner = MER
+		add_core_of = MER
+		
+		victory_points = { 2816 5 }
+	}
+	state_category = hamlet
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

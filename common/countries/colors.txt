@@ -60,8 +60,8 @@ DUN = {
 	color_ui = rgb { 168 54 10 } 
 }
 EAS = {
-	color = rgb { 0 219 149 }
-	color_ui = rgb { 0 219 149 } 
+	color = rgb { 38 67 193 }
+	color_ui = rgb { 38 67 193 } 
 }
 ECO = {
 	color = rgb { 73 123 34 }
@@ -156,8 +156,8 @@ MEI = {
 	color_ui = rgb { 232 91 44 }
 }
 MER = {
-	color = rgb { 38 67 193 }
-	color_ui = rgb { 38 67 193 }
+	color = rgb { 255 212 22 }
+	color_ui = rgb { 255 212 22 }
 }
 MHU = {
 	color = rgb { 94 122 56 }

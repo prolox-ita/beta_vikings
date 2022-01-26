@@ -1,12 +1,29 @@
 ﻿l_english:
  STATE_1:0 "Unowned lands"
  STATE_2:0 "Parision" #Paris
- STATE_3:0 "Uintancæstir" #Winchester
- STATE_4:0 "Hwinca"
+ STATE_3:0 "West Seaxna land" #Winchester
+ STATE_4:0 "Suþ Miercna land" #Outer Mercia
+ STATE_5:0 "Hwinca"
+ 
+ STATE_6:0 "Lundenwic" #then Lundenburh (London)
+ STATE_7:0 "Suþ rige"
+ STATE_8:0 "Ēastengla land"
+ STATE_9:0 "Ēast Seaxna land"
+ #STATE_10:
+ STATE_11:0 "Cantwara land"
+ STATE_12:0 "Suð Seaxe land"
+ STATE_13:0 "Lincylene"
+ STATE_14:0 "Dere"
+ STATE_15:0 "Bryneich"
+ STATE_16:0 "Cumbria"
+ STATE_17:0 "Loddinian"
+ STATE_18:0 "Elmets land"
  
  STATE_33:0 "Cornwealas"
  STATE_34:0 "Carrum" # (Carhampton)
 
+ STATE_60:0 "Magonsæte" #Toledo
+ 
  STATE_64:0 "Al-Sharrat" #Toledo
  
  STATE_75:0 "Al Burtughaal"
@@ -72,6 +89,9 @@
  STATE_336:0 "Marmaria"
  STATE_337:0 "Amor"
  STATE_338:0 "Dyfneint" (Old Welsh)
+ STATE_339:0 "Wreocansæte land" 
+ STATE_340:0 "North Miercna land"
+ STATE_341:0 "Ut Miercna land"
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

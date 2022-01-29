@@ -1,0 +1,31 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+
+	
+ 
+	
+	
+	FOCUS_FILTER_RESEARCH = 522
+
+	
+
+}
+
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			has_country_flag = anglo_saxon_culture
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+
+	
+
+}

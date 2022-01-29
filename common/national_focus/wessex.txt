@@ -1,0 +1,80 @@
+﻿focus_tree = {
+	id = wessex_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WES
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = WES_stabilize_legitimacy
+		icon = GFX_stabilize_legitimacy
+		x = 0
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+
+		completion_reward = {
+			add_to_variable = { ROOT.ruler_ligitimacy = 0.1 }
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = WES_reduce_mercian_influence
+		icon = GFX_reduce_mercian_influence
+		x = 0
+		y = 1
+		cost = 20
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		prerequisite = { WES_stabilize_legitimacy }
+
+		completion_reward = {
+			add_autonomy_ratio = {
+				value = 0.1
+				localization = WES_mercian_infl_reduced
+			}
+		}
+	}
+	focus = {
+		id = WES_improve_relation_southern_england
+		icon = GFX_WES_spread_influence_southern_england
+		x = 0
+		y = 2
+		cost = 20
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		prerequisite = { WES_reduce_mercian_influence }
+
+		completion_reward = {
+			#better diplo relations with anglo saxons kingdom
+			#start events with mercia that end with a risk of war (of course the player have to refuse the war and return under the Mercian control)
+		}
+	}
+	
+
+}

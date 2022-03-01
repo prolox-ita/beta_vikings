@@ -36,4 +36,13 @@ idea_categories = {
 		slot = mobilization_laws
 	}
 	
+	country = {
+		type = national_spirit
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+	
 

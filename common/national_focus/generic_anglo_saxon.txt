@@ -1,31 +1,62 @@
-﻿search_filter_prios = {
-	FOCUS_FILTER_POLITICAL = 1010
+﻿### FOCUS_FILTER_POLITICAL
+### FOCUS_FILTER_STABILITY
 
-	
- 
-	
-	
-	FOCUS_FILTER_RESEARCH = 522
-
-	
-
-}
+#search_filter_prios = {
+#	FOCUS_FILTER_POLITICAL = 1010
+#	 = 522
+#}
 
 focus_tree = {
 	id = generic_focus
 	
 	country = {
-		factor = 0
-		
-		modifier = {
-			has_country_flag = anglo_saxon_culture
-		}
+		factor = 2
+		#modifier = {
+		#	has_country_flag = anglo_saxon_culture
+		#}
 	}
 	
 	default = yes
 	reset_on_civilwar = no
 
+	initial_show_position = {	
+		x = 0
+		y = 0
+	}
 
-	
-
+#FIRST BRANCH 
+	focus = {
+		id = AS_diplomatic_affairs
+		icon = GFX_unknown
+		x = 0
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+		completion_reward = { 
+			add_political_power = 50
+			add_stability = 50
+		}
+	}
+	focus = {
+		id = AS_ambition_englaland
+		icon = GFX_unknown
+		x = 0
+		y = 1	
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = AS_diplomatic_affairs }
+		relative_position_id = AS_diplomatic_affairs
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		completion_reward = { 
+			add_political_power = 120
+			add_ideas = AS_aim_englaland 
+		}
+	}
 }

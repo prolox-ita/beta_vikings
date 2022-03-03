@@ -2,6 +2,8 @@
  STRATEGICREGION_1:0 ""
  #---
  STRATEGICREGION_6:0 "Northern Italy"
+ 
+ STRATEGICREGION_8:0 "al-Thaghr al-Awsat"
  #---
  STRATEGICREGION_23:0 "South East France"
  STRATEGICREGION_24:0 "South West France"
@@ -10,9 +12,13 @@
  STRATEGICREGION_27:0 "Central France"
  STRATEGICREGION_28:0 "Central Italy"
  
- STRATEGICREGION_31:0 "Miridan"
+ STRATEGICREGION_31:0 "al-Tagr al-Adnā"
  STRATEGICREGION_32:0 "Al-Gharb"
  STRATEGICREGION_33:0 "Sūþ Englaland"
  STRATEGICREGION_34:0 "Midd  Englaland"
  STRATEGICREGION_35:0 "North  Englaland"
+ STRATEGICREGION_36:0 "Asturias"
+ STRATEGICREGION_37:0 "al-Mawsat"
+ STRATEGICREGION_38:0 "al-Sharq"
+ STRATEGICREGION_39:0 "at-Tagr al-A'la"
 

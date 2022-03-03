@@ -32,7 +32,9 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
-
+#########
+# LATIN #
+#########
 		containerWindowType = {
 			name = "latin_army_folder"
 			position = { x=0 y=47 }
@@ -67,6 +69,9 @@ guiTypes = {
 			}
 
 		}
+#########
+# NORSE #
+#########
 		containerWindowType = {
 			name = "norse_army_folder"
 			position = { x=0 y=47 }
@@ -101,6 +106,9 @@ guiTypes = {
 			}
 
 		}
+############
+# GERMANIC #
+############
 		containerWindowType = {
 			name = "germanic_army_folder"
 			position = { x=0 y=47 }
@@ -135,7 +143,47 @@ guiTypes = {
 			}
 
 		}
+################
+# ANGLO SAXONS #
+################
+		containerWindowType = {
+			name = "anglo_saxon_army_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="infantry_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					alwaystransparent = yes
+				}
+				
+				
+			}
+
+		}
 		
+#########
+# LATIN #
+#########
 		containerWindowType = {
 			name = "latin_navy_folder"
 			position = { x=0 y=47 }
@@ -170,6 +218,9 @@ guiTypes = {
 			}
 
 		}
+#########
+# NORSE #
+#########
 		containerWindowType = {
 			name = "norse_navy_folder"
 			position = { x=0 y=47 }
@@ -204,8 +255,45 @@ guiTypes = {
 			}
 
 		}
+############
+# GERMANIC #
+############
 		containerWindowType = {
 			name = "germanic_navy_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="infantry_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					alwaystransparent = yes
+				}
+			}
+		}
+################
+# ANGLO SAXONS #
+################
+		containerWindowType = {
+			name = "anglo_saxon_navy_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -242,6 +330,9 @@ guiTypes = {
 			position = { x=0 y=7 }
 			size = { width = 100%% height = 30 }
 	
+#########
+# LATIN #
+#########
 			buttonType = {
 				name = "latin_army_folder_tab"
 				position = { x = 22 y = 0 }
@@ -249,6 +340,9 @@ guiTypes = {
 				frame = 1
 				clicksound = click_default
 			}
+#########
+# NORSE #
+#########
 			buttonType = {
 				name = "norse_army_folder_tab"
 				position = { x = 22 y = 0 }
@@ -256,13 +350,29 @@ guiTypes = {
 				frame = 1
 				clicksound = click_default
 			}
+############
+# GERMANIC #
+############
 			buttonType = {
 				name = "germanic_army_folder_tab"
 				position = { x = 22 y = 0 }
-				quadTextureSprite = "GFX_norse_army_folder_tab"
+				quadTextureSprite = "GFX_germanic_army_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
+################
+# ANGLO SAXONS #
+################
+			buttonType = {
+				name = "anglo_saxon_army_folder_tab"
+				position = { x = 22 y = 0 }
+				quadTextureSprite = "GFX_anglo_saxon_army_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+#########
+# LATIN #
+#########
 			buttonType = {
 				name = "latin_navy_folder_tab"
 				position = { x = 121 y = 0 }
@@ -270,6 +380,9 @@ guiTypes = {
 				frame = 1
 				clicksound = click_default
 			}
+#########
+# NORSE #
+#########
 			buttonType = {
 				name = "norse_navy_folder_tab"
 				position = { x = 121 y = 0 }
@@ -277,10 +390,23 @@ guiTypes = {
 				frame = 1
 				clicksound = click_default
 			}
+############
+# GERMANIC #
+############
 			buttonType = {
 				name = "germanic_navy_folder_tab"
 				position = { x = 121 y = 0 }
-				quadTextureSprite = "GFX_norse_navy_folder_tab"
+				quadTextureSprite = "GFX_germanic_navy_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+################
+# ANGLO SAXONS #
+################
+			buttonType = {
+				name = "anglo_saxon_navy_folder_tab"
+				position = { x = 121 y = 0 }
+				quadTextureSprite = "GFX_anglo_saxon_navy_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
@@ -441,6 +567,9 @@ guiTypes = {
 		}
 	}
 
+#########
+# LATIN #
+#########
 	containerWindowType = {
 		name = "techtree_latin_army_folder_small_item"
 		position = { x=0 y=0 }
@@ -478,6 +607,9 @@ guiTypes = {
 		}
 	}
 
+#########
+# LATIN #
+#########
 	containerWindowType = {
 		name = "techtree_latin_army_folder_item"
 		position = { x=-56 y=-7 }
@@ -568,6 +700,9 @@ guiTypes = {
 		}	
 		
 	}	
+#########
+# NORSE #
+#########
 	containerWindowType = {
 		name = "techtree_norse_army_folder_small_item"
 		position = { x=0 y=0 }
@@ -605,6 +740,9 @@ guiTypes = {
 		}
 	}
 
+#########
+# NORSE #
+#########
 	containerWindowType = {
 		name = "techtree_norse_army_folder_item"
 		position = { x=-56 y=-7 }
@@ -695,7 +833,9 @@ guiTypes = {
 		}	
 		
 	}
-#GERMANIC FOLDER SMALL ITEM	
+############
+# GERMANIC #
+############
 	containerWindowType = {
 		name = "techtree_germanic_army_folder_small_item"
 		position = { x=0 y=0 }
@@ -732,7 +872,9 @@ guiTypes = {
 			format = center
 		}
 	}
-#GERMANIC ARMY ITEM
+############
+# GERMANIC #
+############
 	containerWindowType = {
 		name = "techtree_germanic_army_folder_item"
 		position = { x=-56 y=-7 }
@@ -823,7 +965,142 @@ guiTypes = {
 		}	
 		
 	}
+################
+# ANGLO SAXONS #
+################
+	containerWindowType = {
+		name = "techtree_anglo_saxon_army_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -21 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+	}
+################
+# ANGLO SAXONS #
+################
+	containerWindowType = {
+		name = "techtree_anglo_saxon_army_folder_item"
+		position = { x=-56 y=-7 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=91 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 3 y = -3 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 160
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=111 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 111 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+		
+		
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_rocket"
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_td"
+				alwaystransparent = yes
+			}
+		}	
+		
+	}
 	
+#########
+# LATIN #
+#########
 	containerWindowType = {
 		name = "techtree_latin_navy_folder_small_item"
 		position = { x=0 y=0 }
@@ -861,6 +1138,9 @@ guiTypes = {
 		}
 	}
 
+#########
+# LATIN #
+#########
 	containerWindowType = {
 		name = "techtree_latin_navy_folder_item"
 		position = { x=-56 y=-7 }
@@ -951,6 +1231,9 @@ guiTypes = {
 		}	
 		
 	}	
+#########
+# NORSE #
+#########
 	containerWindowType = {
 		name = "techtree_norse_navy_folder_small_item"
 		position = { x=0 y=0 }
@@ -988,6 +1271,9 @@ guiTypes = {
 		}
 	}
 
+#########
+# NORSE #
+#########
 	containerWindowType = {
 		name = "techtree_norse_navy_folder_item"
 		position = { x=-56 y=-7 }
@@ -1078,7 +1364,9 @@ guiTypes = {
 		}	
 		
 	}
-#GERMANIC NAVY SMALL ITEM
+############
+# GERMANIC #
+############
 	containerWindowType = {
 		name = "techtree_germanic_navy_folder_small_item"
 		position = { x=0 y=0 }
@@ -1115,9 +1403,143 @@ guiTypes = {
 			format = center
 		}
 	}
-#GERMANIC NAVY ITEM
+############
+# GERMANIC #
+############
 	containerWindowType = {
 		name = "techtree_germanic_navy_folder_item"
+		position = { x=-56 y=-7 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=91 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 3 y = -3 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 160
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=111 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 111 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+		
+		
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_rocket"
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_td"
+				alwaystransparent = yes
+			}
+		}	
+		
+	}
+################
+# ANGLO SAXONS #
+################
+	containerWindowType = {
+		name = "techtree_anglo_saxon_navy_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -21 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+	}
+################
+# ANGLO SAXONS #
+################
+	containerWindowType = {
+		name = "techtree_anglo_saxon_navy_folder_item"
 		position = { x=-56 y=-7 }
 		size = { width = 183 height = 84 }
 		clipping = no

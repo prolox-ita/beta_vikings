@@ -92,23 +92,23 @@ technology_folders = {
 	#ARMY#
 	
 	norse_army_folder = {
-		available = { has_country_flag = F_norse_culture }
+		available = { has_country_flag = norse_culture }
 		ledger = army
 	}
 	germanic_army_folder = {
-		available = { check_variable = { F_germanic_culture = 1 } }
+		available = { has_country_flag = germanic_culture }
 		ledger = army
 	}
-	##anglo_saxon_army_folder = {
-	#	available = { check_variable = { F_anglo_saxon_culture = 1 } }
-	##	ledger = army
-	##}
-	##gaelic_army_folder = {
-	##	available = { check_variable = { F_gaelic_culture = 1 } }
-	##	ledger = army
-	##}
+	anglo_saxon_army_folder = {
+		available = { has_country_flag = anglo_saxon_culture }
+		ledger = army
+	}
+	#gaelic_army_folder = {
+	#	available = { has_country_flag = gaelic_culture }
+	#	ledger = army
+	#}
 	latin_army_folder = {
-		available = { has_country_flag = F_latin_culture }
+		available = { has_country_flag = latin_culture }
 		ledger = army
 	}
 	##arabic_army_folder = {
@@ -138,21 +138,21 @@ technology_folders = {
 	
 	#NAVY#
 	norse_navy_folder = {
-		available = { has_country_flag = F_norse_culture }
+		available = { has_country_flag = norse_culture }
 		ledger = navy
 	}
 	germanic_navy_folder = {
-		available = { check_variable = { F_germanic_culture = 1 } }
+		available = { has_country_flag = germanic_culture }
 		ledger = navy
 	}
-	##anglo_saxon_navy_folder = {
-	#	available = { check_variable = { F_anglo_saxon_culture = 1 } }
-	##	ledger = navy
-	##}
-	##gaelic_navy_folder = {
-	##	available = { check_variable = { F_gaelic_culture = 1 } }
-	##	ledger = navy
-	##}
+	anglo_saxon_navy_folder = {
+		available = { has_country_flag = anglo_saxon_culture }
+		ledger = navy
+	}
+	#gaelic_navy_folder = {
+	#	available = { has_country_flag = gaelic_culture }
+	#	ledger = navy
+	#}
 	latin_navy_folder = {
 		available = { has_country_flag = F_latin_culture }
 		ledger = navy

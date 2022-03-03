@@ -26,11 +26,17 @@
  
  STATE_64:0 "Al-Sharrat" #Toledo
  
+ STATE_71:0 "Ribagorica"
+ 
  STATE_75:0 "Al Burtughaal"
  STATE_76:0 "Astorga"
  STATE_77:0 "Leon"
  
  STATE_81:0 "Strateburgus"
+ STATE_82:0 "Bresta" ##Brest in Leon
+ STATE_83:0 "Dol"
+ STATE_84:0 "Quemper" ##from kemper in Cornouaille
+ STATE_85:0 "Nantais"
  STATE_86:0 "Nantais"
  STATE_87:0 "Rennais"
  STATE_91:0 "Tuscia"
@@ -38,6 +44,8 @@
  STATE_99:0 "Test"
  
  STATE_105: "Westfalen"
+ 
+ STATE_205: "Baleares"
  
  STATE_283:0 "Terra Sancti Marini"
  

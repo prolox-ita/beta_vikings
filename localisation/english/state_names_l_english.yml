@@ -28,9 +28,13 @@
  
  STATE_71:0 "Ribagorica"
  
+ STATE_73:0 "Ovetao"
+ 
  STATE_75:0 "Al Burtughaal"
  STATE_76:0 "Astorga"
  STATE_77:0 "Leon"
+ 
+ STATE_79:0 "Burgos"
  
  STATE_81:0 "Strateburgus"
  STATE_82:0 "Bresta" ##Brest in Leon
@@ -100,6 +104,8 @@
  STATE_339:0 "Wreocansæte land" 
  STATE_340:0 "North Miercna land"
  STATE_341:0 "Ut Miercna land"
+ STATE_342:0 "Braga"
+ STATE_343:0 "Amaya"
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

@@ -53,7 +53,7 @@
 				}
 			}
 			if = {
-				limit = { SAX = { exist = yes } }
+				limit = { SAX = { exists = yes } }
 				SAX = { 
 					add_relation_modifier = {
 					target = FRA

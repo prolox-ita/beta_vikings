@@ -2,12 +2,20 @@ state={
 	id=318
 	name="STATE_318"
 	provinces={
-		604 2977 2982 2983 2986 2987 2991 2993 
+		604 2977 2982 2983 2986 2987 2991 2993 3188 3189
 	}
 	
 	history={
 		owner = ECO
 		add_core_of = ECO
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 2
+			3188 = { naval_base = 1 }
+			2982 = { naval_base = 1 }
+		}
+		
+		victory_points = { 3188 30 }
 	}
 	
 	manpower=100

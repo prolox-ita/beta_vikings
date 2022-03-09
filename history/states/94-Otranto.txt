@@ -2,12 +2,17 @@ state={
 	id=94
 	name="STATE_94"
 	provinces={
-		147
+		147 3098 3099 3101 
 	}
 	manpower=100
 	state_category = rural
 	history = {
 		owner = BYZ 
+		add_core_of = BYZ
+		victory_points = { 3098 10 }
+		buildings = {
+			3098 = { naval_base = 3 }
+		}
 		
 	}
 	local_supplies=1.0 #1.000

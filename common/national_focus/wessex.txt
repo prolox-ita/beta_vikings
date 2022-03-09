@@ -46,8 +46,8 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		prerequisite = { WES_stabilize_legitimacy }
-
+		prerequisite = { focus = WES_stabilize_legitimacy }
+		relative_position_id = WES_stabilize_legitimacy
 		completion_reward = {
 			add_autonomy_ratio = {
 				value = 0.1
@@ -59,7 +59,7 @@
 		id = WES_improve_relation_southern_england
 		icon = GFX_WES_spread_influence_southern_england
 		x = 0
-		y = 2
+		y = 1
 		cost = 20
 		ai_will_do = {
 			factor = 10
@@ -69,7 +69,7 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		prerequisite = { WES_reduce_mercian_influence }
-
+		relative_position_id = WES_reduce_mercian_influence
 		completion_reward = {
 			#better diplo relations with anglo saxons kingdom
 			#start events with mercia that end with a risk of war (of course the player have to refuse the war and return under the Mercian control)

@@ -2,12 +2,14 @@ state={
 	id=333
 	name="STATE_333"
 	provinces={
-		315
+		315 3152 3153 3154 3155 3156 3157 3162 
 	}
 	
 	history={
 		owner = ECO
 		add_core_of = ECO
+		
+		victory_points = { 3154 10 }
 	}
 	
 	manpower=100

@@ -8,6 +8,7 @@ state={
 	state_category = rural
 	history = {
 		owner = ECO
+		victory_points = { 2907 30 }
 		
 	}
 	local_supplies=1.0 #1.000

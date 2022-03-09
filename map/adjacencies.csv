@@ -3,3 +3,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 831;2135;river;-1;-1;-1;-1;-1;;Paris1
 143;529;sea;-1;-1;-1;-1;-1;;Sicily_Calabria
 2886;2896;sea;-1;-1;-1;-1;-1;;Lindisfarne
+3188;2982;sea;-1;-1;-1;-1;-1;;Cordoba
+2696;2663;sea;-1;-1;-1;-1;-1;;
+2654;2658;sea;-1;-1;-1;-1;-1;;
+2667;2755;sea;-1;-1;-1;-1;-1;;Lisbona
+2670;2723;sea;-1;-1;-1;-1;-1;;
+2676;2679;sea;-1;-1;-1;-1;-1;;

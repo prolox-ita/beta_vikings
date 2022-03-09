@@ -8,6 +8,8 @@ state={
 	history={
 		owner = ECO
 		add_core_of = ECO
+		
+		#victory_points = { 2658 10 } created in 875
 	}
 	
 	manpower=100

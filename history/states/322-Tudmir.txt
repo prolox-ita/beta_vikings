@@ -11,10 +11,30 @@ state={
 		
 		#victory_points = { 2999 5 } #Murcia from 825
 		victory_points = { 3009 5 } #Orihuela, it loses importance after the foundation of Murcia
+		victory_points = { 2989 5 } #Cartagena - Qartayannat
+		buildings = {
+			infrastructure = 4
+			religious_building = 0
+			arms_factory = 1
+			industrial_complex = 1
+			supply_node = 0
+			trade_points = 2
+			#naval_base = 
+			#fort = 
+			3009 = { walls = 1 }
+			2989 = { walls = 1 naval_base = 1 }
+			fuel_silo = 0
+			#watchtowers = 
+			field = 0
+			tannery = 1
+			tailoring = 1
+			#naval_landing = 
+
+		}
 	}
 	
-	manpower=100
+	manpower=13993
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=small_town
 	local_supplies=1.000
 }

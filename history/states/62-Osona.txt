@@ -1,14 +1,30 @@
-state={ 
+
+state={
 	id=62
 	name="STATE_62"
-	provinces={
-		558
-	}
-	manpower=100
-	state_category = rural
-	history = {
+
+	history={
 		owner = ECO
-		
+		add_core_of = ECO
+		victory_points = {
+			558 5 
+		}
+		buildings = {
+			infrastructure = 1
+			558 = {
+				walls = 1
+
+			}
+
+		}
+
 	}
-	local_supplies=1.0 #1.000
+
+	provinces={
+		558 3190 
+	}
+	manpower=10846
+	buildings_max_level_factor=1.000
+	state_category=hamlet
+	local_supplies=1.000
 }

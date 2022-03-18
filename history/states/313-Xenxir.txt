@@ -10,10 +10,29 @@ state={
 		add_core_of = ECO
 		
 		victory_points = { 2712 5 }
+		victory_points = { 2733 5 }
+		buildings = {
+			infrastructure = 4
+			religious_building = 0
+			arms_factory = 2
+			industrial_complex = 1
+			supply_node = 0
+			trade_points = 0
+			#naval_base = 
+			#fort = 
+			2712 = { walls = 1 }
+			2733 = { walls = 1 }
+			fuel_silo = 0
+			#watchtowers = 0 
+			field = 3
+			tannery = 0
+			tailoring = 0
+			#naval_landing = 
+		}
 	}
 	
-	manpower=100
+	manpower=36543 #9
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=1.000
 }

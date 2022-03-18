@@ -4,12 +4,23 @@ state={
 	provinces={
 		11 527 3068 3069 3070 3071 3072 3073 3074 3075 3076 3077 3078 3079 3080 3081 3082 3083 3084 3085 3086 3087 3088 3089 
 	}
-	manpower=100
-	state_category = rural
+	manpower=57287
+	state_category = large_town
 	history = {
 		owner = AST 
+		add_core_of = AST 
 		
-		victory_points = { 3072 5 }
+		victory_points = { 3072 10 } #Braga
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			field = 2
+			tannery = 1
+			doackyard = 1
+			3072 = { walls = 1 }
+			3071 = { naval_base = 1 }
+		}
 	}
 	local_supplies=1.0 #1.000
 }

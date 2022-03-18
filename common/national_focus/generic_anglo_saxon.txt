@@ -38,7 +38,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = { 
 			add_political_power = 50
-			add_stability = 50
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -56,7 +56,23 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }	
 		completion_reward = { 
 			add_political_power = 120
-			add_ideas = AS_aim_englaland 
+		}
+	}
+	focus = {
+		id = AS_swords_blood
+		icon = GFX_unknown
+		x = 0
+		y = 1	
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = AS_ambition_englaland }
+		relative_position_id = AS_ambition_englaland
+		search_filters = { FOCUS_FILTER_POLITICAL }	
+		completion_reward = { 
+			add_political_power = 120
 		}
 	}
 }

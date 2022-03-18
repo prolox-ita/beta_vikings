@@ -8,10 +8,30 @@ state={
 	history={
 		owner = ECO
 		add_core_of = ECO
+		victory_points = { 2897 10 }
+		buildings = {
+			infrastructure = 3
+			religious_building = 0
+			arms_factory = 1
+			industrial_complex = 0
+			supply_node = 0
+			trade_points = 0
+			#naval_base = 
+			#fort = 
+			2897 = { walls = 1 }
+			dockyard = 1
+			fuel_silo = 0
+			#watchtowers = 
+			field = 0
+			tannery = 1
+			tailoring = 0
+			#naval_landing = 
+
+		}
 	}
 	
-	manpower=100
+	manpower=11326 
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category= hamlet
 	local_supplies=1.000
 }

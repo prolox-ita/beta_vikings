@@ -4,10 +4,24 @@ state={
 	provinces={
 		706 3107 3108 3110 3111 3112 3113 3114 3116 3117 3118 3119 3120 3121 3122 
 	}
-	manpower=100
-	state_category = rural
+	manpower=145309
+	state_category = large_city
 	history = {
 		owner = AST 
+		add_core_of = AST 
+		victory_points = { 3117 30 } #Oviedo Ovetao
+		buildings = {
+			3117 = { walls = 2 }
+			3121 = { naval_base = 1 }
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			tailoring = 1
+			fuel_silo = 1
+			tannery = 1
+			trade_points = 1
+			dockyard = 1
+		}
 		
 	}
 	local_supplies=1.0 #1.000

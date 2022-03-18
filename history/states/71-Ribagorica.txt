@@ -4,10 +4,16 @@ state={
 	provinces={
 		1734 2962 
 	}
-	manpower=100
-	state_category = rural
+	manpower=5847
+	state_category = village
 	history = {
 		owner = ECO 
+		add_core_of = ECO
+		victory_points = { 1734 5 }
+		buildings = {
+			infrastructure = 1
+			1734 = { walls = 1 }
+		}
 		
 	}
 	local_supplies=1.0 #1.000

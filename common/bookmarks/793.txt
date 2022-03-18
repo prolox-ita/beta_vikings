@@ -15,6 +15,22 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ECO"={
+			history = "FRA_A_NEW_ERA_DESC"
+			ideology = wip
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BYZ"={
+			history = "FRA_A_NEW_ERA_DESC"
+			ideology = wip
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"---"={
 			history = "OTHER_A_NEW_ERA_DESC"
 		}

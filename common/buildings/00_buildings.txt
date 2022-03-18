@@ -90,7 +90,7 @@ buildings = {
 		base_cost = 1250
 		icon_frame = 5
 		#air_base = yes
-		max_level = 10
+		max_level = 5
 		value = 1
 		damage_factor = 0.5
 	}
@@ -134,10 +134,24 @@ buildings = {
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 2
-		max_level = 10
+		max_level = 4
 		value = 1
 		
 		required_garrison_factor = 0.1
+	}
+		
+	dockyard = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		base_cost = 6400
+		only_costal = yes
+		naval_production = 1
+		icon_frame = 4
+		only_costal = yes
+		max_level = 20
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
 	}
 
 	#coastal_bunker = {
@@ -204,18 +218,19 @@ buildings = {
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
 		value = 4
+		provincial = yes
 	}
-	rocket_site = {
-		show_on_map = 1
-		base_cost = 6400
-		icon_frame = 12
-		rocket_production = 5
-		rocket_launch_capacity = 1
-		max_level = 5
-		shares_slots = yes
-		value = 1
-		infrastructure_construction_effect = yes
-	}
+	#rocket_site = {
+	#	show_on_map = 1
+	#	base_cost = 6400
+	#	icon_frame = 12
+	#	rocket_production = 5
+	#	rocket_launch_capacity = 1
+	#	max_level = 5
+	#	shares_slots = yes
+	#	value = 1
+	#	infrastructure_construction_effect = yes
+	#}
 	field = { #field
 		show_on_map = 1
 		base_cost = 14500
@@ -243,15 +258,6 @@ buildings = {
 
 	}
 	tailoring = {
-		show_on_map = 1
-		base_cost = 14500
-		icon_frame = 10
-		local_resources_fabrics = 1 # May use local_resources_ + any resource name
-		max_level = 5  
-		shares_slots = yes
-		value = 5
-	}
-	academy = {
 		show_on_map = 1
 		base_cost = 14500
 		icon_frame = 10

@@ -10,6 +10,26 @@ state={
 		add_core_of = ECO
 		
 		victory_points = { 2667 10 } #Lisbona
+		buildings = {
+			infrastructure = 5
+			religious_building = 0
+			arms_factory = 1
+			industrial_complex = 2
+			supply_node = 1
+			trade_points = 1
+			#naval_base = 
+			#fort = 
+			2667 = { walls = 1 naval_base = 1}
+			dockyard = 2
+			#fuel_silo = 2
+			#watchtowers = 
+			field = 2
+			tannery = 0
+			tailoring = 0
+			#naval_landing = 
+
+		}
+
 		
 		#Culture
 		add_to_array = { state_culture_array = 19 } #andalusian
@@ -28,8 +48,8 @@ state={
 
 	}
 	
-	manpower=23675 
+	manpower=43675 
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=1.000
 }

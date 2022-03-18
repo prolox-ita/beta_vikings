@@ -4,10 +4,31 @@ state={
 	provinces={
 		851 853 857 2958 
 	}
-	manpower=100
-	state_category = rural
+	manpower=7823
+	state_category = hamlet
 	history = {
 		owner = ECO
+		add_core_of = ECO
+		buildings = {
+			infrastructure = 1
+			religious_building = 0
+			arms_factory = 0
+			industrial_complex = 1
+			supply_node = 0
+			trade_points = 1
+			#naval_base = 
+			#fort = 
+			853 = { walls = 1 naval_base = 1 }
+			fuel_silo = 0
+			dockyard = 1
+			#watchtowers = 
+			field = 0
+			tannery = 0
+			tailoring = 0
+			#naval_landing = 
+		}
+			victory_points = { 853 5 }
+
 		
 	}
 	local_supplies=1.0 #1.000

@@ -24,18 +24,21 @@
 
  STATE_60:0 "Magonsæte" #Toledo
  
+ STATE_62:0 "Osona" ##???
  STATE_63:0 "Barshiluna" #Barcelona
  STATE_64:0 "Al-Sharrat" #Toledo
  
+ STATE_69:0 "Urgell"
+ STATE_70:0 "Pallars"
  STATE_71:0 "Ribagorica"
- 
+ STATE_72:0 "Xaca"
  STATE_73:0 "Ovetao"
- 
+ STATE_74:0 "Bambaluna" #Pamplona
  STATE_75:0 "Al Burtughaal"
- STATE_76:0 "Astorga"
- STATE_77:0 "Leon"
- 
- STATE_79:0 "Burgos"
+ STATE_76:0 "Astur"
+ STATE_77:0 "Liyum"
+ STATE_78:0 "Lucronio" #Logrono
+ STATE_79:0 "Baurgs"
  
  STATE_81:0 "Strateburgus"
  STATE_82:0 "Bresta" ##Brest in Leon
@@ -83,10 +86,10 @@
  STATE_317:0 "Shiduna" 
  STATE_318:0 "Kambania" 
  STATE_319:0 "Al Bilatala" 
- STATE_320:0 "Oshuna" 
+ STATE_320:0 "Oxona" 
  STATE_321:0 "Rayya" 
  STATE_322:0 "Tudmir" 
- STATE_323:0 "Mayrit" 
+ STATE_323:0 "Shalamanqa" 
  STATE_324:0 "Al Busharrat" 
  STATE_325:0 "Az-Zeitum" 
  STATE_326:0 "Al-Belalta" 
@@ -106,7 +109,7 @@
  STATE_340:0 "North Miercna land"
  STATE_341:0 "Ut Miercna land"
  STATE_342:0 "Braga"
- STATE_343:0 "Amaya"
+ STATE_343:0 "Santemeter" #Santander
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

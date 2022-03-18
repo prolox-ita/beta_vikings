@@ -4,12 +4,29 @@ state={
 	provinces={
 		441 2665 2901 2905 2907 2910 2912 2937 2947 2949 2957 2965 2966 2967 2969 2970 2976 2978 2979 2984 
 	}
-	manpower=100
-	state_category = rural
+	manpower = 1467145 
+	state_category = megalopolis #15
 	history = {
 		owner = ECO
 		victory_points = { 2907 30 }
-		
+		buildings = {
+			infrastructure = 6
+			religious_building = 0
+			arms_factory = 1
+			industrial_complex = 2
+			supply_node = 1
+			trade_points = 2
+			#naval_base = 
+			#fort = 
+			2907 = { walls = 2 }
+			fuel_silo = 0
+			#watchtowers = 
+			field = 2
+			tannery = 2
+			tailoring = 1
+			#naval_landing = 
+
+		}
 	}
 	local_supplies=1.0 #1.000
 }

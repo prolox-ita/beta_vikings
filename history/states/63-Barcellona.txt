@@ -4,10 +4,28 @@ state={
 	provinces={
 		1730 3020 3067 
 	}
-	manpower=100
-	state_category = rural
+	manpower=67322
+	state_category = large_town
 	history = {
 		owner = ECO
+		buildings = {
+			infrastructure = 4
+			religious_building = 0
+			arms_factory = 1
+			industrial_complex = 1
+			supply_node = 1
+			trade_points = 0
+			#naval_base = 
+			#fort = 
+			3067 = { walls = 1 naval_base = 2 }
+			dockyard = 2
+			fuel_silo = 0
+			#watchtowers = 
+			field = 0
+			tannery = 1
+			tailoring = 0
+			#naval_landing = 
+		}
 		
 		victory_points = { 3067 10 }
 	}

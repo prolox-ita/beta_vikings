@@ -1,14 +1,30 @@
-state={ 
+
+state={
 	id=72
 	name="STATE_72"
+
+	history={
+		owner = ECO
+		add_core_of = ECO
+		victory_points = {
+			1742 5 
+		}
+		buildings = {
+			infrastructure = 1
+			1742 = {
+				wall = 1
+
+			}
+
+		}
+
+	}
+
 	provinces={
-		1742
+		1742 3194 
 	}
-	manpower=100
-	state_category = rural
-	history = {
-		owner = ECO 
-		
-	}
-	local_supplies=1.0 #1.000
+	manpower=6835
+	buildings_max_level_factor=1.000
+	state_category=hamlet
+	local_supplies=1.000
 }

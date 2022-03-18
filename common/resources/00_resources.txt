@@ -7,31 +7,35 @@ resources = {
 	}
 
 	wood = {
-		icon_frame = 2
+		icon_frame = 3
 		cic = 0.125
 		convoys = 0.1
 	}
-
-	#stone = {
-	#	icon_frame = 3
-	#	cic = 0.125
-	#	convoys = 0.1
-	#}
 	
 	iron = {
-		icon_frame = 4
+		icon_frame = 2
 		cic = 0.125
 		convoys = 0.1
 	}
 	
 	leather = {
-		icon_frame = 5
+		icon_frame = 4
 		cic = 0.125
 		convoys = 0.1
 	}
 	
 	fabrics = {
-		icon_frame = 6
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	gold = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	stones = {
+		icon_frame = 5
 		cic = 0.125
 		convoys = 0.1
 	}

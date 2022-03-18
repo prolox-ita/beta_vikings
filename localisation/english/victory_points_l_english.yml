@@ -29,7 +29,7 @@
  VICTORY_POINTS_2885:0 "Eidynburh" 
  VICTORY_POINTS_1697:0 "Dynbaer" 
  VICTORY_POINTS_3067:0 "Barshiluna" 
- VICTORY_POINTS_3072:0 "Braga" 
+ VICTORY_POINTS_3072:0 "Braga" #???
  VICTORY_POINTS_2907:0 "Tulaytula" #Toledo
  VICTORY_POINTS_3093:0 "Balansiyya" #Valencia
  VICTORY_POINTS_3098:0 "Hudrentum" #Otranto
@@ -41,5 +41,40 @@
  VICTORY_POINTS_3009:0 "Uryula" #Orihuela
  VICTORY_POINTS_2951:0 "Banu Abdus" #Benahadux
  VICTORY_POINTS_3149:0 "Turtūshah" #Tortosa
- VICTORY_POINTS_3154:0 "Saraqusta" #Zaragoza
+ VICTORY_POINTS_3129:0 "Saraqusta" #Zaragoza
  VICTORY_POINTS_3188:0 "Qúrtuba" #Cordoba
+ VICTORY_POINTS_2623:0 "Jabal Tāriq" #Gibraltar
+ VICTORY_POINTS_853:0 "Palma" #Gibraltar
+ VICTORY_POINTS_2733:0 "Hizn Qazris" #Caceres
+ VICTORY_POINTS_2679:0 "Burtuqal" #Porto
+ VICTORY_POINTS_2663:0 "Martulah" #Mertola
+ VICTORY_POINTS_96:0 "Qalsana" #disappeared
+ VICTORY_POINTS_2974:0 "Oxona" #Osuna
+ VICTORY_POINTS_2897:0 "Malaqah" #Malaga
+ VICTORY_POINTS_1732:0 "Garnaṭa" #Malaga 
+ VICTORY_POINTS_2973:0 "Madinat Ilbira" #Elvira
+ VICTORY_POINTS_2413:0 "Jayyan" #Jaen
+ VICTORY_POINTS_2989:0 "Qartayannat" #Cartagena
+ VICTORY_POINTS_2644:0 "Kunka" #Cuenca
+ VICTORY_POINTS_663:0 "Daniyya" #Denia
+ VICTORY_POINTS_2619:0 "Qastilgun" #Castello
+ VICTORY_POINTS_2621:0 "Larida" #Lleida / Lerida
+ VICTORY_POINTS_3103:0 "Tiruwal" #Teruel
+ VICTORY_POINTS_3157:0 "Washqah" #Huesca
+ VICTORY_POINTS_2734:0 "Turjalah" #Trujillo
+ VICTORY_POINTS_2121:0 "Qal at Rabaḥ" #Trujillo
+ VICTORY_POINTS_3029:0 "Shalamanqa" #Salamanca
+ VICTORY_POINTS_2968:0 "Astur" #Astorga
+ VICTORY_POINTS_3139:0 "Liyum" #Leon
+ VICTORY_POINTS_3160:0 "Baurgs" #Burgos
+ VICTORY_POINTS_1744:0 "Bambaluna" #Pamplona
+ VICTORY_POINTS_1742:0 "Xaca" #Jaca
+ VICTORY_POINTS_558:0 "Osona" 
+ VICTORY_POINTS_1734:0 "Ribagorica" #Ribagorza
+ VICTORY_POINTS_1731:0 "Urgell" #???
+ VICTORY_POINTS_1735:0 "Pallars" #??
+ VICTORY_POINTS_3146:0 "Santemeter" #Santander
+ VICTORY_POINTS_3117:0 "Ovetao" #Oviedo
+ VICTORY_POINTS_3105:0 "Lucronio" #Logrono
+ 
+ 

@@ -4,10 +4,30 @@ state={
 	provinces={
 		1733 3132 3134 3135 3136 3138 3139 3140 3141 
 	}
-	manpower=100
-	state_category = rural
+	manpower=18234
+	state_category = small_town
 	history = {
-		owner = ECO 
+		owner = ECO
+		add_core_of = ECO
+		victory_points = { 3139 10 }
+		buildings = {
+			infrastructure = 1
+			religious_building = 0
+			arms_factory = 0
+			industrial_complex = 0
+			supply_node = 0
+			trade_points = 0
+			#naval_base = 
+			#fort = 
+			3139 = { walls = 2 }
+			fuel_silo = 0
+			#watchtowers = 
+			field = 1
+			tannery = 0
+			tailoring = 0
+			#naval_landing = 
+
+		}
 		
 	}
 	local_supplies=1.0 #1.000

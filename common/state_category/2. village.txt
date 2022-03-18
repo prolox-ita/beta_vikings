@@ -1,6 +1,6 @@
 state_categories={
 	village = {
-		local_building_slots = 3
+		local_building_slots = 2
 	
 		color = { 215 214 159 }
 

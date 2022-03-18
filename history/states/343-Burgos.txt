@@ -4,10 +4,21 @@ state={
 	provinces={
 		1745 3142 3143 3144 3145 3146 3147 
 	}
-	manpower=100
-	state_category = rural
+	manpower=63289
+	state_category = large_town
 	history = {
 		owner = AST 
+		add_core_of = AST 
+		victory_points = { 3146 5 } #Santemeter - Santander
+		buildings = {
+			3146 = { walls = 1 naval_base = 1 }
+			infrastructure = 3
+			field = 1
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			
+		}
 		
 	}
 	local_supplies=1.0 #1.000

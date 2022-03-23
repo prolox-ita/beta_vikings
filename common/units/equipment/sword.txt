@@ -5,6 +5,7 @@ equipments = {
 #sword
 	sword = {
 		is_archetype = yes
+		picture = archetype_sword_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
@@ -40,6 +41,8 @@ equipments = {
 	}
 
 	sword_0 = {
+		year = 792 
+		
 		archetype = sword
 		active = yes
 		priority = 05

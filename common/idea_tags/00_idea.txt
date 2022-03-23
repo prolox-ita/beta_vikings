@@ -15,7 +15,7 @@ idea_categories = {
 	}
 
 	titles_list = {
-		national_spirit = yes
+		type = national_spirit
 		#slot = titles_list
 		
 		cost = 0

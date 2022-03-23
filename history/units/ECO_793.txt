@@ -1,0 +1,15 @@
+﻿
+####### Starting Production Queue #######
+instant_effect = { 
+		add_equipment_production = { 
+			equipment = { 
+				type = infantry_equipment_0 
+				creator = "ECO" 
+			} 
+
+			requested_factories = 2 
+			progress = 0.3
+			efficiency = 40 
+		} 
+
+	}

@@ -366,7 +366,7 @@ guiTypes = {
 			buttonType = {
 				name = "anglo_saxon_army_folder_tab"
 				position = { x = 22 y = 0 }
-				quadTextureSprite = "GFX_anglo_saxon_army_folder_tab"
+				quadTextureSprite = "GFX_germanic_army_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
@@ -406,7 +406,7 @@ guiTypes = {
 			buttonType = {
 				name = "anglo_saxon_navy_folder_tab"
 				position = { x = 121 y = 0 }
-				quadTextureSprite = "GFX_anglo_saxon_navy_folder_tab"
+				quadTextureSprite = "GFX_norse_navy_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}

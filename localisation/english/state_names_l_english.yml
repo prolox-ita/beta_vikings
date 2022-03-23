@@ -28,7 +28,7 @@
  STATE_63:0 "Barshiluna" #Barcelona
  STATE_64:0 "Al-Sharrat" #Toledo
  
- STATE_69:0 "Urgell"
+ STATE_69:0 "Urgil" #Urgell
  STATE_70:0 "Pallars"
  STATE_71:0 "Ribagorica"
  STATE_72:0 "Xaca"

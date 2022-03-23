@@ -10,10 +10,7 @@ state={
 			1735 5 
 		}
 		buildings = {
-			1735 = {
-				walls = 1
-
-			}
+			1735 = { walls = 1 }
 			infrastructure = 1
 
 		}
@@ -23,8 +20,8 @@ state={
 	provinces={
 		1735 3192 
 	}
-	manpower=6143
+	manpower=5847
 	buildings_max_level_factor=1.000
-	state_category=hamlet
+	state_category=village
 	local_supplies=1.000
 }

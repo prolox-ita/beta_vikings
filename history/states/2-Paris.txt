@@ -4,8 +4,8 @@ state={
 	provinces={
 		46 328 608 831 2126 2133 2134 2135 2152 2153 2154 2157 2158 2159 2160 2161 2162 2163 2164 2165 2166 2244 2340 2375 2377 2379 2382 2384 2388 2390 2391 2395 2396 2397 2399 2401 2408 
 	}
-	manpower = 70496
-	state_category = city
+	manpower = 4330690
+	state_category = Megalopolis
 	history = {
 		owner = FRA
 		add_core_of = FRA

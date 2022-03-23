@@ -38,10 +38,7 @@ country_event = {
 	
 	option = {
 		name = test.2.a
-		add_equipment_to_stockpile = {
-		type = axe_equipment_0
-		amount = 500
-	}	
+	
 	}
 }
 country_event = {

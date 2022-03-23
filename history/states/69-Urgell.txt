@@ -5,14 +5,20 @@ state={
 
 	history={
 		owner = ECO
+		add_core_of = ECO
+		victory_points = { 1731 5 }
+		buildings = {
+			1731 = { wall = 1 }
+			infrastructure = 1
+		}
 
 	}
 
 	provinces={
 		1731 3191 3193 
 	}
-	manpower=100
+	manpower=6143
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=hamlet
 	local_supplies=1.000
 }

@@ -35,7 +35,7 @@ sub_units = {
 		combat_width = 2
 	
 		need = {
-			axe_equipment = 500
+			axe = 500
 		}
 		
 	}
@@ -70,8 +70,8 @@ sub_units = {
 		combat_width = 2
 	
 		need = {
-			axe_equipment = 500
-			shield = 500
+			axe = 500
+			wooden_round_shield = 500
 		}
 		
 	}

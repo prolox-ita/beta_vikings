@@ -4,6 +4,7 @@
 equipments = {
 	wooden_round_shield = {
 		is_archetype = yes
+		picture = archetype_shield_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
@@ -39,6 +40,7 @@ equipments = {
 	}
 
 	wooden_round_shield_0 = {
+		year = 792
 		archetype = wooden_round_shield
 		active = yes
 		priority = 05
@@ -48,6 +50,7 @@ equipments = {
 equipments = {
 	iron_round_shield = {
 		is_archetype = yes
+		picture = archetype_iron_shield_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
@@ -83,6 +86,7 @@ equipments = {
 	}
 	
 	iron_round_shield_0 = {
+		year = 792 
 		archetype = iron_round_shield
 		active = yes
 		priority = 05

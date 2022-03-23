@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA
+		victory_points = { 242 5 }
+		buildings = {
+			infrastructure = 3
+			242 = { walls = 1 }
+		}
 	}
 	state_category = rural
 	manpower=7546

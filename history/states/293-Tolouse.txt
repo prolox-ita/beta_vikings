@@ -8,7 +8,7 @@ state={
 		owner = FRA
 		add_core_of = FRA
 	}
-	state_category = town
-	manpower=17542
+	state_category = Large_City
+	manpower=159276
 	local_supplies=1.0 #1.000
 }

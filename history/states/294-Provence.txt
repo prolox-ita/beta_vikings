@@ -10,7 +10,7 @@ state={
 		add_core_of = FRA
 
 	}
-	manpower=100
-	state_category = rural
+	manpower=1871276
+	state_category = Megalopolis
 	local_supplies=1.0 #1.000
 }

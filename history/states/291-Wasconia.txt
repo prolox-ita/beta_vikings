@@ -9,7 +9,7 @@ state={
 		add_core_of = FRA
 		victory_points={ 112 1 } #Baiona (nowadays Bayonne)
 	}
-	state_category = rural
-	manpower=8543
+	state_category = City
+	manpower=80167
 	local_supplies=1.0 #1.000
 }

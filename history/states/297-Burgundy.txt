@@ -4,8 +4,8 @@ state={
 	provinces={
 		9 92 118 238 2130 2172 2180 2183 2318 2319 2320 2321 2322 2323 2324 2327 2329 2330 2332 2334 2335 2336 2337 2338 2339 2439 
 	}
-	manpower=20
-	state_category = rural
+	manpower=101736
+	state_category = City
 	local_supplies=1.0
 	
 	history = {

@@ -10,7 +10,7 @@ state={
 		
 	}
 
-	manpower=10000
-	state_category = town
+	manpower=65917
+	state_category = Large_Town
 	local_supplies=1.0 #1.000
 }

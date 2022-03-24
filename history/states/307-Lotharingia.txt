@@ -12,7 +12,7 @@ state={
 
 	}
 
-	manpower=100
+	manpower=4973829
 	local_supplies=1.0 #1.000
-	state_category=rural
+	state_category=Megalopolis
 }

@@ -13,7 +13,7 @@ state={
 			242 = { walls = 1 }
 		}
 	}
-	state_category = rural
-	manpower=7546
+	state_category = Large_City
+	manpower=162345
 	local_supplies=1.0 #1.000
 }

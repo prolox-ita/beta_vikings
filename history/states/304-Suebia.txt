@@ -4,8 +4,8 @@ state={
 	provinces={
 		265 2138 2139 2142 2144 2156 2169 2170 2178 2181 2182 2185 2188 2189 2190 2193 
 	}
-	manpower=13245
-	state_category= town
+	manpower=58679
+	state_category= Large_Town
 	local_supplies=1.0 #1.000
 	
 	history = {

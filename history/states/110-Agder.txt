@@ -2,13 +2,27 @@ state={
 	id=110
 	name="STATE_110"
 	provinces={
-		1766
+		1766 3207 3211 3212 3214 
 	}
-	manpower=100
-	state_category = rural
+	resources = {
+		wood = 2
+		iron = 2
+	}	manpower=22187
+	state_category = small_town
 	history = {
 		owner = AGD 
-		
+		add_core_of = AGD 
+		victory_points = { 1766 10 } #tingvatn
+		buildings = {
+			1766 = { walls = 1 naval_base = 2 }
+			tailoring = 1
+			field = 1
+			dockyard = 2
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
 	}
 	local_supplies=1.0 #1.000
 }

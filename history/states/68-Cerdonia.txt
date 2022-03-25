@@ -4,8 +4,8 @@ state={
 	provinces={
 		1738
 	}
-	manpower=20904
-	state_category = Small_Town
+	manpower=15904
+	state_category = small_town
 	history = {
 		owner = FRA 
 		

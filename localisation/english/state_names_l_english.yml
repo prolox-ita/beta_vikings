@@ -51,7 +51,18 @@
  STATE_98:0 "Latium"
  STATE_99:0 "Test"
  
+ STATE_103: "Carantania"
+ STATE_104: "Osterland"
  STATE_105: "Westfalen"
+ STATE_106: "Baioaria"
+ 
+ STATE_110: "Agðir"
+ STATE_111: "Rygjaland"
+ STATE_112: "Hǫrðaland"
+ 
+ STATE_166: "Vestergotland"
+ 
+ STATE_171: "Skåneland"
  
  STATE_205: "Baleares"
  

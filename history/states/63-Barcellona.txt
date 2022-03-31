@@ -4,8 +4,8 @@ state={
 	provinces={
 		1730 3020 3067 
 	}
-	manpower=67322
-	state_category = large_town
+	manpower=87635
+	state_category = city
 	history = {
 		owner = ECO
 		buildings = {

@@ -4,10 +4,11 @@ state={
 	provinces={
 		1765
 	}
-	manpower=35598
-	state_category = Town
+	manpower=20598
+	state_category = town
 	history = {
 			owner = FRA
+			#no core FRA
 		
 	}
 	local_supplies=1.0 #1.000

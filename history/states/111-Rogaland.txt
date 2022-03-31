@@ -7,7 +7,8 @@ state={
 	manpower=100
 	state_category = rural
 	history = {
-		owner = ROG 
+		owner = ROG
+		add_core_of = ROG
 		
 	}
 	local_supplies=1.0 #1.000

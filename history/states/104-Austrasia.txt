@@ -4,10 +4,11 @@ state={
 	provinces={
 		637 2414 2415 2416 2418 2419 2421 2423 2424 2425 2428 2429 
 	}
-	manpower=55198
-	state_category = Large_Town
+	manpower=45198
+	state_category = town
 	history = {
 		owner = FRA 
+		add_core_of = FRA 
 		
 	}
 	local_supplies=1.0 #1.000

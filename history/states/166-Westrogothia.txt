@@ -2,12 +2,25 @@ state={
 	id=166
 	name="STATE_166"
 	provinces={
-		793
+		793 3201 3202 3203 3204 3205 3208 3209 
 	}
-	manpower=100
-	state_category = rural
+	manpower=19276
+	state_category = small_town
+	resources = {
+		wood = 2
+	}
 	history = {
 		owner = WGO
+		add_core_of = WGO
+		victory_points = { 3204 10 }
+		buildings = { 
+			3204 = { walls = 1 }
+			infrastructure = 4
+			3203 = { naval_base = 1 }
+			dockyard = 1
+			industrial_complex = 3
+			arms_factory = 1
+		}
 		
 	}
 	local_supplies=1.0 #1.000

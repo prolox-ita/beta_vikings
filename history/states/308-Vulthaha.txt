@@ -9,7 +9,7 @@ state={
 		owner = FRA
 		add_core_of = FRA
 	}
-	manpower=49298
+	manpower=39298
 	local_supplies=1.0 #1.000
 	state_category=Town
 	

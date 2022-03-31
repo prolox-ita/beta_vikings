@@ -9,7 +9,7 @@ state={
 		add_core_of = FRA
 		victory_points = { 2066 5 } #Bordèu(?)
 	}
-	state_category = Large_City
-	manpower=185209
+	state_category = large_city
+	manpower=175209 
 	local_supplies=1.0 #1.000
 }

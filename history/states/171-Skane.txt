@@ -2,12 +2,30 @@ state={
 	id=171
 	name="STATE_171"
 	provinces={
-		445
+		445 3196 3197 3198 3210 3232 3233 
 	}
-	manpower=100
-	state_category = rural
+	resources = {
+		wood = 1
+		iron = 1
+		stones = 1
+	}
+		manpower=16398 
+	state_category = small_town
 	history = {
 		owner = SKA
+		add_core_of = SKA
+		victory_points = { 3232 10 } #Uppåkra
+		buildings = {
+			infrastructure = 4
+			3232 = { walls = 1 naval_base = 2 }
+			arms_factory = 2
+			industrial_complex = 2
+			tannery = 1
+			field = 1
+			dockyard = 2
+			trade_points = 1
+		}
+	
 		
 	}
 	local_supplies=1.0 #1.000

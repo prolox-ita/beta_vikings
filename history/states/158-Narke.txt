@@ -1,14 +1,18 @@
-state={ 
+
+state={
 	id=158
 	name="STATE_158"
+
+	history={
+		owner = NAR
+
+	}
+
 	provinces={
-		758
+		758 3280 3284 3289 3292 3294 3296 3299 3301 3303 3305 3307 3311 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		owner = NAR
-		
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

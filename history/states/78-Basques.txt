@@ -4,8 +4,8 @@ state={
 	provinces={
 		1743 3104 3105 3106 3109 3115 
 	}
-	manpower=10332
-	state_category = hamlet
+	manpower=30332
+	state_category = Town
 	history = {
 		owner = ECO 
 		add_core_of = ECO 

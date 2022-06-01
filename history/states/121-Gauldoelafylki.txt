@@ -1,14 +1,18 @@
-state={ 
+
+state={
 	id=121
 	name="STATE_121"
+
+	history={
+		owner = GAU
+
+	}
+
 	provinces={
-		1777
+		1777 3544 3545 3546 3547 3549 3550 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		owner = GAU 
-		
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

@@ -1,14 +1,18 @@
-state={ 
+
+state={
 	id=131
 	name="STATE_131"
+
+	history={
+		owner = VES
+
+	}
+
 	provinces={
-		814 3218 3220 
+		814 3218 3220 3471 3472 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		owner = VES 
-		
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

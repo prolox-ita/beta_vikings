@@ -23,11 +23,14 @@
  STATE_34:0 "Carrum" # (Carhampton)
 
  STATE_60:0 "Magonsæte" #Toledo
- 
+ STATE_61:0 "Gerunda" ##???
  STATE_62:0 "Osona" ##???
  STATE_63:0 "Barshiluna" #Barcelona
  STATE_64:0 "Al-Sharrat" #Toledo
- 
+ STATE_65:0 "Besaldu" 
+ STATE_66:0 "Certania" 
+ STATE_67:0 "Emporus" 
+ STATE_68:0 "Rissilhon" 
  STATE_69:0 "Urgil" #Urgell
  STATE_70:0 "Pallars"
  STATE_71:0 "Ribagorica"
@@ -56,13 +59,44 @@
  STATE_105: "Westfalen"
  STATE_106: "Baioaria"
  
+ STATE_109: "Hamma" #Hamburg
  STATE_110: "Agðir"
  STATE_111: "Rygjaland"
  STATE_112: "Hǫrðaland"
+ STATE_113: "Harðangr"
+ STATE_114: "Vǫrs"
+ STATE_115: "Sygnaland"
+ STATE_116: "Firðirland"
+ STATE_117: "Sunnmǿrr"
+ STATE_118: "Raumsdalr"
+ STATE_119: "Norðmǿrr"
+ STATE_120: "Stiodœlaland"
+ STATE_121: "Gauldœlaland"
+ STATE_122: "Orkdœlaland"
+ STATE_123: "Strindaland"
+ STATE_124: "Skeynaland"
+ STATE_125: "Eynaland"
+ STATE_126: "Naumdœlaland"
+ 
+ STATE_129: "Eystridalir"
+ STATE_130: "Heiðmǫrk"
+ STATE_131: "Vestfold"
+ STATE_132: "Heinamǫrk" #Heinar+land
+ STATE_133: "Raumaland" #or raumr+land
+ STATE_134: "Hringaland" #ok
+ STATE_135: "Hadaland"
+ 
+ STATE_138: "Grænaland"
  
  STATE_166: "Vestergotland"
  
  STATE_171: "Skåneland"
+ 
+ STATE_188: "Vendland"
+ STATE_189: "Ribe"
+ STATE_190: "Heiðabýr"
+ STATE_191: "Aarhus"
+ STATE_192: "Jelling"
  
  STATE_205: "Baleares"
  
@@ -83,9 +117,9 @@
  STATE_303:0 "Luyon" #Lyon, South Burgundy -- probalby incorrect
  STATE_304:0 "Suabia"
  STATE_305:0 "Pentapolis"
- STATE_306:0 "Frysland" #Lyon, South Burgundy -- probalby incorrect
- STATE_307:0 "Lotharingia" #Lyon, South Burgundy -- probalby incorrect
- STATE_308:0 "Vulthaha" #Fulda, Thuringia
+ STATE_306:0 "Frysland" 
+ STATE_307:0 "Lotharingia" 
+ STATE_308:0 "Vulthaha" #Erphesfurt, Thuringia
  STATE_309:0 "Angria" #Fulda, Thuringia
  STATE_310:0 "Ostfalen" #Eastphalia
  STATE_311:0 "Nordalbingia" #???
@@ -121,6 +155,7 @@
  STATE_341:0 "Ut Miercna land"
  STATE_342:0 "Braga"
  STATE_343:0 "Santemeter" #Santander
+ STATE_344:0 "Fjon" #Fune
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

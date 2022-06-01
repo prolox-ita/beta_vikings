@@ -1,14 +1,19 @@
-state={ 
+
+state={
 	id=117
 	name="STATE_117"
+
+	history={
+		owner = SUN
+		add_core_of = SUN
+
+	}
+
 	provinces={
-		268
+		268 3366 3367 3368 3369 3370 3374 3379 3386 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		owner = SUN 
-		
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

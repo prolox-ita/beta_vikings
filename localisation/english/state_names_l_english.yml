@@ -70,6 +70,7 @@
  STATE_117: "Sunnmǿrr"
  STATE_118: "Raumsdalr"
  STATE_119: "Norðmǿrr"
+<<<<<<< HEAD
  STATE_120: "Stiodœlaland"
  STATE_121: "Gauldœlaland"
  STATE_122: "Orkdœlaland"
@@ -105,6 +106,8 @@
 >>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
 =======
 >>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
+=======
+>>>>>>> parent of 30d359b (Fixing & adding)
  
  STATE_166: "Vestergotland"
  

@@ -4,12 +4,11 @@
  STATE_3:0 "West Seaxna land" #Winchester
  STATE_4:0 "Suþ Miercna land" #Outer Mercia
  STATE_5:0 "Hwinca"
- 
  STATE_6:0 "Lundenwic" #then Lundenburh (London)
- STATE_7:0 "Suþ rige"
+ STATE_7:0 "Suþrige" #southern region
  STATE_8:0 "Ēastengla land"
  STATE_9:0 "Ēast Seaxna land"
- #STATE_10:
+ STATE_10:0 "Wihte īeġland"
  STATE_11:0 "Cantwara land"
  STATE_12:0 "Suð Seaxe land"
  STATE_13:0 "Lincylene"
@@ -47,10 +46,12 @@
  STATE_82:0 "Bresta" ##Brest in Leon
  STATE_83:0 "Dol"
  STATE_84:0 "Quemper" ##from kemper in Cornouaille
- STATE_85:0 "Nantais"
+ STATE_85:0 "Bro-Gwened"
  STATE_86:0 "Nantais"
  STATE_87:0 "Rennais"
+ 
  STATE_91:0 "Tuscia"
+ 
  STATE_98:0 "Latium"
  STATE_99:0 "Test"
  
@@ -85,8 +86,20 @@
  STATE_133: "Raumaland" #or raumr+land
  STATE_134: "Hringaland" #ok
  STATE_135: "Hadaland"
- 
+ STATE_136: "Móðhaland"
+ STATE_137: "Vingulmǫrk"
  STATE_138: "Grænaland"
+ STATE_139: "Alfland"
+ STATE_140: "Telamǫrk"
+ STATE_141: "Dal"
+ STATE_142: "Værmaland"
+ STATE_143: "Hálogaland"
+ STATE_144: "Haddingjadalr"
+ STATE_145: "Naumadalr"
+ STATE_146: "Upplǫnd"
+ STATE_147: "Völldres"
+ STATE_148: "i Dalom" #capital Hundþorp
+ STATE_149: "Fiallsland"
  
  STATE_166: "Vestergotland"
  

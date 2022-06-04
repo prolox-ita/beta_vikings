@@ -125,6 +125,7 @@ focus_tree = {
 			}
 		}
 	}
+	#sviluppo a tre: botteghe, field, tannery/, infrastrutture
 	focus = {
 		id = military_development
 		icon = GFX_unknown
@@ -212,5 +213,7 @@ focus_tree = {
 			#idea
 		}
 	}
+	
+	###sviluppo a tre: fabbriche, forti, navale ed eventualmente la ricerca militare
 
 }

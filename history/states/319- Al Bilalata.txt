@@ -25,6 +25,7 @@ state={
 			tailoring = 1
 			#naval_landing = 
 		}
+		victory_points = { 2990 5 }#Bitrawsh
 	}
 	
 	manpower=28090

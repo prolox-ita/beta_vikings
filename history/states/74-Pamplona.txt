@@ -32,8 +32,8 @@ state={
 	provinces={
 		1744 3195 
 	}
-	manpower=8311
+	manpower=12311
 	buildings_max_level_factor=1.000
-	state_category=hamlet
+	state_category= Small_Town
 	local_supplies=1.000
 }

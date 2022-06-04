@@ -4,7 +4,7 @@ state={
 	provinces={
 		851 853 857 2958 
 	}
-	manpower=7823
+	manpower=11823
 	state_category = hamlet
 	history = {
 		owner = ECO

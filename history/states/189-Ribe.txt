@@ -2,11 +2,9 @@ state={
 	id=189
 	name="STATE_189"
 	provinces={
-<<<<<<< HEAD
-		65 691
-=======
+
 		65 691 3521 3522 3523 3524 3525 3526 3527 3528 3530 3531 3532 3533 3534 
->>>>>>> parent of 30d359b (Fixing & adding)
+
 	}
 	manpower=100
 	state_category = rural

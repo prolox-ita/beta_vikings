@@ -31,8 +31,8 @@ state={
 		}
 	}
 	
-	manpower=12876
+	manpower=9876
 	buildings_max_level_factor=1.000
-	state_category= Small_Town
+	state_category=hamlet
 	local_supplies=1.000
 }

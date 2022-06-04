@@ -1,16 +1,21 @@
-state={ 
+
+state={
 	id=149
 	name="STATE_149"
-	provinces={
-		747
-	}
-	manpower=100
-	state_category = rural
-	history = {
+
+	history={
 		800.1.1 = {
 			owner = AGD
+
 		}
-		
+
 	}
-	local_supplies=1.0 #1.000
+
+	provinces={
+		747 3286 3287 3290 3291 3293 3295 3297 3298 3300 3306 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

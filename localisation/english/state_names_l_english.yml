@@ -4,11 +4,12 @@
  STATE_3:0 "West Seaxna land" #Winchester
  STATE_4:0 "Suþ Miercna land" #Outer Mercia
  STATE_5:0 "Hwinca"
+ 
  STATE_6:0 "Lundenwic" #then Lundenburh (London)
- STATE_7:0 "Suþrige" #southern region
+ STATE_7:0 "Suþ rige"
  STATE_8:0 "Ēastengla land"
  STATE_9:0 "Ēast Seaxna land"
- STATE_10:0 "Wihte īeġland"
+ #STATE_10:
  STATE_11:0 "Cantwara land"
  STATE_12:0 "Suð Seaxe land"
  STATE_13:0 "Lincylene"
@@ -22,11 +23,14 @@
  STATE_34:0 "Carrum" # (Carhampton)
 
  STATE_60:0 "Magonsæte" #Toledo
- 
+ STATE_61:0 "Gerunda" ##???
  STATE_62:0 "Osona" ##???
  STATE_63:0 "Barshiluna" #Barcelona
  STATE_64:0 "Al-Sharrat" #Toledo
- 
+ STATE_65:0 "Besaldu" 
+ STATE_66:0 "Certania" 
+ STATE_67:0 "Emporus" 
+ STATE_68:0 "Rissilhon" 
  STATE_69:0 "Urgil" #Urgell
  STATE_70:0 "Pallars"
  STATE_71:0 "Ribagorica"
@@ -43,12 +47,10 @@
  STATE_82:0 "Bresta" ##Brest in Leon
  STATE_83:0 "Dol"
  STATE_84:0 "Quemper" ##from kemper in Cornouaille
- STATE_85:0 "Bro-Gwened"
+ STATE_85:0 "Nantais"
  STATE_86:0 "Nantais"
  STATE_87:0 "Rennais"
- 
  STATE_91:0 "Tuscia"
- 
  STATE_98:0 "Latium"
  STATE_99:0 "Test"
  
@@ -57,12 +59,10 @@
  STATE_105: "Westfalen"
  STATE_106: "Baioaria"
  
+ STATE_109: "Hamma" #Hamburg
  STATE_110: "Agðir"
  STATE_111: "Rygjaland"
  STATE_112: "Hǫrðaland"
-
-
-
  STATE_113: "Harðangr"
  STATE_114: "Vǫrs"
  STATE_115: "Sygnaland"
@@ -70,8 +70,6 @@
  STATE_117: "Sunnmǿrr"
  STATE_118: "Raumsdalr"
  STATE_119: "Norðmǿrr"
-
-
  STATE_120: "Stiodœlaland"
  STATE_121: "Gauldœlaland"
  STATE_122: "Orkdœlaland"
@@ -87,34 +85,18 @@
  STATE_133: "Raumaland" #or raumr+land
  STATE_134: "Hringaland" #ok
  STATE_135: "Hadaland"
- STATE_136: "Móðhaland"
- STATE_137: "Vingulmǫrk"
+ 
  STATE_138: "Grænaland"
- STATE_139: "Alfland"
- STATE_140: "Telamǫrk"
- STATE_141: "Dal"
- STATE_142: "Værmaland"
- STATE_143: "Hálogaland"
- STATE_144: "Haddingjadalr"
- STATE_145: "Naumadalr"
- STATE_146: "Upplǫnd"
- STATE_147: "Völldres"
- STATE_148: "i Dalom" #capital Hundþorp
- STATE_149: "Fiallsland"
-
-
-
-
-
-
-
-
-
-
  
  STATE_166: "Vestergotland"
  
  STATE_171: "Skåneland"
+ 
+ STATE_188: "Vendland"
+ STATE_189: "Ribe"
+ STATE_190: "Heiðabýr"
+ STATE_191: "Aarhus"
+ STATE_192: "Jelling"
  
  STATE_205: "Baleares"
  
@@ -135,9 +117,9 @@
  STATE_303:0 "Luyon" #Lyon, South Burgundy -- probalby incorrect
  STATE_304:0 "Suabia"
  STATE_305:0 "Pentapolis"
- STATE_306:0 "Frysland" #Lyon, South Burgundy -- probalby incorrect
- STATE_307:0 "Lotharingia" #Lyon, South Burgundy -- probalby incorrect
- STATE_308:0 "Vulthaha" #Fulda, Thuringia
+ STATE_306:0 "Frysland" 
+ STATE_307:0 "Lotharingia" 
+ STATE_308:0 "Vulthaha" #Erphesfurt, Thuringia
  STATE_309:0 "Angria" #Fulda, Thuringia
  STATE_310:0 "Ostfalen" #Eastphalia
  STATE_311:0 "Nordalbingia" #???
@@ -173,6 +155,7 @@
  STATE_341:0 "Ut Miercna land"
  STATE_342:0 "Braga"
  STATE_343:0 "Santemeter" #Santander
+ STATE_344:0 "Fjon" #Fune
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

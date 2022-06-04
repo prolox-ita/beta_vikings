@@ -1,18 +1,14 @@
-
-state={
+state={ 
 	id=136
 	name="STATE_136"
-
-	history={
-		owner = VIN
-
-	}
-
 	provinces={
-		3224 3473 3474 3475 3476 
+		1768 3224 
 	}
 	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=1.000
+	state_category = rural
+	history = {
+		owner = VIN 
+		
+	}
+	local_supplies=1.0 #1.000
 }

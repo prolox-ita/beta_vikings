@@ -1,19 +1,14 @@
-
-state={
+state={ 
 	id=118
 	name="STATE_118"
-
-	history={
-		owner = RAU
-		add_core_of = RAU
-
-	}
-
 	provinces={
-		766 3260 3261 3262 3263 
+		766
 	}
 	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=1.000
+	state_category = rural
+	history = {
+		owner = RAU 
+		
+	}
+	local_supplies=1.0 #1.000
 }

@@ -1,19 +1,14 @@
-
-state={
+state={ 
 	id=119
 	name="STATE_119"
-
-	history={
-		owner = NMO
-		add_core_of = NMO
-
-	}
-
 	provinces={
-		598 763 3384 3387 3391 3392 3393 3394 3395 3396 3397 3398 3399 3400 3401 3403 
+		598 763
 	}
 	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=1.000
+	state_category = rural
+	history = {
+		owner = NMO 
+		
+	}
+	local_supplies=1.0 #1.000
 }

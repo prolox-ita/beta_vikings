@@ -1,40 +1,28 @@
-
-state={
+state={ 
 	id=110
 	name="STATE_110"
-	resources={
-		wood=2.000
-		iron=2.000
+	provinces={
+		1766 3207 3211 3212 3214 
 	}
-
-	history={
-		owner = AGD
-		add_core_of = AGD
-		victory_points = {
-			1766 10 
-		}
+	resources = {
+		wood = 2
+		iron = 2
+	}	manpower=22187
+	state_category = small_town
+	history = {
+		owner = AGD 
+		add_core_of = AGD 
+		victory_points = { 1766 10 } #tingvatn
 		buildings = {
-			1766 = {
-				walls = 1
-				naval_base = 2
-
-			}
+			1766 = { walls = 1 naval_base = 2 }
 			tailoring = 1
 			field = 1
 			dockyard = 2
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
-
 		}
 
 	}
-
-	provinces={
-		1766 3207 3211 3212 3214 3468 3492 
-	}
-	manpower=22187
-	buildings_max_level_factor=1.000
-	state_category=small_town
-	local_supplies=1.000
+	local_supplies=1.0 #1.000
 }

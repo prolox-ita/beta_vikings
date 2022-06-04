@@ -44,7 +44,7 @@
  VICTORY_POINTS_3129:0 "Saraqusta" #Zaragoza
  VICTORY_POINTS_3188:0 "Qúrtuba" #Cordoba
  VICTORY_POINTS_2623:0 "Jabal Tāriq" #Gibraltar
- VICTORY_POINTS_853:0 "Medina Mayurqa" #Palma
+ VICTORY_POINTS_853:0 "Palma" #Gibraltar
  VICTORY_POINTS_2733:0 "Hizn Qazris" #Caceres
  VICTORY_POINTS_2679:0 "Burtuqal" #Porto
  VICTORY_POINTS_2663:0 "Martulah" #Mertola
@@ -62,7 +62,7 @@
  VICTORY_POINTS_3103:0 "Tiruwal" #Teruel
  VICTORY_POINTS_3157:0 "Washqah" #Huesca
  VICTORY_POINTS_2734:0 "Turjalah" #Trujillo
- VICTORY_POINTS_2121:0 "Qal at Rabah" #Trujillo
+ VICTORY_POINTS_2121:0 "Qal at Rabaḥ" #Trujillo
  VICTORY_POINTS_3029:0 "Shalamanqa" #Salamanca
  VICTORY_POINTS_2968:0 "Astur" #Astorga
  VICTORY_POINTS_3139:0 "Liyum" #Leon
@@ -81,9 +81,5 @@
  VICTORY_POINTS_3232:0 "Uppåkra" #Uppåkra
  VICTORY_POINTS_1766:0 "Þingvatn" #Tingvatn
  VICTORY_POINTS_3204:0 "Vannebo" #Vaennbo 
- VICTORY_POINTS_2087:0 "Rodom" #Rouen
- VICTORY_POINTS_2990:0 "Bitrawsh" 
-Bajeu
-Rennais
  
  

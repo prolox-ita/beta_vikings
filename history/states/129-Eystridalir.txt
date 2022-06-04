@@ -1,18 +1,14 @@
-
-state={
+state={ 
 	id=129
 	name="STATE_129"
-
-	history={
-		owner = EYS
-
-	}
-
 	provinces={
-		214 3349 3350 3351 3352 3353 3354 3355 3356 3357 3358 3359 3360 3361 3362 3363 3364 3365 3371 3372 3373 3375 3376 3377 3378 3380 3381 3382 3383 3385 3388 3389 3390 
+		214
 	}
 	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=1.000
+	state_category = rural
+	history = {
+		owner = EYS 
+		
+	}
+	local_supplies=1.0 #1.000
 }

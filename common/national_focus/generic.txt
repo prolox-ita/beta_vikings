@@ -37,6 +37,7 @@ focus_tree = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	focus = {
 		id = rural_development
@@ -212,6 +213,8 @@ focus_tree = {
 	}
 	
 	###sviluppo a tre: fabbriche, forti, navale ed eventualmente la ricerca militare
+=======
+>>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
 =======
 >>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
 

@@ -61,6 +61,7 @@
  STATE_111: "Rygjaland"
  STATE_112: "Hǫrðaland"
 <<<<<<< HEAD
+<<<<<<< HEAD
  STATE_113: "Harðangr"
  STATE_114: "Vǫrs"
  STATE_115: "Sygnaland"
@@ -97,6 +98,8 @@
  STATE_147: "Völldres"
  STATE_148: "i Dalom" #capital Hundþorp
  STATE_149: "Fiallsland"
+=======
+>>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
 =======
 >>>>>>> parent of d682b1a (Merge branch 'main' of https://github.com/prolox-ita/beta_vikings)
  

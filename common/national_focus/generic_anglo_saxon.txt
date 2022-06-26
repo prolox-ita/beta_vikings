@@ -7,16 +7,16 @@
 #}
 
 focus_tree = {
-	id = generic_focus
+	id = anglo_saxon_focus
 	
 	country = {
 		factor = 2
-		#modifier = {
-		#	has_country_flag = anglo_saxon_culture
-		#}
+		modifier = {
+			has_country_flag = anglo_saxon_culture
+		}
 	}
 	
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	initial_show_position = {	

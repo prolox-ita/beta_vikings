@@ -15,7 +15,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription = 1 #just temporary, only to see immediately total manpower, standard is 0.01
 			}
 			
 			default = yes

@@ -1,0 +1,346 @@
+# for each country, generate one instance of the characters
+every_possible_country = {
+
+##treasurer
+#1
+	generate_character = {
+		token_base = noble_treasurer1
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = treasurer
+			#idea_token = noble_treasurer
+			available = {
+				has_country_flag = treasurer_flag1
+			}
+			visible = {
+				has_country_flag = treasurer_flag1		
+			}
+			on_add = {
+                set_country_flag = noble_treasurer1_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}
+#2
+	generate_character = {
+		token_base = noble_treasurer2
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = treasurer
+			#idea_token = noble_treasurer
+			available = {
+				has_country_flag = treasurer_flag2
+			}
+			visible = {
+				has_country_flag = treasurer_flag2
+			}
+			on_add = {
+                set_country_flag = noble_treasurer2_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}
+#3
+	generate_character = {
+		token_base = noble_treasurer3
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = treasurer
+			#idea_token = noble_treasurer
+			available = {
+				has_country_flag = treasurer_flag3
+			}
+			visible = {
+				has_country_flag = treasurer_flag3	
+			}
+			on_add = {
+                set_country_flag = noble_treasurer3_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}
+	
+##army_commander
+#1
+	generate_character = {
+		token_base = noble_army_commander1
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = army_commander
+			#idea_token = noble_army_commander
+			available = {
+				has_country_flag = army_commander_flag1
+			}
+			visible = {
+				has_country_flag = army_commander_flag1	
+			}
+			on_add = {
+                set_country_flag = noble_army_commander1_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#2
+	generate_character = {
+		token_base = noble_army_commander2
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = army_commander
+			#idea_token = noble_army_commander
+			available = {
+				has_country_flag = army_commander_flag2
+			}
+			visible = {
+				has_country_flag = army_commander_flag2
+			}
+			on_add = {
+                set_country_flag = noble_army_commander2_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#3
+	generate_character = {
+		token_base = noble_army_commander3
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = army_commander
+			#idea_token = noble_army_commander
+			available = {
+				has_country_flag = army_commander_flag3
+			}
+			visible = {
+				has_country_flag = army_commander_flag3
+			}
+			on_add = {
+                set_country_flag = noble_army_commander3_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+##spymaster
+#1
+	generate_character = {
+		token_base = noble_spymaster1
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = spymaster
+			#idea_token = noble_spymaster
+			available = {
+				has_country_flag = spymaster_flag1
+			}
+			visible = {
+				has_country_flag = spymaster_flag1	
+			}
+			on_add = {
+                set_country_flag = noble_spymaster1_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#2
+	generate_character = {
+		token_base = noble_spymaster2
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = spymaster
+			#idea_token = noble_spymaster
+			available = {
+				has_country_flag = spymaster_flag2
+			}
+			visible = {
+				has_country_flag = spymaster_flag2	
+			}
+			on_add = {
+                set_country_flag = noble_spymaster2_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#3
+	generate_character = {
+		token_base = noble_spymaster3
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = spymaster
+			#idea_token = noble_spymaster
+			available = {
+				has_country_flag = spymaster_flag3
+			}
+			visible = {
+				has_country_flag = spymaster_flag3	
+			}
+			on_add = {
+                set_country_flag = noble_spymaster3_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+##diplomat
+#1
+	generate_character = {
+		token_base = noble_diplomat1
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = diplomat
+			#idea_token = noble_diplomat
+			available = {
+				has_country_flag = diplomat_flag1
+			}
+			visible = {
+				has_country_flag = diplomat_flag1		
+			}
+			on_add = {
+                set_country_flag = noble_diplomat1_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#2
+	generate_character = {
+		token_base = noble_diplomat2
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = diplomat
+			#idea_token = noble_diplomat
+			available = {
+				has_country_flag = diplomat_flag2
+			}
+			visible = {
+				has_country_flag = diplomat_flag2		
+			}
+			on_add = {
+                set_country_flag = noble_diplomat2_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+#3
+	generate_character = {
+		token_base = noble_diplomat3
+		portraits = {
+			army = {
+				large="GFX_noble_treasurer"
+				small="GFX_noble_treasurer" 
+			}
+		}
+		advisor = {
+			slot = diplomat
+			#idea_token = noble_diplomat
+			available = {
+				has_country_flag = diplomat_flag3
+			}
+			visible = {
+				has_country_flag = diplomat_flag3		
+			}
+			on_add = {
+                set_country_flag = noble_diplomat3_recruited
+            }
+			traits = { } #army_chief_offensive_2
+			ai_will_do = {
+				factor = 2
+			}
+			cost = 0
+		}
+	}	
+	
+}

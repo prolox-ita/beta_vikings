@@ -1,18 +1,29 @@
-state={ 
+
+state={
 	id=107
 	name="STATE_107"
+
+	history={
+		793.1.1 = {
+			owner = ITA
+			add_to_array = {
+				state_culture_array = 2
+
+			}
+			add_to_array = {
+				state_culture_array_num = 1.00
+
+			}
+
+		}
+
+	}
+
 	provinces={
-		491
+		491 3643 3644 3645 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		793.1.1 = {
-			owner = ITA 
-			
-			add_to_array = { state_culture_array = 2 } # Italian
-			add_to_array = { state_culture_array_num = 1.00 }
-		}
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

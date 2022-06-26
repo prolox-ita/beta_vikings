@@ -1,6 +1,6 @@
 state_categories={
 	small_town = {
-		local_building_slots = 6
+		local_building_slots = 3
 	
 		color = { 183 180 84 }
 

@@ -4,15 +4,37 @@ state={
 	provinces={
 		525 2903 2906 2908 2909 2911 2917 2918 2919 2922 2923 2926 2927 2929 2930 2931 
 	}
-	manpower=100
-	state_category = rural
+	manpower= 877659 
+	state_category = large_city
+	
 	history = {
 		owner = ITA 
+		add_core_of = ITA 
+		#add_claim_by = LOM
 		add_to_array = { state_culture_array = 5 } #Roman
 		add_to_array = { state_culture_array_num = 0.8 }
 		add_to_array = { state_culture_array = 2 } #
 		add_to_array = { state_culture_array_num = 0.2 }
 
+		victory_points = { 2923 10 } #Firenze
+		victory_points = { 2918 8 } #Lucca
+		victory_points = { 2908 7 } #Siena
+		
+		buildings = {
+			infrastructure = 3
+			tannery = 1
+			arms_factory = 1
+			industrial_complex = 2
+			2923 = { walls = 2 supply_node = 1 }
+			2918 = { walls = 1 }
+			field = 1
+			dockyard = 1
+		}
+
 	}
-	local_supplies=1.0 
+	
+	resources = {
+		stones = 3
+	}
+	local_supplies=5.0 
 }

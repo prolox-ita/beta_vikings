@@ -22,8 +22,8 @@ state={
 			2679 = { walls = 1 }
 			#fuel_silo = 2
 			#watchtowers = 
-			field = 2
-			tannery = 1
+			field = 1
+			#tannery = 1
 			tailoring = 0
 			#naval_landing = 
 

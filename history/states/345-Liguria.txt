@@ -1,0 +1,32 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		3571 3572 3573 3574 3577 3581 3582 
+	}
+	manpower= 323167 
+
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+	state_category = city
+	
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		
+		#add_claim_by = LOM
+		
+		victory_points = { 3581 10 }
+		
+		buildings = {
+			3581 = { walls = 1 naval_base = 2 supply_node = 1} #genua
+			dockyard = 2
+			industrial_complex = 1
+			arms_factory = 1
+			tannery = 1
+			tailoring = 1
+			infrastructure = 3
+			trade_points = 1
+		}
+	}
+}

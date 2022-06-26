@@ -1,0 +1,33 @@
+state={
+	id=348
+	name="STATE_348"
+	provinces={
+		2527 2528 3578 3602 
+	}
+	manpower= 179785 
+
+	buildings_max_level_factor=1.000
+	local_supplies=4.50
+	state_category = large_town
+	resources = {
+		stones = 1
+		wood = 2
+	}
+	
+	history = {
+		victory_points = { 3602 10 } #Trento
+		victory_points = { 2527 5 } #Bolzano
+		owner = ITA
+		add_core_of = ITA
+		#add_claim_by = LOM
+		
+		buildings = {
+			infrastructure = 3
+			2527 = { walls = 1 } #Bolzano
+			3602 = { walls = 1 } #Trento
+			industrial_complex = 1
+			trade_points = 1
+			watchtowers = 1
+		}
+	}
+}

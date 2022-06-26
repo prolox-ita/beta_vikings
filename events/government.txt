@@ -1,0 +1,40 @@
+﻿###########################
+# Government Events
+###########################
+
+add_namespace = gov
+
+#Free advisor from nobles
+country_event = {
+	id = gov.1
+	title = gov.1.t
+	desc = gov.1.d
+	picture = GFX_report_event_gov
+	
+	fire_only_once = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gov.1.a
+		custom_effect_tooltip = free_advisor
+		hidden_effect = {
+			random_list = {
+				8 = { set_country_flag = treasurer_flag1 }
+				8 = { set_country_flag = treasurer_flag2 }
+				8 = { set_country_flag = treasurer_flag3 }
+				8 = { set_country_flag = army_commander_flag1 }
+				8 = { set_country_flag = army_commander_flag2 }
+				8 = { set_country_flag = army_commander_flag3 }
+				8 = { set_country_flag = spymaster_flag1 }
+				8 = { set_country_flag = spymaster_flag2 }
+				8 = { set_country_flag = spymaster_flag3 }
+				8 = { set_country_flag = diplomat_flag1 }
+				8 = { set_country_flag = diplomat_flag2 }
+				8 = { set_country_flag = diplomat_flag3 }
+			}
+		}
+		activate_advisor = noble_diplomat1
+	}
+}
+

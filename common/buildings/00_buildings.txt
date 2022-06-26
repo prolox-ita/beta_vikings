@@ -84,6 +84,7 @@ buildings = {
 		value = 1
 		damage_factor = 0.5
 		allied_build = yes
+		infrastructure_construction_effect = yes
 	}
 	trade_points = { #trade_points
 		show_on_map = 1
@@ -218,7 +219,7 @@ buildings = {
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
 		value = 4
-		provincial = yes
+		#provincial = yes
 	}
 	#rocket_site = {
 	#	show_on_map = 1

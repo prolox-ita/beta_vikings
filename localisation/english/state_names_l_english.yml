@@ -49,8 +49,12 @@
  STATE_85:0 "Bro-Gwened"
  STATE_86:0 "Nantais"
  STATE_87:0 "Rennais"
- 
+ STATE_88:0 "Langobardia Maior"
+ STATE_89:0 "Venetia"
+ STATE_90:0 "Tuscia Langobardorum"
  STATE_91:0 "Tuscia"
+ 
+ STATE_96:0 "Corsica"
  
  STATE_98:0 "Latium"
  STATE_99:0 "Test"
@@ -113,6 +117,8 @@
  
  STATE_205: "Baleares"
  
+ STATE_246: "Carniola"
+ 
  STATE_283:0 "Terra Sancti Marini"
  
  STATE_291:0 "Wasconia"
@@ -169,6 +175,12 @@
  STATE_342:0 "Braga"
  STATE_343:0 "Santemeter" #Santander
  STATE_344:0 "Fjon" #Fune
+ STATE_345:0 "Liguria"
+ STATE_346:0 "Emilia" 
+ STATE_347:0 "Secusia" 
+ STATE_348:0 "Tirale" #Tirolo
+ STATE_349:0 "Verona" 
+ STATE_350:0 "Forum Iulii" #or Friul [Friuli]
  
  ##create different ideas = empire, kingdom, duchy, county etc
 

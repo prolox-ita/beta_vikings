@@ -25,7 +25,7 @@ state={
 			fuel_silo = 0
 			#watchtowers = 
 			field = 0
-			tannery = 1
+			#tannery = 1
 			tailoring = 0
 			#naval_landing = 
 

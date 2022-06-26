@@ -18,6 +18,12 @@ on_actions = {
 		}
 		
 	}
+	on_daily = {
+		effect = {
+			eliminating_forts = yes
+			eliminating_walls = yes
+		}
+	}
 	###temporary###
 	on_startup = {
 		effect = {
@@ -34,7 +40,6 @@ on_actions = {
 			#}
 			progression_state_category = yes
 			#monthly_subject_list = yes
-
 		}
 	}
 	on_startup = {
@@ -50,19 +55,10 @@ on_actions = {
 					limit = { 
 						AND = {
 							state_population > 3
-							state_population < 5000
-						}
-					}
-					set_state_category = village
-				}
-				if = {
-					limit = { 
-						AND = {
-							state_population > 4999
 							state_population < 10000
 						}
 					}
-					set_state_category = hamlet
+					set_state_category = village
 				}
 				if = {
 					limit = { 
@@ -71,13 +67,22 @@ on_actions = {
 							state_population < 20000
 						}
 					}
-					set_state_category = town
+					set_state_category = hamlet
 				}
 				if = {
 					limit = { 
 						AND = {
 							state_population > 19999
-							state_population < 40000
+							state_population < 50000
+						}
+					}
+					set_state_category = town
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 49999
+							state_population < 100000
 						}
 					}
 					set_state_category = large_town
@@ -85,8 +90,8 @@ on_actions = {
 				if = {
 					limit = { 
 						AND = {
-							state_population > 39999
-							state_population < 80000
+							state_population > 99999
+							state_population < 200000 #100k
 						}
 					}
 					set_state_category = small_city
@@ -94,8 +99,8 @@ on_actions = {
 				if = {
 					limit = { 
 						AND = {
-							state_population > 79999
-							state_population < 200000
+							state_population > 199999 #199k
+							state_population < 500000 #500k
 						}
 					}
 					set_state_category = city
@@ -103,10 +108,19 @@ on_actions = {
 				if = {
 					limit = { 
 						AND = {
-							state_population > 199999
+							state_population > 499999 #499k
+							state_population < 1000000 #1mln
 						}
 					}
 					set_state_category = large_city
+				}
+				if = {
+					limit = { 
+						AND = {
+							state_population > 999999 #999k
+						}
+					}
+					set_state_category = megalopolis
 				}
 			}
 		}

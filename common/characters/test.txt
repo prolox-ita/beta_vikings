@@ -1,0 +1,31 @@
+characters={
+
+	noble_treasurer ={  #noble in charge after the events
+		name=noble_treasurer
+		portraits={
+			civilian = {
+				small = "gfx/interface/ideas/idea_ita_mario_roatta_political_advisor.dds"
+			}
+			army={
+				small="GFX_idea_mario_roatta"
+			}
+		}
+		advisor={
+			slot = treasurer
+			idea_token = noble_treasurer
+			available  = {
+				has_completed_focus = nobles_in_charge
+			}
+			visible = {
+				has_completed_focus = nobles_in_charge
+			}
+			allowed  = {
+				has_completed_focus = nobles_in_charge
+			}
+			traits  = {
+				#head_of_intelligence 
+			}
+		}
+	}
+}
+

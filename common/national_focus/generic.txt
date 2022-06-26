@@ -16,10 +16,16 @@ focus_tree = {
 	
 	country = {
 		factor = 100
-		modifier = {
-			factor = 0
-			tag = FRA
-		}
+		#modifier = {
+		#	factor = 0
+		#	tag = FRA
+		#}
+	}
+	
+	initial_show_position = {
+		x = -8
+		y = 0
+
 	}
 	
 	default = yes
@@ -48,7 +54,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = army_effort
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { civ_construction }
 		
 		available_if_capitulated = no
 		
@@ -71,7 +77,7 @@ focus_tree = {
 		relative_position_id = rural_development
 		prerequisite = { focus = rural_development }
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { civ_construction mil_construction }
 		
 		available_if_capitulated = no
 		
@@ -97,12 +103,12 @@ focus_tree = {
 	focus = {
 		id = civilian_development
 		icon = GFX_unknown
-		x = -3
+		x = -4
 		y = 1
 		relative_position_id = growth_plan
 		prerequisite = { focus = growth_plan }
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { civ_construction }
 		
 		available_if_capitulated = no
 		
@@ -125,15 +131,274 @@ focus_tree = {
 			}
 		}
 	}
+	#sviluppo a tre: botteghe, field, tannery/, infrastrutture
+	focus = {
+		id = small_handicraft
+		icon = GFX_unknown
+		x = -2
+		y = 1
+		relative_position_id = civilian_development
+		prerequisite = { focus = civilian_development }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = consumer_production
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = small_handicraft
+		prerequisite = { focus = small_handicraft }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = medium_craftsmanship
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = consumer_production
+		prerequisite = { focus = consumer_production }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = workshops
+		icon = GFX_unknown
+		x = -2
+		y = 1
+		relative_position_id = medium_craftsmanship
+		prerequisite = { focus = medium_craftsmanship }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = tannery
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = tailoring
+					level = 1
+					instant_build = yes
+				}
+			}
+			#bonus produzione
+		}
+	}
+	focus = {
+		id = corporations
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = medium_craftsmanship
+		prerequisite = { focus = medium_craftsmanship }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			#bonus produzione
+		}
+	}
+	focus = {
+		id = rebirth_land
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = civilian_development
+		prerequisite = { focus = civilian_development }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = field
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = field
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = agricultural_progress
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = rebirth_land
+		prerequisite = { focus = rebirth_land }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#bonus tech agricultural
+		}
+	}
+	focus = {
+		id = new_lands_from_woods
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = agricultural_progress
+		prerequisite = { focus = agricultural_progress }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			if = {
+				limit = { any_owned_state = { has_resources_amount = { resource = foodstuffs amount > 1 } } }
+				random_owned_state = {
+					limit = { has_resources_amount = { resource = foodstuffs amount > 1 } }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = field
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_state = {
+					limit = { has_resources_amount = { resource = foodstuffs amount > 1 } }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = field
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { any_owned_state = { has_resources_amount = { resource = foodstuffs amount > 1 } } } }
+				random_owned_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = field
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = field
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id =  trade_flourishing
+		icon = GFX_unknown
+		x = 2
+		y = 1
+		relative_position_id = agricultural_progress
+		prerequisite = { focus = agricultural_progress focus = consumer_production }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = trade_points
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
 	focus = {
 		id = military_development
 		icon = GFX_unknown
-		x = 3
+		x = 4
 		y = 1
 		relative_position_id = growth_plan
 		prerequisite = { focus = growth_plan }
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { mil_construction }
 		
 		available_if_capitulated = no
 		
@@ -154,6 +419,251 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+		}
+	}
+	focus = {
+		id = roads_reconstruction
+		icon = GFX_unknown
+		x = -4
+		y = 2
+		relative_position_id = military_development
+		prerequisite = { focus = military_development focus = civilian_development }
+		cost = 10
+		search_filters = { mil_construction civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = connect_capital
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = roads_reconstruction
+		prerequisite = { focus = roads_reconstruction }
+		cost = 10
+		search_filters = { mil_construction civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				every_neighbor_state = {
+					limit = { is_owned_by = ROOT } 
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}	
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = incentivate_commerce
+		icon = GFX_unknown
+		x = -1
+		y = 1
+		relative_position_id = connect_capital
+		prerequisite = { focus = connect_capital }
+		prerequisite = { focus = trade_flourishing }
+		mutually_exclusive = { focus = logistical_connection }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			every_owned_state = {
+				limit = { trade_points < 4 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				every_neighbor_state = {
+					limit = { AND = { is_owned_by = ROOT trade_points < 1 infrastructure < 5 } }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			every_owned_state = {
+				limit = { trade_points > 3 }
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				every_neighbor_state = {
+					limit = { AND = { is_owned_by = ROOT trade_points < 1 infrastructure < 7 } }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+
+			}
+		}
+	}
+	focus = {
+		id = commercialism
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = incentivate_commerce
+		prerequisite = { focus = incentivate_commerce }
+		cost = 10
+		search_filters = { civ_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#idea that boost income from trade and trade itself
+			if = {
+				limit = {
+					any_owned_state = { 
+						is_coastal = yes
+					}
+				}
+				if = { limit = { OR = { any_owned_state = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } } }
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							OR = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town }
+						}
+						add_building_construction = {
+							type = trade_points
+							level = 2
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							instant_build = yes
+							province = { all_provinces = yes limit_to_coastal = yes }
+						}
+					}
+				}				
+				if = { limit = { NOT = { OR = { any_owned_state = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } } } }
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							NOT = { OR = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } }
+						}
+						add_building_construction = {
+							type = trade_points
+							level = 1
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							instant_build = yes
+							province = { all_provinces = yes limit_to_coastal = yes }
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					any_owned_state = { 
+						is_coastal = no
+					}
+				}
+				if = { limit = { OR = { any_owned_state = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } } }
+					random_owned_state = {
+						limit = {
+							is_coastal = no
+							OR = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town }
+						}
+						add_building_construction = {
+							type = trade_points
+							level = 2
+							instant_build = yes
+						}
+					}
+				}				
+				if = { limit = { NOT = { OR = { any_owned_state = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } } } }
+					random_owned_state = {
+						limit = {
+							is_coastal = no
+							NOT = { OR = { has_state_category = megalopolis has_state_category = large_city has_state_category = city has_state_category = town has_state_category = large_town } }
+						}
+						add_building_construction = {
+							type = trade_points
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = logistical_connection
+		icon = GFX_unknown
+		x = 1
+		y = 1
+		relative_position_id = connect_capital
+		prerequisite = { focus = connect_capital }
+		mutually_exclusive = { focus = incentivate_commerce }
+		cost = 10
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			every_owned_state = {
+				limit = { any_neighbor_state = { NOT = { is_owned_by = ROOT } } }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = supplies_for_army
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = logistical_connection
+		prerequisite = { focus = logistical_connection }
+		cost = 10
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#idea with boost in supply use, supply_grace and other for armies
 		}
 	}
 	focus = {
@@ -164,7 +674,61 @@ focus_tree = {
 		relative_position_id = military_development
 		prerequisite = { focus = military_development }
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = equipment_stockpile
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = upgrading_forges
+		prerequisite = { focus = upgrading_forges }
+		cost = 10
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = professional_army
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = equipment_stockpile
+		prerequisite = { focus = equipment_stockpile }
+		cost = 10
+		search_filters = { mil_construction }
 		
 		available_if_capitulated = no
 		
@@ -192,11 +756,51 @@ focus_tree = {
 		icon = GFX_unknown
 		x = 0
 		y = 1
-		relative_position_id = upgrading_forges
-		prerequisite = { focus = upgrading_forges }
+		relative_position_id = professional_army
+		prerequisite = { focus = professional_army }
 		#mutually_exclusive
 		cost = 10
-		search_filters = { CONSTRUCTION }
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#idea
+		}
+	}
+
+	focus = {
+		id = naval_landing
+		icon = GFX_unknown
+		x = 2
+		y = 1
+		relative_position_id = military_development
+		prerequisite = { focus = military_development }
+		cost = 10
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			random_owned_state = {
+				#add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = naval_yard
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = naval_landing
+		prerequisite = { focus = naval_landing }
+		cost = 10
+		search_filters = { mil_construction }
 		
 		available_if_capitulated = no
 		
@@ -204,12 +808,311 @@ focus_tree = {
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = arms_factory
+					type = dockyard
 					level = 1
 					instant_build = yes
 				}
 			}
-			#idea
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = patrol_borders
+		icon = GFX_unknown
+		x = -2
+		y = 1
+		relative_position_id = military_development
+		prerequisite = { focus = military_development }
+		cost = 15
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			every_owned_state = {
+				add_manpower = 100
+				set_building_level = {
+					type = watchtowers
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+		}
+	}	
+	focus = {
+		id = country_dyke
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = patrol_borders
+		prerequisite = { focus = patrol_borders }
+		cost = 15
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#decision
+		}
+	}
+	focus = {
+		id = capital_walls
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = country_dyke
+		prerequisite = { focus = country_dyke }
+		cost = 15
+		search_filters = { mil_construction }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#country_event = { id = walls.1 days = 0 }  
+			capital_scope = {
+				set_building_level = {
+					type = walls
+					level = 5
+					province = { 
+						all_provinces = yes
+						limit_to_victory_point > 5 
+					}
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	###sviluppo a tre: fabbriche, forti, navale ed eventualmente la ricerca militare
+
+	focus = {
+		id = inner_affairs
+		icon = GFX_unknown
+		x = 20
+		y = 0
+		relative_position_id = rural_development
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+###religious branch
+	focus = {
+		id = strengthen_faith
+		icon = GFX_unknown
+		x = -6
+		y = 1
+		relative_position_id = inner_affairs
+		prerequisite = { focus = inner_affairs }
+		mutually_exclusive = { focus = deny_your_belief }
+		cost = 10
+		search_filters = { religion }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = 0.1
+			#boost to the religious unity
+		}
+	}
+	focus = {
+		id = deny_your_belief
+		icon = GFX_unknown
+		x = -4
+		y = 1
+		relative_position_id = inner_affairs
+		prerequisite = { focus = inner_affairs }
+		mutually_exclusive = { focus = strengthen_faith }
+		cost = 10
+		search_filters = { religion }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = -0.1
+			if = { limit = { has_idea = catholicism }
+				every_country = { limit = { has_idea = catholicism }
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = rejected_faith
+					}
+				}
+			}
+			#all religions
+			#events for changing the religion
+		}
+	}
+
+	focus = {
+		id = religious_unity
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = strengthen_faith
+		prerequisite = { focus = strengthen_faith focus = deny_your_belief }
+		mutually_exclusive = { focus = religious_tolerance }
+		cost = 10
+		search_filters = { religion }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = -0.05
+			#boost for religion spread in own states
+			#decrease of other
+			#increase of unhappiness
+			#malus for migration -> production
+		}
+	}	
+	focus = {
+		id = religious_tolerance
+		icon = GFX_unknown
+		x = 2
+		y = 1
+		relative_position_id = strengthen_faith
+		prerequisite = { focus = strengthen_faith focus = deny_your_belief }
+		mutually_exclusive = { focus = religious_unity }
+		cost = 10
+		search_filters = { religion }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			if = {
+				limit = { has_idea = catholicism }
+				add_stability = -0.1
+			}
+			if = {
+				limit = { NOT = { has_idea = catholicism } }
+				add_stability = 0.1
+			}
+			#eventually reduce unhappiness
+			#reduce the % of growth of main religion
+			#bonus for migration -> production
+		}
+	}	
+	#political branch (split in governative that joins inheritance also and influence/prestige/nobles, clergy etc that joins diplomacy )
+	focus = {
+		id = strengthen_rule
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = inner_affairs
+		prerequisite = { focus = inner_affairs }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = involve_nobles
+		icon = GFX_unknown
+		x = -1
+		y = 1
+		relative_position_id = strengthen_rule
+		prerequisite = { focus = strengthen_rule }
+		mutually_exclusive = { focus = reduce_nobles_authority }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		 
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = 0.10
+		}
+	}
+	focus = {
+		id = nobles_in_charge
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = involve_nobles
+		prerequisite = { focus = involve_nobles }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_war_support = 0.05
+			country_event = { id = gov.1 days = 0 }
+ 		}
+	}
+	focus = {
+		id = reduce_nobles_authority
+		icon = GFX_unknown
+		x = 1
+		y = 1
+		relative_position_id = strengthen_rule
+		prerequisite = { focus = strengthen_rule }
+		mutually_exclusive = { focus = involve_nobles }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.05
+			set_country_flag = nobles_powered 
+		}
+	}
+	focus = {
+		id = supreme_command
+		icon = GFX_unknown
+		x = 0
+		y = 1
+		relative_position_id = reduce_nobles_authority
+		prerequisite = { focus = reduce_nobles_authority }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#add_authority
+			add_war_support = -0.15
+			#add_idea
+			set_country_flag = nobles_lowered
+		}
+	}
+	#inheritance 
+	focus = {
+		id = land_inheritance
+		icon = GFX_unknown
+		x = 1
+		y = 1
+		relative_position_id = nobles_in_charge
+		prerequisite = { focus = nobles_in_charge focus = supreme_command }
+		cost = 10
+		search_filters = { political }
+		
+		available_if_capitulated = no
+		
+		completion_reward = {
+			#event to choose between children or election
 		}
 	}
 

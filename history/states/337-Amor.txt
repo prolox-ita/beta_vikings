@@ -19,8 +19,8 @@ state={
 			trade_points = 0
 			#naval_base = 
 			#fort = 
-			3903 = { walls = 1 naval_base = 1 }
-			dockyard = 2
+			3093 = { walls = 1 naval_base = 1 }
+			dockyard = 1
 			fuel_silo = 0
 			#watchtowers = 
 			field = 0

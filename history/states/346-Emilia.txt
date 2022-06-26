@@ -1,0 +1,33 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		#add_claim_by = LOM
+		
+		victory_points = { 3589 10 } #Parma
+		victory_points = { 3575 8 } #Bologna
+		
+		
+		buildings = {
+			3589 = { walls = 2 supply_node = 1 }
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			tailoring = 1
+			
+		}
+	}
+
+	provinces={
+		3575 3576 3579 3580 3583 3585 3586 3587 3588 3589 3590 3592 
+	}
+	manpower= 428573 
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=6.000
+	
+}

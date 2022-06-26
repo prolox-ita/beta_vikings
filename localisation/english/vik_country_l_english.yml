@@ -1,0 +1,4 @@
+﻿l_english:
+ WAR_SUPPORT:0 "Nobles Support"
+ WAR_SUPPORT_DESC:0 "Nobles Support represents the court nobles support your command. The higher it is, the more they will support your actions, while the lower the greater the risks of rebellion or intrigues at your expense."
+ WAR_SUPPORT_EFFECT_TITLE:0 "\n§HEffects from current Nobles Support:§!\n"

@@ -1,0 +1,34 @@
+
+state={
+	id=350
+	name="STATE_350"
+	resources={
+		wood=2.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			30 10 
+		}
+		buildings = {
+			30 = { walls = 2 supply_node = 1 }
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			tannery = 1
+			field = 1
+
+		}
+
+	}
+
+	provinces={
+		30 3633 3634 3635 3636 3637 3638 3639 3640 3641 
+	}
+	manpower=226785 
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=6.000
+}

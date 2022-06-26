@@ -1,21 +1,57 @@
-state={ 
+
+state={
 	id=88
 	name="STATE_88"
-	provinces={
-		30 434 538 1761 2527 2528 
+	resources={
+		wood=2.000
 	}
-	manpower=100
-	state_category = rural
-	history = {
-		#793.1.1 = {
-			owner = ITA 
-			
-			add_to_array = { state_culture_array = 1 } # Italian
-			add_to_array = { state_culture_array_num = 1.00 }
-		#}
-		
-	}
-	local_supplies=1.0 #1.000
-	
 
+	history={
+		owner = ITA
+		add_to_array = {
+			state_culture_array = 1
+
+		}
+		add_to_array = {
+			state_culture_array_num = 1.00
+
+		}
+		victory_points = {
+			434 30 
+		}
+		victory_points = {
+			3607 10 
+		}
+		buildings = {
+			434 = {
+				walls = 2
+				naval_base = 1
+				supply_node = 1
+
+			}
+			3607 = {
+				walls = 1
+				supply_node = 1
+
+			}
+			trade_points = 2
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			field = 1
+			fuel_silo = 1
+			tannery = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		434 3603 3607 3610 3611 3614 3616 3617 3618 3620 3621 3623 3624 3626 3627 3632 
+	}
+	manpower=2388692
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=10.000
 }

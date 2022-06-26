@@ -9,7 +9,7 @@ state={
 	}
 
 	provinces={
-		810 811 817 821 3521 3522 
+		810 811 817 821 3521 3522 3661 3646
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

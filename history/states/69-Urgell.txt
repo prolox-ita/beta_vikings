@@ -8,7 +8,7 @@ state={
 		add_core_of = ECO
 		victory_points = { 1731 5 }
 		buildings = {
-			1731 = { wall = 1 }
+			1731 = { walls = 1 }
 			infrastructure = 1
 		}
 

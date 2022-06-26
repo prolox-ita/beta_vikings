@@ -1,14 +1,23 @@
-state={ 
+
+state={
 	id=246
 	name="STATE_246"
+
+	history={
+		owner = ITA
+
+		buildings = {
+			3655 = { walls = 1 }
+		}
+		victory_points = { 3655 10 } #Lubjana
+
+	}
+
 	provinces={
-		1793
+		1793 3647 3648 3649 3650 3651 3652 3653 3654 3655 3656 3657 3658 3659 3660 
 	}
 	manpower=100
-	state_category = rural
-	history = {
-		owner = ITA
-		
-	}
-	local_supplies=1.0 #1.000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

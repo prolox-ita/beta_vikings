@@ -4,11 +4,28 @@ state={
 	provinces={
 		599 2879 2888 2889 2898 2899 
 	}
-	manpower=100
-	state_category = rural
+	manpower = 97836
+	state_category = large_town
 	history = {
 		owner = ITA 
+		add_claim_by = BYZ
+		#add_claim_by = LOM
+		add_claim_by = ECO
+		
+		buildings = {
+			2888 = { naval_base = 1 walls = 1 }
+			infrastructure = 2
+			dockyard = 1
+			tannery = 1
+			
+		}
+		
+		victory_points = { 2888 10 } #Ajaccio
 		
 	}
-	local_supplies=1.0 #1.000
+	
+	resources = {
+		stones = 1
+	}
+	local_supplies=3.0 #1.000
 }

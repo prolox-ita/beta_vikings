@@ -22,12 +22,12 @@ state={
 			#fort = 
 			2627 = { walls = 1 }
 			2625 = { naval_base = 1 }
-			dockyard = 2
+			dockyard = 1
 			fuel_silo = 0
 			#watchtowers = 
 			field = 0
 			tannery = 0
-			tailoring = 1
+			tailoring = 0
 			#naval_landing = 
 
 		}

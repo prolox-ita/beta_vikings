@@ -14,5 +14,5 @@ state={
 	impassable = yes
 	manpower=100
 	local_supplies=1.0
-	state_category=rural
+	state_category=city
 }

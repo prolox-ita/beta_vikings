@@ -1,2 +1,13 @@
 ﻿l_english:
  vassal:0 "Vassal"
+ 
+#State Category
+uninhabited:0 "Unhinabited"
+ village:0 "Village"
+ hamlet:0 "Hamlet"
+ small_town:0 "Small Town"
+ town:0 "Town"
+ large_town:0 "Large Town"
+ city:0 "City"
+ large_city:0 "Large City"
+ megalopolis:0 "Megalopolis"

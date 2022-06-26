@@ -1,0 +1,18 @@
+#set_state_name = ""
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
+				if = { limit = { tag = FRA } #german and slavs
+					246 = { set_state_name = "France" }
+					set_province_name = {  id = 3655 name = "Laibach" }
+				}
+				if = { limit = { tag = ITA }
+					246 = { set_state_name = "Italia" }
+					set_province_name = {  id = 3655 name = "Labacum" }
+				}
+			}
+		}
+	}
+}

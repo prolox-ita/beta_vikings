@@ -1,0 +1,42 @@
+
+state={
+	id=347
+	name="STATE_347"
+	resources={
+		stones=1.000
+		foodstuffs=1.000
+		wood=1.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			3599 10 
+		}
+		buildings = {
+			infrastructure = 4
+			trade_points = 1
+			industrial_complex = 2
+			arms_factory = 1
+			tannery = 1
+			3599 = {
+				walls = 1
+				supply_node = 1
+
+			}
+			3598 = { fort = 1 }
+			tailoring = 1
+
+		}
+
+	}
+
+	provinces={
+		1761 3584 3591 3593 3594 3595 3596 3597 3598 3599 3600 3601 3630 3631 
+	}
+	manpower=874387
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=6.000
+}

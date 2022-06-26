@@ -24,7 +24,7 @@ state={
 			#watchtowers = 0 
 			field = 1
 			tannery = 0
-			tailoring = 1
+			#tailoring = 1
 			#naval_landing = 
 		}
 	}

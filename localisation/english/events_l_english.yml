@@ -1,0 +1,5 @@
+﻿l_english:
+##Government
+gov.1.t:0 "A noble is promoted to command"
+ gov.1.d:0 "Sometimes, entrusting a task to a court nobleman, however unwelcome, helps to keep the command firmly in place."
+ gov.1.a:0 "Accept the nobleman"

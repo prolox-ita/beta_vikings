@@ -14,11 +14,11 @@ state={
 			religious_building = 0
 			arms_factory = 0
 			industrial_complex = 0
-			supply_hub = 0
+			
 			trade_points = 0
 			1744 = {
 				walls = 1
-
+				supply_node = 0
 			}
 			fuel_silo = 0
 			field = 0

@@ -27,6 +27,8 @@ state={
 			industrial_complex = 2
 			2923 = { walls = 2 supply_node = 1 }
 			2918 = { walls = 1 }
+			2908 = { walls = 1 }
+			2919 = { fort = 1 }
 			field = 1
 			dockyard = 1
 		}
@@ -35,6 +37,7 @@ state={
 	
 	resources = {
 		stones = 3
+		iron = 1
 	}
 	local_supplies=5.0 
 }

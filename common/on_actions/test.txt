@@ -12,12 +12,12 @@ on_actions = {
 			}
 		}
 	}
-	on_monthly = {
-		effect = {
-			every_country = {
-				state_calculation = yes
-			}
-		}
-	}
+	#on_monthly = {
+	#	effect = {
+	#		every_country = {
+	#			state_calculation = yes
+	#		}
+	#	}
+	#}
 
 }

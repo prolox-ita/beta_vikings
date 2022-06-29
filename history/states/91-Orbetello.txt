@@ -14,7 +14,7 @@ state={
 		victory_points = { 2202 5 } #Grossetum (rising)
 		
 		buildings = {
-			religious_building = 1 #rusellae
+			#religious_building = 1 #rusellae
 		}
 		
 		add_to_array = { state_culture_array = 4 } #Roman

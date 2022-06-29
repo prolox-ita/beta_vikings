@@ -13,11 +13,10 @@ state={
 			religious_building = 0
 			arms_factory = 2
 			industrial_complex = 3
-			supply_node = 1
 			trade_points = 2
 			#naval_base = 
 			#fort = 
-			3188 = { walls = 3 }
+			3188 = { walls = 3 supply_node = 1 }
 			3188 = { naval_base = 2 }
 			fuel_silo = 2
 			#watchtowers = 

@@ -14,7 +14,7 @@ state={
 			religious_building = 0
 			arms_factory = 0
 			industrial_complex = 1
-			supply_node = 0
+			#
 			trade_points = 0
 			#naval_base = 
 			#fort = 

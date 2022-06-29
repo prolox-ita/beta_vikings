@@ -1,6 +1,6 @@
 ﻿####### Division Templates #######
 division_template = { 
-	name = "Divisione di Fanteria" 
+	name = "Divisione di Fanteria"
 	division_names_group = ITA_AXE_01 
 
 	# Represents nearly all infantry divisions

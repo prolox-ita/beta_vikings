@@ -3,6 +3,8 @@
 equipments = {
 
 	axe = {
+		year = 790
+		
 		is_archetype = yes
 		picture = archetype_axe_equipment
 		is_buildable = no

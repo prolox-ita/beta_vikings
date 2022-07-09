@@ -7,6 +7,11 @@ state={
 		owner = ROG
 		add_core_of = ROG
 
+		victory_points = { 3242 10 } #Stafangr
+		buildings = {
+			3242 = { walls = 1 naval_base = 1 }
+		}
+
 	}
 
 	provinces={

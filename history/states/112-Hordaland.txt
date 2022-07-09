@@ -6,7 +6,10 @@ state={
 	history={
 		owner = HOR
 		add_core_of = HOR
-
+		victory_points = { 3324 10 } #Bergen - was founded in 1020/1040
+		buildings= {
+			3324 = { walls = 1 naval_base = 1 }
+		}
 	}
 
 	provinces={

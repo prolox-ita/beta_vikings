@@ -1,0 +1,25 @@
+# Crash Information
+AppName: HOI4 
+AppVersion: Barbarossa v1.11.12.82b4 
+SCMBranch: stable 
+SCMCommit: 82b430d76ef744f5b029274da3d2dd1ca240aa4f 
+SCMTimeStamp: "2022-06-01 13:20:46 +0000" 
+DateTime: "2022-07-12 09:52:31 +0200" 
+BuildType: Release 
+Platform: Windows 
+Architecture: 64-bit 
+OperatingSystem: Windows 10 x86_64 
+SystemLanguage: it 
+CPUModel: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz 
+CPUSpeed: 0 
+CPUPhysicalCores: 2 
+CPULogicalCores: 4 
+SystemMemory: 4012 
+LaunchArguments: --crash_data_log --gdpr-compliant --paradox-account-userid="" --pdx-launcher-session-token="" 
+debug: 1 
+DataChecksum: 8b83796c0748ec4100b40e0c95ce584c
+AppChecksum: d41d8cd98f00b204e9800998ecf8427e
+HasMods: true
+Mods: beta_vikings
+LastRead: client_ping (1)
+LastScript: common/scripted_guis/vik_religion_culture_window.txt:30: check_variable

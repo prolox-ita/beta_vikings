@@ -1,0 +1,47 @@
+[02:32:54][main.cpp:1684]: Creating application...
+[02:32:59][pdx_speech_stt_winsapi.cpp:42]: PdxSpeechToTextWinSAPI::Initialize: microphone was not found![02:33:00][gameapplication.cpp:1100]: Initializing application...
+[02:33:33][gameapplication.cpp:1106]: Done initializing application
+[02:33:33][gameapplication.cpp:1109]: Loading cursor...
+[02:33:37][graphicssettings.cpp:780]: Using multisampling: 4
+[02:33:37][graphics.cpp:980]: Creating device with: HARDWARE_VERTEXPROCESSING
+	Fullscreen=no
+	Resolution=1366x768
+	Renderer=DirectX 9
+[02:33:37][graphicssettings.cpp:748]: Usable res: 320 200 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 320 200 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 320 240 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 320 240 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 400 300 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 400 300 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 512 384 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 512 384 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 640 400 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 640 400 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 640 480 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 640 480 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1024 768 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1024 768 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 600 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 600 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 720 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 720 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 768 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1280 768 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1360 768 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1360 768 60
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1366 768 40
+[02:33:37][graphicssettings.cpp:748]: Usable res: 1366 768 60
+[02:33:37][graphics.cpp:1015]: Done creating device.
+[02:38:15][gameapplication.cpp:1348]: Version: Barbarossa v1.11.12.82b4 (584c) build time: Jun  1 2022 13:29:23
+[02:38:15][gameapplication.cpp:1353]: Active DLC Count: 8
+[02:38:15][gameapplication.cpp:1354]: Active Mod Count: 1
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Anniversary Pack
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Death or Dishonor
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Historical German Portraits
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Man the Guns
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Poland: United and Ready
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Rocket Launcher Unit Pack
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Together for Victory
+[02:38:15][gameapplication.cpp:1358]: Active DLC: Waking the Tiger
+[02:38:15][gameapplication.cpp:1363]: Active Mod: beta_vikings
+[09:47:46][graphicssettings.cpp:780]: Using multisampling: 4

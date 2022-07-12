@@ -1,0 +1,895 @@
+[02:32:53][pdx_localize.cpp:1084]: Expected colon(:) at line 106 and column 6 in localisation/english/victory_points_l_english.yml
+[02:32:54][pdx_localize.cpp:1084]: Expected colon(:) at line 106 and column 6 in localisation/english/victory_points_l_english.yml
+[02:37:12][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds
+[02:37:12][texturehandler.cpp:209]: Couldn't find texture file: 'gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds'
+[02:37:12][portraitdatabase.cpp:26]: Missing portrait texture in group ITA > Army > Male:  "gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds".
+[02:37:17][effect.cpp:297]: Error: "not a province building type: }, near line: 849" in file: "common/national_focus/generic.txt" near line: 850
+[02:37:18][persistent.cpp:48]: Error: "Unexpected token: WES_reduce_mercian_influence, near line: 71" in file: "common/national_focus/wessex.txt" near line: 71
+[02:37:18][persistent.cpp:48]: Error: "Unexpected token: relative_position_id, near line: 72" in file: "common/national_focus/wessex.txt" near line: 72
+[02:37:18][persistent.cpp:48]: Error: "Unexpected token: completion_reward, near line: 73" in file: "common/national_focus/wessex.txt" near line: 76
+[02:37:23][persistent.cpp:48]: Error: "Unexpected token: set_variable, near line: 4" in file: "common/scripted_localisation/vik_cultures_localisation.txt" near line: 4
+[02:37:23][persistent.cpp:48]: Error: "Unexpected token: set_variable, near line: 5" in file: "common/scripted_localisation/vik_cultures_localisation.txt" near line: 5
+[02:37:23][persistent.cpp:48]: Error: "Unexpected token: set_variable, near line: 4" in file: "common/scripted_localisation/vik_religion_localisation.txt" near line: 4
+[02:37:23][persistent.cpp:48]: Error: "Unexpected token: set_variable, near line: 15" in file: "common/scripted_localisation/vik_religion_localisation.txt" near line: 15
+[02:37:23][persistent.cpp:48]: Error: "Unexpected token: set_variable, near line: 17" in file: "common/scripted_localisation/vik_religion_localisation.txt" near line: 17
+[02:37:24][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: gfx/army_icons/army_icons.txt line: 405 democratic. use var:var_name to explicitly use variables in effects/triggers
+[02:37:24][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: gfx/army_icons/army_icons.txt line: 414 fascism. use var:var_name to explicitly use variables in effects/triggers
+[02:37:24][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: gfx/army_icons/army_icons.txt line: 423 neutrality. use var:var_name to explicitly use variables in effects/triggers
+[02:37:24][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: gfx/army_icons/army_icons.txt line: 481 fascism. use var:var_name to explicitly use variables in effects/triggers
+[02:37:24][database_scoped_variables.h:62]: invalid database object for effect/trigger:  file: gfx/army_icons/army_icons.txt line: 490 communism. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: engine_tech_1. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: engine_tech_2. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: engine_tech_3. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: engine_tech_4. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: armor_tech_1. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: armor_tech_2. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: armor_tech_3. use var:var_name to explicitly use variables in effects/triggers
+[02:37:26][database_scoped_variables.cpp:323]: invalid database object for effect/trigger: armor_tech_4. use var:var_name to explicitly use variables in effects/triggers
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country CON : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country CRO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country CUR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country DOC : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country DOM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country DRE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country DRO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country DYF : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ESS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country EST : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country EYS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FIB : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FIN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FIR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FJA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FOR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FOT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country FVN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GAL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GAS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GAU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GJE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GLY : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GOT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GUD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GUU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GWE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GWR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country GWY : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAJ : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HAU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HEB : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HED : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HEI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HOR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HRV : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country HWI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country IDR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ILM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country INN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country JAB : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country JAM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country JEL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KAR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KCE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KEN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KHA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KIM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KIN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KON : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country KRI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LAI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LAT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LEN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LIN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LIT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country LIV : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MAG : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MAI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MAS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MEI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MES : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MEY : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MHU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MID : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MOD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MOR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MOV : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country MUR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NAM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NAN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NAP : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NAR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NDA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NEK : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NJU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NMO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country NUM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country OBO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country OGU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country OLA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country OPP : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ORK : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country OST : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PAG : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PAP : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PEG : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PER : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country POL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country POM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country POW : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PRU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country PSL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RAD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RAM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RAU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country REN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RIA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RIB : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RIN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ROD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ROG : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ROS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country RUS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SAL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SAP : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SAX : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SEE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SEI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SEL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/SER.tga : Unexpected texture dimensions
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SEM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SER : Ideology wip : Path gfx/flags/ : Unexpected texture dimensions
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SEV : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SIJ : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SKA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SKE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SKO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SLE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SLO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SMR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SOB : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SOD : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SOR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SPA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SPO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SRR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SRY : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country STI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country STN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country STR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SUH : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SUN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SUR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SUS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SVJ : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country SYG : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TAH : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TEL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TIM : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TIU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TIV : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TJU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:203]: Error loading country flag overlay: gfx/flags/TRA.tga : Unexpected texture dimensions
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TRA : Ideology wip : Path gfx/flags/ : Unexpected texture dimensions
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TUN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country TVE : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ULA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ULI : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VAL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VAN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VAR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VAS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VBU : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VDL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VED : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VEL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VEN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VEP : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VER : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VES : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VIN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VIR : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VIS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VIT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VOL : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VOS : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VRN : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country VYA : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country WGO : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country YOT : Ideology wip : Path gfx/flags/ : File not found
+[02:37:33][flagtextureatlas.cpp:524]: Error loading flag for country ZAC : Ideology wip : Path gfx/flags/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ABB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AGD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AGH : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AIL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AIR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ALF : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ARO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ASP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AST : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ATT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AVA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BEN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BEO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BER : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BIR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BLE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BRA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BRY : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BUL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BYZ : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CHU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CIR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CON : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country COU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CRO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CUR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CZE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DAL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DOC : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DOM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DRE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DRO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DUB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DUN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DYF : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EAS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ECO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ESS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EST : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EYN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EYS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FIB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FID : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FIN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FIR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FJA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FOT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FRA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FVN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GJE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GLY : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GOT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GUD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GUU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWY : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAJ : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HEB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HED : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HEI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HRV : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HWI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country IDR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ILM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country INN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ITA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JAB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JAM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JEL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KCE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KEN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KHA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KIM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KIN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KON : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KRI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LAI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LAT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LEN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LIN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LIT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LIV : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAG : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MEI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MER : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MES : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MEY : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MHU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MID : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOV : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MUR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NDA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NEK : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NJU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NMO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NUM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OBO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OGU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OLA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OPP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ORK : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OST : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PAG : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PAP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PEG : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PER : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country POL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country POM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country POW : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PRU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PSL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country REN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROG : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RUS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAX : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEV : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SIJ : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SLE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SLO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SMR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOB : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOD : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SPA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SPO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SRR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SRY : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUH : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SVJ : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SYG : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TAH : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TEL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIM : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIV : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TJU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TUN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TVE : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ULA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ULI : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VBU : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VDL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VED : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VEL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VEN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VEP : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VER : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VES : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIR : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VOL : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VOS : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VRN : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VYA : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country WES : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country WGO : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country YOT : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ZAC : Ideology wip : Path gfx/flags/medium/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ABB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AGD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AGH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AIL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ALF : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ARO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ASP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ATT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country AVA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BEO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BLE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BRY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country BYZ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CHU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CON : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country COU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country CUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DOC : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DRE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DRO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DUB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country DYF : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ECO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ESS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EYN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country EYS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FIB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FID : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FJA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country FVN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GJE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GLY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GUD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GUU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country GWY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HEB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HED : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HRV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country HWI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country IDR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ILM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country INN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JAB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country JEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KCE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KHA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KIM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KON : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country KRI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LAI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country LIV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MEY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MHU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MID : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MOV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country MUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NDA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NEK : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NJU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NMO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country NUM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OBO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OGU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OLA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OPP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ORK : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country OST : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PAG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PEG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country POM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country POW : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country PSL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country REN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ROS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country RUS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SAX : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SEV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SIJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SKO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SLE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SMR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SPO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SRR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SRY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country STR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SUS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SVJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country SYG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TAH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TIV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TJU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country TVE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ULA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ULI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VBU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VDL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VED : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VEP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VIT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VOL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VOS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VRN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country VYA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country WES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country WGO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country YOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:34][flagtextureatlas.cpp:524]: Error loading flag for country ZAC : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ABB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country AGD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country AGH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country AIL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country AIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ALF : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ARO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ASP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ATT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country AVA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BEO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BLE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BRY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country BYZ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country CAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country CHU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country CIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country CON : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country COU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country CUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DOC : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DRE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DRO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DUB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country DYF : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country EAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ECO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ESS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country EYN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country EYS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FIB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FID : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FJA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country FVN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GJE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GLY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GUD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GUU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GWE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GWR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country GWY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HEB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HED : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HRV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country HWI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country IDR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ILM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country INN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country JAB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country JAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country JEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KCE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KHA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KIM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KON : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country KRI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country LAI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country LEN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country LIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country LIV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MAG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MAI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MEY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MHU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MID : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MOD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MOV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country MUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NDA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NEK : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NJU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NMO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country NUM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country OBO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country OGU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country OLA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country OPP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ORK : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country OST : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country PAG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country PAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country PEG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country POM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country POW : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country PSL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RAD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RAM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RAU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country REN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RIA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RIB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ROD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ROG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ROS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country RUS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SAP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SAX : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SEE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SEI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SEM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SEV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SIJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SKA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SKE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SKO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SLE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SMR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SOB : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SOD : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SOR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SPO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SRR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SRY : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country STI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country STN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country STR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SUH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SUR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SUS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SVJ : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country SYG : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TAH : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TIM : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TIU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TIV : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TJU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TUN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country TVE : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ULA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ULI : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VAL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VAN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VAR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VAS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VBU : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VDL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VED : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VEL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VEP : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VER : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VIN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VIR : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VIS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VIT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VOL : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VOS : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VRN : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country VYA : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country WES : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country WGO : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country YOT : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:35][flagtextureatlas.cpp:524]: Error loading flag for country ZAC : Ideology wip : Path gfx/flags/small/ : File not found
+[02:37:42][gameapplication.cpp:713]: The game has loc key collisions. Check logs/text.log for more details
+[02:37:47][texturehandler.cpp:155]: Texture Handler encountered missing texture file: gfx/leaders/FRA/Portrait_Carl_magnes.dds
+[02:37:47][texturehandler.cpp:209]: Couldn't find texture file: 'gfx/leaders/FRA/Portrait_Carl_magnes.dds'
+[02:39:00][provincegraphics.cpp:2219]: prov 194 stack 19 Ship in port is too far away from center (dist 113 31 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 194 stack 20 Ship in port moving is too far away from center (dist 114 31 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 396 stack 19 Ship in port is too far away from center (dist 36 101 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 396 stack 20 Ship in port moving is too far away from center (dist 36 102 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 901 stack 19 Ship in port is too far away from center (dist 112 25 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 901 stack 20 Ship in port moving is too far away from center (dist 113 25 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 931 stack 19 Ship in port is too far away from center (dist 1 117 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 931 stack 20 Ship in port moving is too far away from center (dist 1 118 prov -1)
+[02:39:00][provincegraphics.cpp:2219]: prov 938 stack 2 Moving 1 is too far away from center (dist 2811 2 prov 931)
+[02:39:00][provincegraphics.cpp:2219]: prov 938 stack 23 Moving 1 RG is too far away from center (dist 2811 2 prov 931)
+[02:39:00][provincegraphics.cpp:2219]: prov 953 stack 2 Moving 1 is too far away from center (dist 2809 6 prov 681)
+[02:39:00][provincegraphics.cpp:2219]: prov 953 stack 23 Moving 1 RG is too far away from center (dist 2809 6 prov 681)
+[02:39:00][provincegraphics.cpp:2219]: prov 969 stack 5 Moving 4 is too far away from center (dist 2809 15 prov 942)
+[02:39:00][provincegraphics.cpp:2219]: prov 969 stack 26 Moving 4 RG is too far away from center (dist 2809 15 prov 942)
+[02:39:00][provincegraphics.cpp:2219]: prov 969 stack 6 Moving 5 is too far away from center (dist 2809 38 prov 931)
+[02:39:00][provincegraphics.cpp:2219]: prov 969 stack 27 Moving 5 RG is too far away from center (dist 2809 38 prov 931)
+[02:39:00][provincegraphics.cpp:2219]: prov 1028 stack 4 Moving 3 is too far away from center (dist 2811 2 prov 1017)
+[02:39:00][provincegraphics.cpp:2219]: prov 1028 stack 25 Moving 3 RG is too far away from center (dist 2811 2 prov 1017)
+[02:39:00][provincegraphics.cpp:2219]: prov 1094 stack 2 Moving 1 is too far away from center (dist 2808 4 prov 369)
+[02:39:00][provincegraphics.cpp:2219]: prov 1094 stack 23 Moving 1 RG is too far away from center (dist 2808 4 prov 369)
+[02:39:00][provincegraphics.cpp:2219]: prov 1094 stack 5 Moving 4 is too far away from center (dist 2808 18 prov 1028)
+[02:39:00][provincegraphics.cpp:2219]: prov 1094 stack 26 Moving 4 RG is too far away from center (dist 2808 18 prov 1028)
+[02:39:00][provincegraphics.cpp:2219]: prov 1186 stack 2 Moving 1 is too far away from center (dist 2815 14 prov 288)
+[02:39:00][provincegraphics.cpp:2219]: prov 1186 stack 23 Moving 1 RG is too far away from center (dist 2815 14 prov 288)
+[02:39:00][provincegraphics.cpp:2219]: prov 1186 stack 4 Moving 3 is too far away from center (dist 2815 30 prov 526)
+[02:39:00][provincegraphics.cpp:2219]: prov 1186 stack 25 Moving 3 RG is too far away from center (dist 2815 30 prov 526)
+[02:39:00][provincegraphics.cpp:2219]: prov 1303 stack 2 Moving 1 is too far away from center (dist 2812 22 prov 474)
+[02:39:00][provincegraphics.cpp:2219]: prov 1303 stack 23 Moving 1 RG is too far away from center (dist 2812 22 prov 474)
+[02:39:00][provincegraphics.cpp:2219]: prov 1303 stack 4 Moving 3 is too far away from center (dist 2812 3 prov 156)
+[02:39:00][provincegraphics.cpp:2219]: prov 1303 stack 25 Moving 3 RG is too far away from center (dist 2812 3 prov 156)
+[02:39:00][provincegraphics.cpp:2219]: prov 1431 stack 2 Moving 1 is too far away from center (dist 2808 1 prov 653)
+[02:39:00][provincegraphics.cpp:2219]: prov 1431 stack 23 Moving 1 RG is too far away from center (dist 2808 1 prov 653)
+[02:39:00][provincegraphics.cpp:2219]: prov 1479 stack 3 Moving 2 is too far away from center (dist 2810 15 prov 653)
+[02:39:00][provincegraphics.cpp:2219]: prov 1479 stack 24 Moving 2 RG is too far away from center (dist 2810 15 prov 653)
+[02:39:00][provincegraphics.cpp:2219]: prov 1479 stack 4 Moving 3 is too far away from center (dist 2810 10 prov 461)
+[02:39:00][provincegraphics.cpp:2219]: prov 1479 stack 25 Moving 3 RG is too far away from center (dist 2810 10 prov 461)
+[02:39:00][provincegraphics.cpp:2219]: prov 1572 stack 3 Moving 2 is too far away from center (dist 2812 27 prov 526)
+[02:39:00][provincegraphics.cpp:2219]: prov 1572 stack 24 Moving 2 RG is too far away from center (dist 2812 27 prov 526)
+[02:39:00][provincegraphics.cpp:2219]: prov 1572 stack 4 Moving 3 is too far away from center (dist 2812 2 prov 474)
+[02:39:00][provincegraphics.cpp:2219]: prov 1572 stack 25 Moving 3 RG is too far away from center (dist 2812 2 prov 474)
+[02:39:00][provincegraphics.cpp:2219]: prov 1628 stack 3 Moving 2 is too far away from center (dist 2809 11 prov 461)
+[02:39:00][provincegraphics.cpp:2219]: prov 1628 stack 24 Moving 2 RG is too far away from center (dist 2809 11 prov 461)
+[02:39:00][provincegraphics.cpp:2219]: prov 1628 stack 5 Moving 4 is too far away from center (dist 2809 20 prov 369)
+[02:39:00][provincegraphics.cpp:2219]: prov 1628 stack 26 Moving 4 RG is too far away from center (dist 2809 20 prov 369)
+[02:39:04][containerwindow.cpp:833]: interface/frontendmainview.gui(line 285): Could not find "subscription_position_without_social_gui" in window "mainmenu_social_buttons".
+[02:39:04][containerwindow.cpp:833]: interface/frontendmainview.gui(line 190): Could not find "subscription_size" in window "mainmenu_panel_bottom".
+[02:39:04][containerwindow.cpp:833]: interface/frontendmainview.gui(line 190): Could not find "version_label_subscription_position" in window "mainmenu_panel_bottom".
+[09:49:19][gamestate.cpp:5826]: 110 -  Agðir has too many buildings : -5
+[09:49:19][gamestate.cpp:5826]: 166 -  Vestergotland has too many buildings : -2
+[09:49:19][gamestate.cpp:5826]: 171 -  Skåneland has too many buildings : -5
+[09:49:19][gamestate.cpp:5826]: 312 -  Belatha has too many buildings : -1
+[09:49:19][gamestate.cpp:5826]: 321 -  Rayya has too many buildings : -1
+[09:49:19][gamestate.cpp:5826]: 322 -  Tudmir has too many buildings : -1
+[09:49:20][persistent.cpp:48]: Error: "Cannot find object named: highlight_infantry_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_infantry_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_engineering_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_engineering_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_2 for show_objects_in_window: show_objects_in_window, near line: 318" in file: "tutorial/tutorial.txt" near line: 318
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "oil_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "aluminium_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "rubber_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "tungsten_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "steel_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 94 ): Could not find "chromium_icon" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "oil_checkbox" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "aluminium_checkbox" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "rubber_checkbox" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "tungsten_checkbox" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "steel_checkbox" in window resources
+[09:50:09][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "chromium_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "oil_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "aluminium_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "rubber_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "tungsten_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "steel_checkbox" in window resources
+[09:50:11][containerwindow.cpp:1010]: interface/countryproductionlineview.gui (line 1217 ): Could not find "chromium_checkbox" in window resources
+[09:50:21][containerwindow.cpp:858]: interface/countrytechtreeview.gui (line 24 ): Could not find "air_techs_folder" in window countrytechtreeview
+[09:50:23][graphics.cpp:1372]: Failed to create gui object. Could not find sprite type [GFX_landdoctrine_tab_large]
+[09:50:23][graphics.cpp:1372]: Failed to create gui object. Could not find sprite type [GFX_navaldoctrine_tab_large]
+[09:50:23][graphics.cpp:1372]: Failed to create gui object. Could not find sprite type [GFX_airdoctrine_tab_large]
+[09:50:23][containerwindow.cpp:858]: interface/countrydoctrinetreeview.gui (line 2 ): Could not find "air_techs_folder" in window countrydoctrineview
+[09:51:00][persistent.cpp:48]: Error: "Cannot find object named: highlight_infantry_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_infantry_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_engineering_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_engineering_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_folder for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_1 for show_objects_in_window: show_objects_in_window, near line: 318
+Cannot find object named: highlight_industry_2 for show_objects_in_window: show_objects_in_window, near line: 318" in file: "tutorial/tutorial.txt" near line: 318
